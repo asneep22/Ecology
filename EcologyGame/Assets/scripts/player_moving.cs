@@ -8,12 +8,12 @@ public class player_moving : MonoBehaviour
     private Rigidbody2D rb;
     public float speed;
 
-    private Animation anim;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animation>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,8 +22,14 @@ public class player_moving : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        bool is_run = (horizontal == 0 ? true : false);
-        
+        bool is_run = (horizontal != 0);
+        anim.SetBool("is_running", is_run);
+
+        bool is_run_back = (vertical > 0);
+        anim.SetBool("is_running_back", is_run_back);
+
+        bool is_run_fore = (vertical < 0);
+        anim.SetBool("is_running_fore", is_run_fore);
 
         if (horizontal > 0)
         {

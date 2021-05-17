@@ -23,6 +23,7 @@ public class player_moving : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         bool is_run = (horizontal == 0 ? true : false);
+        
 
         if (horizontal > 0)
         {

@@ -164,6 +164,9 @@ TextureImporter:
   - first:
       213: -446051838840596575
     second: Man_54
+  - first:
+      213: -6423169227041612105
+    second: Man_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1394,6 +1397,27 @@ TextureImporter:
       bones: []
       spriteID: 1a71f72473e4fc9f0800000000000000
       internalID: -446051838840596575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bed6f19e915cd6a0800000000000000
+      internalID: -6423169227041612105
       vertices: []
       indices: 
       edges: []

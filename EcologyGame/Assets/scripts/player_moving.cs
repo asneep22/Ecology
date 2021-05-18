@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class player_moving : MonoBehaviour
 {
+    // NEED MAKE NORMAL RESPONSE
 
     private Rigidbody2D rb;
     public float speed;

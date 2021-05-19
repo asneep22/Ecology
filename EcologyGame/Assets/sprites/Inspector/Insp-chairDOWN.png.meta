@@ -1,25 +1,43 @@
 fileFormatVersion: 2
-guid: f9e79e233e6d7424089944cccf167343
+guid: 8102c87651aab7a47813bccca8381dd1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -751366560443244550
-    second: ins0
+      213: -3059203633124083727
+    second: Insp-chairDOWN_0
   - first:
-      213: 671003056409086763
-    second: ins1
+      213: -7180775128237843445
+    second: Insp-chairDOWN_1
   - first:
-      213: -2735569921444929279
-    second: ins2
+      213: -3870936087418036672
+    second: Insp-chairDOWN_2
   - first:
-      213: 4823775614722256099
-    second: ins3
+      213: 6144623091288996822
+    second: Insp-chairDOWN_3
   - first:
-      213: 2021507091067639230
-    second: ins4
+      213: -9153694436408458615
+    second: Insp-chairDOWN_4
   - first:
-      213: 571226025432301021
-    second: ins5
+      213: -3174686443133170153
+    second: Insp-chairDOWN_5
+  - first:
+      213: 3148458857767020086
+    second: Insp-chairDOWN_6
+  - first:
+      213: -2040165850500820736
+    second: Insp-chairDOWN_7
+  - first:
+      213: 526111889557705518
+    second: Insp-chairDOWN_8
+  - first:
+      213: 7024803945134851291
+    second: Insp-chairDOWN_9
+  - first:
+      213: -3166110331343796138
+    second: Insp-chairDOWN_10
+  - first:
+      213: -3140048304431303726
+    second: Insp-chairDOWN_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,127 +163,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ins0
+      name: Insp-chairDOWN_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 32
-        width: 6
-        height: 21
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff5cac181c9295f0800000000000000
-      internalID: -751366560443244550
+      spriteID: 1f7fd0801868b85d0800000000000000
+      internalID: -3059203633124083727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ins1
+      name: Insp-chairDOWN_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 32
-        width: 6
-        height: 21
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b077489b1ef4900800000000000000
-      internalID: 671003056409086763
+      spriteID: b0c5c65f013c85c90800000000000000
+      internalID: -7180775128237843445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ins2
+      name: Insp-chairDOWN_2
       rect:
         serializedVersion: 2
-        x: 140
-        y: 32
-        width: 6
-        height: 21
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101280e66ad490ad0800000000000000
-      internalID: -2735569921444929279
+      spriteID: 04e1539332ca74ac0800000000000000
+      internalID: -3870936087418036672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ins3
+      name: Insp-chairDOWN_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 32
-        width: 6
-        height: 21
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec26b73d5e71f240800000000000000
-      internalID: 4823775614722256099
+      spriteID: 6db71fa5526164550800000000000000
+      internalID: 6144623091288996822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ins4
+      name: Insp-chairDOWN_4
       rect:
         serializedVersion: 2
-        x: 268
-        y: 32
-        width: 6
-        height: 21
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5150a2df5dd0c10800000000000000
-      internalID: 2021507091067639230
+      spriteID: 982876f886b87f080800000000000000
+      internalID: -9153694436408458615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ins5
+      name: Insp-chairDOWN_5
       rect:
         serializedVersion: 2
-        x: 332
-        y: 32
-        width: 6
-        height: 21
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dddb95c2b076de700800000000000000
-      internalID: 571226025432301021
+      spriteID: 71e8ccb008f31f3d0800000000000000
+      internalID: -3174686443133170153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636a22f56a291bb20800000000000000
+      internalID: 3148458857767020086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001140ed7ffdfa3e0800000000000000
+      internalID: -2040165850500820736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e235231e9ff1d4700800000000000000
+      internalID: 526111889557705518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4868618fd1d7160800000000000000
+      internalID: 7024803945134851291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580f8cad67bf04d0800000000000000
+      internalID: -3166110331343796138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insp-chairDOWN_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3fdcc24be4c64d0800000000000000
+      internalID: -3140048304431303726
       vertices: []
       indices: 
       edges: []

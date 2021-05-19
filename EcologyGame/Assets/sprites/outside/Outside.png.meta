@@ -289,12 +289,12 @@ TextureImporter:
       name: Outside_8
       rect:
         serializedVersion: 2
-        x: 472
-        y: 378
-        width: 23
-        height: 34
+        x: 464
+        y: 372
+        width: 40
+        height: 40
       alignment: 9
-      pivot: {x: 0.51193637, y: 0.43289724}
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: Outside_9
       rect:
         serializedVersion: 2
-        x: 472
-        y: 420
-        width: 33
-        height: 33
+        x: 471
+        y: 412
+        width: 40
+        height: 40
       alignment: 9
-      pivot: {x: 0.51413983, y: 0.4344945}
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -15,7 +15,7 @@ public class camera_follow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         cam.transform.position = new Vector3(Mathf.Lerp(cam.transform.position.x, transform.position.x, camera_speed * Time.fixedDeltaTime), Mathf.Lerp(cam.transform.position.y, transform.position.y, camera_speed * Time.fixedDeltaTime), -10f);
     }

@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 1b65379d5704abc489085e787b6d4cde
+guid: e3008e7e87c9ca042a171f7ac74f58cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8092790726751785998
-    second: Sprites_background_0
+      213: -6318122247724535950
+    second: shaking_vood_1_0
   - first:
-      213: 8359978264288396596
-    second: Sprites_background_1
+      213: 2079165825563706866
+    second: shaking_vood_1_1
   - first:
-      213: 2561458210828448435
-    second: Sprites_background_2
+      213: 1027489397778241524
+    second: shaking_vood_1_2
   - first:
-      213: 8530881136563871111
-    second: Sprites_background_3
+      213: -8788617734483406471
+    second: shaking_vood_1_3
   - first:
-      213: -3843784930727359513
-    second: Sprites_background_4
+      213: 1422550732456213932
+    second: shaking_vood_1_4
+  - first:
+      213: -8643095297525657422
+    second: shaking_vood_1_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,106 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites_background_0
+      name: shaking_vood_1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 216
-        width: 299
-        height: 296
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fb626226b1a0bf80800000000000000
-      internalID: -8092790726751785998
+      spriteID: 27fe2e06a458158a0800000000000000
+      internalID: -6318122247724535950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_1
+      name: shaking_vood_1_1
       rect:
         serializedVersion: 2
-        x: 314
-        y: 221
-        width: 7
-        height: 289
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43585e430fb940470800000000000000
-      internalID: 8359978264288396596
+      spriteID: 2f54bdd6d4eaadc10800000000000000
+      internalID: 2079165825563706866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_2
+      name: shaking_vood_1_2
       rect:
         serializedVersion: 2
-        x: 321
-        y: 492
-        width: 280
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2ff6beba02c8320800000000000000
-      internalID: 2561458210828448435
+      spriteID: 4f75d05d920624e00800000000000000
+      internalID: 1027489397778241524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_4
+      name: shaking_vood_1_3
       rect:
         serializedVersion: 2
-        x: 468
-        y: 222
-        width: 132
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb0ff288f128aac0800000000000000
-      internalID: -3843784930727359513
+      spriteID: 9711b6d0cbe880680800000000000000
+      internalID: -8788617734483406471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_3
+      name: shaking_vood_1_4
       rect:
         serializedVersion: 2
-        x: 321
-        y: 221
-        width: 108
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d58f5f137c36670800000000000000
-      internalID: 8530881136563871111
+      spriteID: cad360baa5aedb310800000000000000
+      internalID: 1422550732456213932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shaking_vood_1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b05227be9e8d0880800000000000000
+      internalID: -8643095297525657422
       vertices: []
       indices: 
       edges: []

@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -984722801986185457
     second: InspIdle_5
+  - first:
+      213: -1078387752779159788
+    second: InspIdle_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,12 +151,12 @@ TextureImporter:
       name: InspIdle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,12 +172,12 @@ TextureImporter:
       name: InspIdle_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 41
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,12 +193,12 @@ TextureImporter:
       name: InspIdle_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 73
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,12 +214,12 @@ TextureImporter:
       name: InspIdle_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 105
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,12 +235,12 @@ TextureImporter:
       name: InspIdle_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 137
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,12 +256,12 @@ TextureImporter:
       name: InspIdle_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 169
         y: 0
-        width: 32
+        width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

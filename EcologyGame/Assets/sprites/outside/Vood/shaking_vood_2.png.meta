@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 1b65379d5704abc489085e787b6d4cde
+guid: 58eba416e23d55c42b812561a18fd3cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8092790726751785998
-    second: Sprites_background_0
+      213: -885670910888203114
+    second: shaking_vood_2_0
   - first:
-      213: 8359978264288396596
-    second: Sprites_background_1
+      213: -1599751215107016302
+    second: shaking_vood_2_1
   - first:
-      213: 2561458210828448435
-    second: Sprites_background_2
+      213: -8733077514039208150
+    second: shaking_vood_2_2
   - first:
-      213: 8530881136563871111
-    second: Sprites_background_3
-  - first:
-      213: -3843784930727359513
-    second: Sprites_background_4
+      213: -5093259144201259147
+    second: shaking_vood_2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,106 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites_background_0
+      name: shaking_vood_2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 216
-        width: 299
-        height: 296
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fb626226b1a0bf80800000000000000
-      internalID: -8092790726751785998
+      spriteID: 69cac90cff675b3f0800000000000000
+      internalID: -885670910888203114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_1
+      name: shaking_vood_2_1
       rect:
         serializedVersion: 2
-        x: 314
-        y: 221
-        width: 7
-        height: 289
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43585e430fb940470800000000000000
-      internalID: 8359978264288396596
+      spriteID: 299fb86eeba8cc9e0800000000000000
+      internalID: -1599751215107016302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_2
+      name: shaking_vood_2_2
       rect:
         serializedVersion: 2
-        x: 321
-        y: 492
-        width: 280
-        height: 17
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2ff6beba02c8320800000000000000
-      internalID: 2561458210828448435
+      spriteID: a27ddb35540edc680800000000000000
+      internalID: -8733077514039208150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_background_4
+      name: shaking_vood_2_3
       rect:
         serializedVersion: 2
-        x: 468
-        y: 222
-        width: 132
-        height: 19
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb0ff288f128aac0800000000000000
-      internalID: -3843784930727359513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites_background_3
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 221
-        width: 108
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78d58f5f137c36670800000000000000
-      internalID: 8530881136563871111
+      spriteID: 577bfd82bcb1159b0800000000000000
+      internalID: -5093259144201259147
       vertices: []
       indices: 
       edges: []

@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 1105b0103c83700428fa9967562755fd
+guid: 9f3469bfd0340fd45892511ef47ae557
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2906936440464180483
-    second: Insp-char0
+      213: 3210048113910557150
+    second: Insp-charUP0
   - first:
-      213: 4653697987426318288
-    second: Insp-char1
+      213: 9158130204220410921
+    second: Insp-charUP1
   - first:
-      213: 6375248711292344807
-    second: Insp-char2
+      213: 583028087981363185
+    second: Insp-charUP3
   - first:
-      213: 1005209337704955115
-    second: Insp-char3
+      213: 8854872440893918972
+    second: Insp-charUP5
   - first:
-      213: 4818539809738856998
-    second: IInsp-char4
+      213: 660342165731357438
+    second: Insp-charUP7
   - first:
-      213: -1098322999949522855
-    second: Insp-char5
+      213: 7957842673392881549
+    second: Insp-charUP8
   - first:
-      213: 6389740115310729913
-    second: Insp-char6
+      213: 455691022498751917
+    second: Insp-charUP10
   - first:
-      213: -3645846396580280967
-    second: Insp-char7
+      213: 6286862300012591678
+    second: Insp-charUP2
   - first:
-      213: -6900619697679907117
-    second: Insp-char8
+      213: -8099608067787413104
+    second: Insp-charUP4
   - first:
-      213: -5430897088442470941
-    second: Insp-char9
+      213: -1078061437045198963
+    second: Insp-charUP6
   - first:
-      213: -4888516123920782806
-    second: Insp-char10
+      213: -6911040367434183348
+    second: Insp-charUP9
   - first:
-      213: -1046743164983522693
-    second: Insp-char11
+      213: -4966862043634384027
+    second: Insp-charUP11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,13 +163,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Insp-char0
+      name: Insp-charUP0
       rect:
         serializedVersion: 2
-        x: 14
+        x: 0
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfa7e7185bc78a7d0800000000000000
-      internalID: -2906936440464180483
+      spriteID: ed92d8580c16c8c20800000000000000
+      internalID: 3210048113910557150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char1
+      name: Insp-charUP1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 32
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d7fe78c9a1459040800000000000000
-      internalID: 4653697987426318288
+      spriteID: 92c455d16e6381f70800000000000000
+      internalID: 9158130204220410921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char2
+      name: Insp-charUP3
       rect:
         serializedVersion: 2
-        x: 78
+        x: 96
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e9d857ecee697850800000000000000
-      internalID: 6375248711292344807
+      spriteID: 1ff443ef4f4571800800000000000000
+      internalID: 583028087981363185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char3
+      name: Insp-charUP5
       rect:
         serializedVersion: 2
-        x: 110
+        x: 160
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec3fca119833fd00800000000000000
-      internalID: 1005209337704955115
+      spriteID: cfec0e2e193d2ea70800000000000000
+      internalID: 8854872440893918972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IInsp-char4
+      name: Insp-charUP7
       rect:
         serializedVersion: 2
-        x: 142
+        x: 224
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a109f5d64eed240800000000000000
-      internalID: 4818539809738856998
+      spriteID: ef231aa73b10a2900800000000000000
+      internalID: 660342165731357438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char5
+      name: Insp-charUP8
       rect:
         serializedVersion: 2
-        x: 174
+        x: 256
         y: 0
-        width: 11
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9580e5bfc09f1c0f0800000000000000
-      internalID: -1098322999949522855
+      spriteID: d8f070ebfbfef6e60800000000000000
+      internalID: 7957842673392881549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char6
+      name: Insp-charUP10
       rect:
         serializedVersion: 2
-        x: 206
+        x: 320
         y: 0
-        width: 10
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bad824d7caeca850800000000000000
-      internalID: 6389740115310729913
+      spriteID: da56f531290f25600800000000000000
+      internalID: 455691022498751917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char7
+      name: Insp-charUP2
       rect:
         serializedVersion: 2
-        x: 238
+        x: 64
         y: 0
-        width: 10
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 975c132d40a576dc0800000000000000
-      internalID: -3645846396580280967
+      spriteID: e3abb00e3fb6f3750800000000000000
+      internalID: 6286862300012591678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char8
+      name: Insp-charUP4
       rect:
         serializedVersion: 2
-        x: 269
+        x: 128
         y: 0
-        width: 11
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,20 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6c9bd22f21c30a0800000000000000
-      internalID: -6900619697679907117
+      spriteID: 099a4ab3069689f80800000000000000
+      internalID: -8099608067787413104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char9
+      name: Insp-charUP6
       rect:
         serializedVersion: 2
-        x: 301
+        x: 192
         y: 0
-        width: 11
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,20 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3edeea74fd391a4b0800000000000000
-      internalID: -5430897088442470941
+      spriteID: d8fafd6b5d4f901f0800000000000000
+      internalID: -1078061437045198963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char10
+      name: Insp-charUP9
       rect:
         serializedVersion: 2
-        x: 334
+        x: 288
         y: 0
-        width: 10
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +387,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2aaeea5c70882cb0800000000000000
-      internalID: -4888516123920782806
+      spriteID: c4d43bee66d0710a0800000000000000
+      internalID: -6911040367434183348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insp-char11
+      name: Insp-charUP11
       rect:
         serializedVersion: 2
-        x: 365
+        x: 352
         y: 0
-        width: 11
-        height: 21
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,8 +408,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7ac61823a83971f0800000000000000
-      internalID: -1046743164983522693
+      spriteID: 5634dc07949221bb0800000000000000
+      internalID: -4966862043634384027
       vertices: []
       indices: 
       edges: []

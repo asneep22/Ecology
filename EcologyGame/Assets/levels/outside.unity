@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 61459820}
   - component: {fileID: 61459819}
   - component: {fileID: 61459818}
+  - component: {fileID: 61459821}
   m_Layer: 0
   m_Name: fence_element_back
   m_TagString: Untagged
@@ -432,6 +433,19 @@ Transform:
   m_Father: {fileID: 205368496}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61459821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61459817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 0.1
 --- !u!1 &147526066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,7 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 276972012d98f1442929cc46c2f65385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activity_distance: 0.05
+  activity_distance: 0.15
 --- !u!212 &880408605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1794,7 +1808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 276972012d98f1442929cc46c2f65385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activity_distance: 0.05
+  activity_distance: 0.15
 --- !u!1 &1006149182
 GameObject:
   m_ObjectHideFlags: 0

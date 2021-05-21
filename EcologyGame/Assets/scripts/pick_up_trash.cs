@@ -10,7 +10,7 @@ public class pick_up_trash : MonoBehaviour
     private Rigidbody2D trash_rb;
 
 
-    private bool trash_is_put = false;
+    private bool trash_is_put = false; // player was gett up trash?
     public float activity_distance;
     // Start is called before the first frame update
     void Start()
@@ -32,15 +32,13 @@ public class pick_up_trash : MonoBehaviour
 
             if (distance < activity_distance && Input.GetKeyDown(KeyCode.E))
             {
-
-                transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + 0.1f);
                 transform.SetParent(trash_position);
                 trash_is_put = !trash_is_put;
             }
-        } else
+        }
+        else
         {
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + 0.1f);
-
+            transform.localPosition = Vector3.zero;
 
             if (Input.GetKeyDown(KeyCode.E))
             {

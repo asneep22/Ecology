@@ -31,6 +31,7 @@ public class pick_up_trash : MonoBehaviour
 
         if (!trash_is_put) // если мусор не поднят
         {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 3);
 
             if (distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
             {
@@ -41,8 +42,8 @@ public class pick_up_trash : MonoBehaviour
         }
         else
         {
-
-            transform.localPosition = (transform.parent == trash_empty) ? Vector3.zero : transform.localPosition;
+            transform.localRotation = Quaternion.Euler(0,0,0);
+            transform.localPosition = (transform.parent == trash_empty) ? Vector3.zero : transform.localPosition; 
 
 
             if (Input.GetKeyDown(KeyCode.E)) // Отпускание мусора при повторном нажантии на клавишу, если тот поднят
@@ -52,7 +53,7 @@ public class pick_up_trash : MonoBehaviour
 
 
                 transform.SetParent(null);
-                trash_rb.AddForce(new Vector3(horizontal, vertical, 0) * Time.deltaTime * 1000);
+                trash_rb.AddForce(new Vector3(horizontal, vertical, 0) * Time.deltaTime * 2, ForceMode2D.Impulse);
                 trash_rb.gravityScale = 0.4f;
                 StartCoroutine("gravity");
                 trash_is_put = !trash_is_put;

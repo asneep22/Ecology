@@ -7,24 +7,26 @@ public class layer_changer : MonoBehaviour
     // Start is called before the first frame update
     private GameObject player;
 
-    private Vector3 start_position;
 
-    public float change_distance;
+    public float min_change_distance;
+    public float distance;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        start_position = transform.position;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (player.transform.position.y > transform.position.y + 0.05f)
+        distance = Vector2.Distance(player.transform.position, transform.position);
+
+        if (distance < min_change_distance && transform.position.y < player.transform.position.y + 0.2f)
         {
-            transform.position = start_position;
-        } else
+            player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z - 0.1f);
+        }
+        else
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, player.transform.position.z + change_distance);
+            player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z + 0.1f);
         }
     }
 }

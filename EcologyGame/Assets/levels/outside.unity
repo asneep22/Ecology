@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.1
+  change_distance: 0.1
 --- !u!61 &42088997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -446,6 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.1
+  change_distance: 0.1
 --- !u!1 &147526066
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +459,7 @@ GameObject:
   - component: {fileID: 147526067}
   - component: {fileID: 147526069}
   - component: {fileID: 147526068}
+  - component: {fileID: 147526070}
   m_Layer: 0
   m_Name: flower
   m_TagString: Untagged
@@ -545,6 +548,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &147526070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147526066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 0.2
+  change_distance: 0.2
 --- !u!1 &147781369
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,7 +691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
+  distance: 0.3
+  change_distance: 0.3
 --- !u!50 &147781376
 Rigidbody2D:
   serializedVersion: 4
@@ -820,6 +838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.2
+  change_distance: 0.2
 --- !u!212 &278000174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -922,7 +941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!70 &281835437
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1164,6 +1184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 10
+  change_distance: 0
 --- !u!212 &384129171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1394,7 +1415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!70 &613430534
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1571,6 +1593,8 @@ GameObject:
   - component: {fileID: 880408605}
   - component: {fileID: 880408604}
   - component: {fileID: 880408607}
+  - component: {fileID: 880408608}
+  - component: {fileID: 880408609}
   m_Layer: 0
   m_Name: trash_5
   m_TagString: Untagged
@@ -1650,7 +1674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880408603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.196, y: -0.517, z: 0}
+  m_LocalPosition: {x: 0.999, y: -1.005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1677,6 +1701,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!70 &880408608
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880408603}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.001506649, y: -0.0010387152}
+  m_Size: {x: 0.051037565, y: 0.12192878}
+  m_Direction: 0
+--- !u!114 &880408609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880408603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 10
+  change_distance: 0.2
 --- !u!1 &993233343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,9 +1741,9 @@ GameObject:
   m_Component:
   - component: {fileID: 993233347}
   - component: {fileID: 993233346}
-  - component: {fileID: 993233345}
   - component: {fileID: 993233344}
   - component: {fileID: 993233348}
+  - component: {fileID: 993233345}
   m_Layer: 0
   m_Name: trash
   m_TagString: Untagged
@@ -1727,10 +1781,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 993233343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 276972012d98f1442929cc46c2f65385, type: 3}
+  m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activity_distance: 0
+  distance: 10
+  change_distance: 0.1
 --- !u!212 &993233346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1957,7 +2012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!212 &1050041597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2202,7 +2258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!1 &1159884396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,6 +2374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.2
+  change_distance: 0.2
 --- !u!61 &1164102064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2740,7 +2798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
+  distance: 0.3
+  change_distance: 0.3
 --- !u!212 &1438832441
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2870,7 +2929,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!70 &1557833425
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3081,6 +3141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 10
+  change_distance: 0
 --- !u!212 &1612710858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3187,6 +3248,10 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2596315335901105959, guid: cc6e7800e2f735246a650cdf4f8e5425, type: 3}
+      propertyPath: m_TagString
+      value: trash_empty
+      objectReference: {fileID: 0}
     - target: {fileID: 3777171618518853642, guid: cc6e7800e2f735246a650cdf4f8e5425, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03
@@ -3246,6 +3311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.1
+  change_distance: 0.1
 --- !u!212 &1707212864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3359,6 +3425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.2
+  change_distance: 0.2
 --- !u!70 &1800088619
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3643,7 +3710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.1
+  distance: 0.3
+  change_distance: 0.3
 --- !u!61 &1946119167
 BoxCollider2D:
   m_ObjectHideFlags: 0

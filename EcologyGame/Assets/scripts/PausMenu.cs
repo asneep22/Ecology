@@ -7,7 +7,14 @@ public class PausMenu : MonoBehaviour
 {
     [SerializeField]
      public GameObject pause_menu;
-
+    [SerializeField]
+    float leftLimit;
+    [SerializeField]
+    float rightLimit;
+    [SerializeField]
+    float bottomLimit;
+    [SerializeField]
+    float upperLimit;
 
     private SpriteRenderer menu_sr_renderer;
     
@@ -31,6 +38,13 @@ public class PausMenu : MonoBehaviour
             pause_menu.SetActive(false);
             Time.timeScale = 1;
         }
+
+        transform.position = new Vector3
+            (
+            Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
+            Mathf.Clamp(transform.position.y, bottomLimit, upperLimit),
+            transform.position.z
+            );
     }
 
 

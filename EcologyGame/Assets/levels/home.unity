@@ -2957,5 +2957,25 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5644233237484189637, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}
+      propertyPath: orthographic size
+      value: 0.5934192
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350214250037606072, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}
+      propertyPath: leftLimit
+      value: -0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350214250037606072, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}
+      propertyPath: rightLimit
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350214250037606072, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}
+      propertyPath: upperLimit
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350214250037606072, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}
+      propertyPath: bottomLimit
+      value: -0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e9d0807654c7ca4a9c3eb63dd00061f, type: 3}

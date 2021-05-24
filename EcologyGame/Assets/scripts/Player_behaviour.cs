@@ -28,6 +28,7 @@ public class Player_behaviour : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(horizontal, vertical);
+        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y);
 
         rb.AddForce(movement * speed * Time.fixedDeltaTime);
 

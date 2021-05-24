@@ -57,15 +57,15 @@ public class Player_behaviour : MonoBehaviour
         // locate trash_position
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("player_run_left_and_right"))
         {
-            trash_position.localPosition = new Vector3(-0.04f, -0.1f, 0.001f);
+            trash_position.localPosition = new Vector3(-0.03f, -0.04f, 0.001f);
         }
         else if (anim.GetCurrentAnimatorStateInfo(0).IsName("player_run_back"))
         {
-            trash_position.localPosition = new Vector3(-0.003f, -0.1f, -0.001f);
+            trash_position.localPosition = new Vector3(-0.005f, -0.04f, -0.001f);
         }
         else if (anim.GetCurrentAnimatorStateInfo(0).IsName("player_run_fore"))
         {
-            trash_position.localPosition = new Vector3(-0.003f, -0.1f, 0.001f);
+            trash_position.localPosition = new Vector3(-0.005f, -0.04f, 0.001f);
         }
     }
 }

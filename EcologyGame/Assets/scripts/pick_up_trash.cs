@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(add_trash_into_array))]
 public class pick_up_trash : MonoBehaviour
 {
 
     private GameObject player;
     private Transform trash_empty;
     private Rigidbody2D trash_rb;
+    private Collider2D coll_2d;
 
 
     private bool trash_is_put = false;
-    public float activity_distance;
+    public float activity_distance = 0.2f;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         trash_rb = transform.GetComponent<Rigidbody2D>();
+        coll_2d = GetComponent<Collider2D>();
         trash_empty = player.transform.GetChild(0);
 
     }
@@ -38,6 +42,7 @@ public class pick_up_trash : MonoBehaviour
 
                 transform.SetParent(trash_empty); // устанавливаем родител€ мусору. Ётот родитель находитс€ около √√
                 trash_is_put = !trash_is_put; // мен€ем состо€ние мусора на противоположное
+                coll_2d.enabled = false; // выключаем коллайдер
             }
         }
         else
@@ -57,6 +62,7 @@ public class pick_up_trash : MonoBehaviour
                 trash_rb.gravityScale = 0.4f;
                 StartCoroutine("gravity");
                 trash_is_put = !trash_is_put;
+                coll_2d.enabled = true;
             }
         }
     }

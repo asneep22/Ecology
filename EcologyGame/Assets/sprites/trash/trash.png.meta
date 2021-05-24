@@ -142,12 +142,12 @@ TextureImporter:
       name: trash_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 22
         y: 48
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.4775891, y: 0.3409841}
+        width: 4
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: trash_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 37
         y: 48
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.50455403, y: 0.3533063}
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: trash_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 6
         y: 48
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.50241923, y: 0.38566852}
+        width: 3
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: trash_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.50000006, y: 0.3132391}
+        x: 6
+        y: 33
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: trash_4
       rect:
         serializedVersion: 2
-        x: 16
+        x: 23
         y: 32
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5357156, y: 0.37357426}
+        width: 3
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: trash_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 38
         y: 32
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5381341, y: 0.38751936}
+        width: 5
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: trash_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 16
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.47524276, y: 0.3749944}
+        width: 3
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: trash_7
       rect:
         serializedVersion: 2
-        x: 16
+        x: 23
         y: 16
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.52931106, y: 0.36261582}
+        width: 3
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: trash_8
       rect:
         serializedVersion: 2
-        x: 32
+        x: 39
         y: 16
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.52447295, y: 0.35834622}
+        width: 3
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: trash_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.47524276, y: 0.3210642}
+        width: 3
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: trash_10
       rect:
         serializedVersion: 2
-        x: 16
+        x: 23
         y: 0
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.53813446, y: 0.34383288}
+        width: 3
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: trash_11
       rect:
         serializedVersion: 2
-        x: 32
+        x: 39
         y: 0
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.52902675, y: 0.3234831}
+        width: 3
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

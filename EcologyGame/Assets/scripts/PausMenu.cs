@@ -6,26 +6,31 @@ using UnityEngine.SceneManagement;
 public class PausMenu : MonoBehaviour
 {
     [SerializeField]
-    GameObject pause;
+     public GameObject pause_menu;
+
+
+    private SpriteRenderer menu_sr_renderer;
     
     void Start()
     {
-        pause.SetActive(false);
+        pause_menu.SetActive(false);
+        menu_sr_renderer = pause_menu.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(!pause_menu.activeSelf && Input.GetKeyDown(KeyCode.Escape))
         {
-            pause.SetActive(true);
+            pause_menu.SetActive(true);
             Time.timeScale = 0;
+
+        } else if (pause_menu.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        {
+
+            pause_menu.SetActive(false);
+            Time.timeScale = 1;
         }
-    }
-    public void PausOff()
-    {
-        pause.SetActive(false);
-        Time.timeScale = 1;
     }
 
 

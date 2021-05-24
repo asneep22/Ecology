@@ -581,7 +581,6 @@ GameObject:
   m_Component:
   - component: {fileID: 278000175}
   - component: {fileID: 278000174}
-  - component: {fileID: 278000173}
   m_Layer: 0
   m_Name: house
   m_TagString: Untagged
@@ -589,20 +588,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &278000173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278000172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781b4b838d1962040bb0becf5d5bfb4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  min_change_distance: 0
-  distance: 0
 --- !u!212 &278000174
 SpriteRenderer:
   m_ObjectHideFlags: 0

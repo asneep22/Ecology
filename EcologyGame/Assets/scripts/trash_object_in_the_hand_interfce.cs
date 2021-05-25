@@ -13,6 +13,9 @@ public class trash_object_in_the_hand_interfce : MonoBehaviour
     private GameObject player;
     private Transform trash_empty;
 
+    [HideInInspector]
+    public Transform trash_in_the_hand;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +33,7 @@ public class trash_object_in_the_hand_interfce : MonoBehaviour
         if (trash_empty.childCount == 1)
         {
 
-            Transform trash_in_the_hand = trash_empty.transform.GetChild(0);
+            trash_in_the_hand = trash_empty.transform.GetChild(0);
             sp_renderer_trash_in_the_hand = trash_in_the_hand.GetComponent<SpriteRenderer>();
             sp_renderer_trash_in_the_hand.size = new Vector3(0.7f, 0.7f, 0.7f);
             sp_renderer_trash_interface.sprite = sp_renderer_trash_in_the_hand.sprite;

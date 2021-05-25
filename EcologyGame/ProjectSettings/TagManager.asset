@@ -6,6 +6,7 @@ TagManager:
   tags:
   - trash_empty
   - stretch_status_element
+  - trash_in_the_hand
   layers:
   - Default
   - TransparentFX

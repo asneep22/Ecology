@@ -7,6 +7,7 @@ TagManager:
   - trash_empty
   - stretch_status_element
   - trash_in_the_hand
+  - glass
   layers:
   - Default
   - TransparentFX

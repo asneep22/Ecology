@@ -8,6 +8,9 @@ TagManager:
   - stretch_status_element
   - trash_in_the_hand
   - glass
+  - metal
+  - trader_interface
+  - plastick
   layers:
   - Default
   - TransparentFX

@@ -11,7 +11,8 @@ public class lvl1_hints : MonoBehaviour
     public TextMeshPro hint_text;
     public TextMeshPro continue_text;
 
-    private int hint_index = 1;
+    [HideInInspector]
+    public int hint_index = 1;
 
     private float max_size = 1f;
 
@@ -77,7 +78,6 @@ public class lvl1_hints : MonoBehaviour
 
     private void OnEnable()
     {
-        pl_beh.can_run = false;
         StartCoroutine("anim_reverse");
     }
 

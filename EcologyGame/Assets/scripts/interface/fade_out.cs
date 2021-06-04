@@ -30,7 +30,7 @@ public class fade_out : MonoBehaviour
         {
             sprite_color = new Color(sr.color.r, sr.color.g, sr.color.b, sr.color.a - value);
             sr.color = sprite_color;
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForSeconds(time);
         }
     }
 
@@ -40,7 +40,7 @@ public class fade_out : MonoBehaviour
         {
             sprite_color = new Color(sr.color.r, sr.color.g, sr.color.b, sr.color.a + value);
             sr.color = sprite_color;
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForSeconds(time);
         }
     }
 }

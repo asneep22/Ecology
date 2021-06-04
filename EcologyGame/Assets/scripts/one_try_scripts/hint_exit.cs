@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class hint_put_bottle_in_the_tank : MonoBehaviour
+public class hint_exit : MonoBehaviour
 {
+    private GameObject[] array;
 
     private lvl1_hints hint_scr;
     private GameObject hint_interface;
@@ -17,11 +18,12 @@ public class hint_put_bottle_in_the_tank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.GetChild(0).childCount == 0)
+        array = GameObject.FindGameObjectsWithTag("plastick");
+
+        if (array.Length == 0)
         {
-            hint_scr.hint_index = 6;
+            hint_scr.hint_index = 8;
             hint_interface.SetActive(true);
-            gameObject.AddComponent<hint_exit>();
             Destroy(this);
         }
     }

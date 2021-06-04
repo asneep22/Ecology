@@ -26,15 +26,17 @@ public class Player_behaviour : MonoBehaviour
     {
         // player movement
 
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
         if (can_run)
         {
-            float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical");
 
             Vector2 movement = new Vector2(horizontal, vertical);
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y);
 
             rb.AddForce(movement * speed * Time.fixedDeltaTime);
+
 
             // rotate player
             if (horizontal > 0)
@@ -59,7 +61,6 @@ public class Player_behaviour : MonoBehaviour
             anim.SetBool("is_running_fore", is_run_fore);
 
 
-
             // locate trash_position
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("player_run_left_and_right"))
             {
@@ -73,6 +74,12 @@ public class Player_behaviour : MonoBehaviour
             {
                 trash_position.localPosition = new Vector3(-0.003f, -0.05f, 0.001f);
             }
+        }
+        else
+        {
+            anim.SetBool("is_running", false);
+            anim.SetBool("is_running_back", false);
+            anim.SetBool("is_running_fore", false);
         }
     }
 }

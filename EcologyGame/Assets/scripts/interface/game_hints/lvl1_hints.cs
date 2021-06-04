@@ -19,14 +19,20 @@ public class lvl1_hints : MonoBehaviour
     private bool animation_reverse = false;
     public float pulse_animation_speed;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         pl_beh = player.GetComponent<Player_behaviour>();
 
-        continue_text.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
-        pl_beh.can_run = false;
+        gameObject.SetActive(true);
     }
+
+    void Start()
+    {
+
+        continue_text.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -35,9 +41,6 @@ public class lvl1_hints : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) {
             hint_index++;
-        } else if (player.transform.GetChild(0) != null)
-        {
-
         }
 
         switch (hint_index)
@@ -49,22 +52,28 @@ public class lvl1_hints : MonoBehaviour
                 hint_text.text = "подойди к пустой пластиковой бутылке и подбери ее (клавиша e)";
                 break;
             case 3:
+                hint_text.text = "отлично, теперь отправл€йс€ к желтому баку и скинь бутылку (клавиша f)";
                 gameObject.SetActive(false);
                 break;
             case 4:
                 hint_text.text = "отлично, теперь отправл€йс€ к желтому баку и скинь бутылку (клавиша f)";
                 break;
             case 5:
+                hint_text.text = "а теперь собери все бутылки";
                 gameObject.SetActive(false);
                 break;
             case 6:
                 hint_text.text = "а теперь собери все бутылки";
                 break;
             case 7:
+                hint_text.text = "молодец. отправ€йс€ на улицу, нужно отправить мусор на переработку";
                 gameObject.SetActive(false);
                 break;
             case 8:
                 hint_text.text = "молодец. отправ€йс€ на улицу, нужно отправить мусор на переработку";
+                break;
+            case 9:
+                gameObject.SetActive(false);
                 break;
 
 
@@ -78,6 +87,7 @@ public class lvl1_hints : MonoBehaviour
 
     private void OnEnable()
     {
+        pl_beh.can_run = false;
         StartCoroutine("anim_reverse");
     }
 

@@ -9,6 +9,8 @@ public class exit_from_level : MonoBehaviour
     private fade_out fade;
     private GameObject player;
 
+    private stretch_trash_status trash_array;
+
     public float activity_distance;
     public bool exit = false;
     public int lvl_value;
@@ -17,15 +19,17 @@ public class exit_from_level : MonoBehaviour
     {
         fade = Camera.main.GetComponentInChildren<fade_out>();
         player = GameObject.FindGameObjectWithTag("Player");
+        trash_array = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        int count_trash = trash_array.trash.Count;
         float distance = Vector2.Distance(player.transform.position, transform.position);
 
-        if (distance < activity_distance && Input.GetKeyDown(KeyCode.E) && !exit)
+        if (distance < activity_distance && count_trash == 0 && Input.GetKeyDown(KeyCode.E) && !exit)
         {
             StartCoroutine(fade.faded_in());
             exit = !exit;

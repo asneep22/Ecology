@@ -11,6 +11,7 @@ TagManager:
   - metal
   - trader_interface
   - plastick
+  - hint_interface
   layers:
   - Default
   - TransparentFX

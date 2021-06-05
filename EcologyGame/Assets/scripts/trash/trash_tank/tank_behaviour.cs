@@ -17,10 +17,17 @@ public class tank_behaviour : MonoBehaviour
 
 
     [Header("tank_status")]
-    private int fill_tank_status = 0;
+    public int fill_tank_status = 0;
     public float activity_distance;
-    public int fill_tank_max = 5;
+    public int fill_tank_max = 10;
     public string trash_type;
+
+    [Header("tank_clearing")]
+    private GameObject inspector;
+    public Object[] objects;
+    public bool clearing_tank = false;
+    public float time;
+    public float trash_speed;
 
     [Header("animation")]
     public bool text_animate = false;
@@ -32,12 +39,20 @@ public class tank_behaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim_good_text_list.AddRange(new string[] { "круто", "отлично", "молодец!","так держать!" });
-        anim_bad_text_list.AddRange(new string[] { "плохо", "внимательней", "не сюда!" });
+        objects = Resources.LoadAll($"trash\\{trash_type}", typeof(GameObject));
+
+
         player = GameObject.FindGameObjectWithTag("Player");
         trash_empty = GameObject.FindGameObjectWithTag("trash_empty");
-        sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
+        inspector = GameObject.FindGameObjectWithTag("inspector");
+
+
+        anim_good_text_list.AddRange(new string[] { "круто", "отлично", "молодец!","так держать!" });
+        anim_bad_text_list.AddRange(new string[] { "плохо", "внимательней", "не сюда!" });
         text.text = "";
+
+
+        sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
         text.rectTransform.localScale = Vector3.zero;
     }
 
@@ -46,12 +61,15 @@ public class tank_behaviour : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y); // z-пози€ци
 
-        float distance = Vector2.Distance(player.transform.position, transform.position);
+        float player_distance = Vector2.Distance(player.transform.position, transform.position);
+
+        //”знаем, какой предметдержит игрок
         if (trash_empty.transform.childCount > 0) {
             trash_in_the_hand = GameObject.FindGameObjectWithTag("trash_empty").transform.GetChild(0);
         }
 
-        if (distance < activity_distance && Input.GetKey(KeyCode.F) && trash_in_the_hand != null && fill_tank_max > fill_tank_status)
+        // ѕровер€ем вместимость бака и если он не заполнен, провер€ем соответсвует ли контейнер типу мусора, который в него кладет игрок
+        if (player_distance < activity_distance && Input.GetKey(KeyCode.F) && trash_in_the_hand != null && fill_tank_max > fill_tank_status)
         {
 
             if (trash_in_the_hand.CompareTag(trash_type ))
@@ -77,12 +95,18 @@ public class tank_behaviour : MonoBehaviour
             text.color = Color.white;
             text.text = "заполнено";
             text_animate = true;
+        }
 
+        //—дача мусора
+        float inspector_distance = Vector2.Distance(inspector.transform.position, transform.position);
+        if (player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyDown(KeyCode.E))
+        {
+            StartCoroutine("hand_over_the_trash", time);
+            clearing_tank = true;
         }
 
         //јнимаци€ текста
-        
-        if (text.text != "заполнено") {
+        if (fill_tank_status < fill_tank_max) {
             if (text_animate && text.rectTransform.localScale.x < 0.97)
             {
                 float scale = Mathf.Lerp(text.rectTransform.localScale.x, 1, Time.deltaTime * anim_speed);
@@ -99,5 +123,20 @@ public class tank_behaviour : MonoBehaviour
             float scale = Mathf.Lerp(text.rectTransform.localScale.x, 1, Time.deltaTime * anim_speed);
             text.rectTransform.localScale = new Vector3(scale, scale, text.rectTransform.localScale.z);
         }
+    }
+
+    IEnumerator hand_over_the_trash(float time)
+    {
+        while (fill_tank_status >= 0)
+        {
+            GameObject rnd_object = (GameObject)objects[Random.Range(0, objects.Length)];
+            GameObject inst_trash_obj = Instantiate(rnd_object);
+            inst_trash_obj.transform.position = transform.position;
+            inst_trash_obj.AddComponent<trash_hand_over>();
+            fill_tank_status--;
+            yield return new WaitForSeconds(time);
+        }
+
+        clearing_tank = false;
     }
 }

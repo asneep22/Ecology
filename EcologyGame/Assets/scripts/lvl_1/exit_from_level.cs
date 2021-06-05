@@ -26,10 +26,10 @@ public class exit_from_level : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int count_trash = trash_array.trash.Count;
+    
         float distance = Vector2.Distance(player.transform.position, transform.position);
 
-        if (distance < activity_distance && count_trash == 0 && Input.GetKeyDown(KeyCode.E) && !exit)
+        if (distance < activity_distance && trash_array.trash.Count == 0 && Input.GetKeyDown(KeyCode.E) && !exit)
         {
             StartCoroutine(fade.faded_in());
             exit = !exit;

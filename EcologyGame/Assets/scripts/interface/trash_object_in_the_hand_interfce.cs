@@ -33,7 +33,7 @@ public class trash_object_in_the_hand_interfce : MonoBehaviour
     void Update()
     {
 
-        if (trash_empty.childCount == 1)
+        if (trash_empty.childCount == 1 && text != null)
         {
             // Отображение предмета в интерфейсе
 
@@ -54,8 +54,8 @@ public class trash_object_in_the_hand_interfce : MonoBehaviour
                 "Untagged" => "Введи тег",
             };
         }
-        else if (trash_empty.childCount == 0)
-        {
+        else if (trash_empty.childCount == 0 && text != null)
+        {     
             text.text = "";
             sp_renderer_trash_interface.sprite = null;
         }

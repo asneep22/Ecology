@@ -51,7 +51,11 @@ public class tank_behaviour : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player");
         trash_empty = GameObject.FindGameObjectWithTag("trash_empty");
-        inspector = GameObject.FindGameObjectWithTag("inspector");
+
+        if (GameObject.FindGameObjectWithTag("inspector") != null)
+        {
+            inspector = GameObject.FindGameObjectWithTag("inspector");
+        }
 
         money = GameObject.FindGameObjectWithTag("money");
 
@@ -107,12 +111,15 @@ public class tank_behaviour : MonoBehaviour
         }
 
         //Сдача мусора
-        float inspector_distance = Vector2.Distance(inspector.transform.position, transform.position);
-        if (player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
+        if (GameObject.FindGameObjectWithTag("inspector") != null)
         {
-            StartCoroutine("hand_over_the_trash", time);
-            StartCoroutine("money_inst", time);
-            clearing_tank = true;
+            float inspector_distance = Vector2.Distance(inspector.transform.position, transform.position);
+            if (player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
+            {
+                StartCoroutine("hand_over_the_trash", time);
+                StartCoroutine("money_inst", time);
+                clearing_tank = true;
+            }
         }
 
         //Анимация текста

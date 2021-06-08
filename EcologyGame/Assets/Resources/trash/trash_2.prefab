@@ -70,6 +70,9 @@ GameObject:
   - component: {fileID: 6101776475674005850}
   - component: {fileID: 6563093395709988050}
   - component: {fileID: -5382450521106268390}
+  - component: {fileID: -2506527234267285587}
+  - component: {fileID: 3057075729061254791}
+  - component: {fileID: 2308106577364473600}
   m_Layer: 0
   m_Name: trash_2
   m_TagString: plastick
@@ -85,7 +88,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035441308099374908}
   m_LocalRotation: {x: -0, y: -0, z: 0.24164535, w: 0.97036463}
-  m_LocalPosition: {x: 0.8068317, y: -1.6995366, z: -1.6995366}
+  m_LocalPosition: {x: 0.6990124, y: -1.5219607, z: -1.5219607}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -931,6 +934,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start_scale: {x: 0, y: 0, z: 0}
 --- !u!114 &-5382450521106268390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035441308099374908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43e4a5bce622d4449ff572764eb3d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_scale: {x: 0, y: 0, z: 0}
+--- !u!114 &-2506527234267285587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035441308099374908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43e4a5bce622d4449ff572764eb3d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_scale: {x: 0, y: 0, z: 0}
+--- !u!114 &3057075729061254791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035441308099374908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43e4a5bce622d4449ff572764eb3d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_scale: {x: 0, y: 0, z: 0}
+--- !u!114 &2308106577364473600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

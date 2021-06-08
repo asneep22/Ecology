@@ -23,24 +23,30 @@ public class trash_hand_over : MonoBehaviour
         money = GameObject.FindGameObjectWithTag("money");
 
         start_scale = transform.localScale;
-        
-        target = GameObject.FindGameObjectWithTag("target_for_the_trash");
+
+        if (GameObject.FindGameObjectWithTag("target_for_the_trash") != null)
+        {
+            target = GameObject.FindGameObjectWithTag("target_for_the_trash");
+        }
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector2.Distance(transform.position, target.transform.position);
-        transform.localScale = new Vector3(start_scale.x * distance, start_scale.y * distance, transform.localScale.z);
-
-        float target_position_x = (Mathf.Lerp(transform.position.x, target.transform.position.x, Time.deltaTime * speed));
-        float target_position_y = (Mathf.Lerp(transform.position.y, target.transform.position.y, Time.deltaTime * speed));
-        transform.position = new Vector3(target_position_x, target_position_y, target_position_y);
-
-        if (distance < 0.1f)
+        if (GameObject.FindGameObjectWithTag("target_for_the_trash") != null)
         {
-            Destroy(gameObject);
+            float distance = Vector2.Distance(transform.position, target.transform.position);
+            transform.localScale = new Vector3(start_scale.x * distance, start_scale.y * distance, transform.localScale.z);
+
+            float target_position_x = (Mathf.Lerp(transform.position.x, target.transform.position.x, Time.deltaTime * speed));
+            float target_position_y = (Mathf.Lerp(transform.position.y, target.transform.position.y, Time.deltaTime * speed));
+            transform.position = new Vector3(target_position_x, target_position_y, target_position_y);
+
+            if (distance < 0.1f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

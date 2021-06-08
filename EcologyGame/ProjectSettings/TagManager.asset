@@ -16,6 +16,8 @@ TagManager:
   - pollution_status_interface
   - inspector
   - target_for_the_trash
+  - money_interface
+  - money
   layers:
   - Default
   - TransparentFX

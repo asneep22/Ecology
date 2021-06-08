@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class trash_hand_over : MonoBehaviour
 {
-    private Collider2D coll_2d;
+    private GameObject money;
+    private List<GameObject> money_array = new List<GameObject>();
 
     private GameObject target;
     private float speed = 3f;
@@ -19,8 +20,7 @@ public class trash_hand_over : MonoBehaviour
 
     void Start()
     {
-        coll_2d = gameObject.GetComponent<Collider2D>();
-        coll_2d.enabled = false;
+        money = GameObject.FindGameObjectWithTag("money");
 
         start_scale = transform.localScale;
         
@@ -38,7 +38,7 @@ public class trash_hand_over : MonoBehaviour
         float target_position_y = (Mathf.Lerp(transform.position.y, target.transform.position.y, Time.deltaTime * speed));
         transform.position = new Vector3(target_position_x, target_position_y, target_position_y);
 
-        if (distance < 0.05f)
+        if (distance < 0.1f)
         {
             Destroy(gameObject);
         }

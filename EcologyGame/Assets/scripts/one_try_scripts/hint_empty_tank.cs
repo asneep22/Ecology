@@ -23,7 +23,7 @@ public class hint_empty_tank : MonoBehaviour
         {
             hint_interface.SetActive(true);
             gameObject.AddComponent<hint_tank_with_house>();
-            hint_scr.hint_index++;
+            hint_scr.hint_index = 14;
             Destroy(this);
         }
     }

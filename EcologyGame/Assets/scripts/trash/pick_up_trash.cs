@@ -36,7 +36,7 @@ public class pick_up_trash : MonoBehaviour
 
         if (!trash_is_put) // если мусор не поднят
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, 3);
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y + 0.1f);
 
             if (distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
             {

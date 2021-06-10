@@ -6,6 +6,20 @@ TagManager:
   tags:
   - trash_empty
   - stretch_status_element
+  - trash_in_the_hand
+  - glass
+  - metal
+  - trader_interface
+  - plastick
+  - hint_interface
+  - object_in_the_hand_interface
+  - pollution_status_interface
+  - inspector
+  - target_for_the_trash
+  - money_interface
+  - money
+  - train_destroy
+  - train_inst
   layers:
   - Default
   - TransparentFX

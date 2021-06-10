@@ -11,9 +11,4 @@ public class add_trash_into_array : MonoBehaviour
         sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
         sts.trash.Add(gameObject);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
 }

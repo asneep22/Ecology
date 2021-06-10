@@ -8,6 +8,8 @@ public class pick_up_trash : MonoBehaviour
 {
 
     private GameObject player;
+    private Player_behaviour p_beh;
+
     private Transform trash_empty;
     private Rigidbody2D trash_rb;
     private Collider2D coll_2d;
@@ -17,14 +19,19 @@ public class pick_up_trash : MonoBehaviour
     private bool trash_is_put = false;
     public float activity_distance = 0.2f;
 
+    private stretch_trash_status sts;
+
     // Start is called before the first frame update
     void Start()
     {
+        sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
+
         player = GameObject.FindGameObjectWithTag("Player");
         trash_rb = transform.GetComponent<Rigidbody2D>();
         coll_2d = GetComponent<Collider2D>();
         trash_empty = player.transform.GetChild(0);
 
+        p_beh = player.GetComponent<Player_behaviour>();
     }
 
     // Update is called once per frame
@@ -38,7 +45,7 @@ public class pick_up_trash : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y + 0.1f);
 
-            if (distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
+            if (p_beh.can_run && distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
             {
 
                 transform.SetParent(trash_empty); // устанавливаем родителя мусору. Этот родитель находится около ГГ
@@ -52,7 +59,7 @@ public class pick_up_trash : MonoBehaviour
             transform.localPosition = (transform.parent == trash_empty) ? Vector3.zero : transform.localPosition; 
 
 
-            if (Input.GetKeyDown(KeyCode.E)) // Отпускание мусора при повторном нажантии на клавишу, если тот поднят
+            if (p_beh.can_run && Input.GetKeyDown(KeyCode.E)) // Отпускание мусора при повторном нажантии на клавишу, если тот поднят
             {
                 float horizontal = Input.GetAxis("Horizontal");
                 float vertical = Input.GetAxis("Vertical");

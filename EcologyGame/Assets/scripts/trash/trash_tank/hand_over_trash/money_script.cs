@@ -7,11 +7,12 @@ public class money_script : MonoBehaviour
 {
 
     private GameObject target;
-    private TextMeshProUGUI money_count_text;
+    private money_count money_count_script;
 
     // Start is called before the first frame update
     void Start()
     {
+        money_count_script = GameObject.FindGameObjectWithTag("money_interface").GetComponentInChildren<money_count>();
         target = GameObject.FindGameObjectWithTag("money");
     }
 
@@ -26,6 +27,10 @@ public class money_script : MonoBehaviour
 
         if (distance < 0.1f)
         {
+            float new_scale_x = money_count_script.start_scale.x + 0.35f;
+            float new_scale_y = money_count_script.start_scale.y + 0.35f;
+            money_count_script.money_count_text.transform.localScale = new Vector2(new_scale_x, new_scale_y);
+            money_count_script.money_count_to_text++;
             Destroy(gameObject);
         }
 

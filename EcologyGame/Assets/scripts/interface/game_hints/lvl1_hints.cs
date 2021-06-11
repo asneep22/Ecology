@@ -102,7 +102,7 @@ public class lvl1_hints : MonoBehaviour
             case 18:
                 hint_text.text = "в верхнем правом углу ты можешь узнать, какой тип мусора ты держишь";
                 GameObject obj_in_the_hand_inteface = GameObject.FindGameObjectWithTag("object_in_the_hand_interface");
-                obj_in_the_hand_inteface.transform.localPosition = new Vector3(obj_in_the_hand_inteface.transform.localPosition.x, obj_in_the_hand_inteface.transform.localPosition.y, 5);
+                obj_in_the_hand_inteface.transform.localPosition = new Vector3(obj_in_the_hand_inteface.transform.localPosition.x, obj_in_the_hand_inteface.transform.localPosition.y, 11000);
                 break;
             case 19:
                 hint_text.text = "лучше не класть мусор в баки непредназначенные дл€ него, кончено, если вы не хотите получать меньше жетонов";
@@ -120,10 +120,22 @@ public class lvl1_hints : MonoBehaviour
                 poll_statu1.transform.localPosition = new Vector3(poll_statu1.transform.localPosition.x, poll_statu1.transform.localPosition.y, 5);
                 break;
             case 22:
+                hint_text.text = "ќтлично, теперь отправл€й мусор на переработку";
                 gameObject.SetActive(false);
                 break;
-
-
+            case 23:
+                hint_text.text = "ќтлично, теперь отправл€й мусор на переработку";
+                break;
+            case 24:
+                hint_text.text = "”х ты, кажетс€ у теб€ по€вились соседи, надеюсь ты с ними подружишьс€";
+                gameObject.SetActive(false);
+                break;
+            case 25:
+                hint_text.text = "”х ты, кажетс€ у теб€ по€вились соседи, надеюсь ты с ними подружишьс€";
+                break;
+            case 26:
+                gameObject.SetActive(false);
+                break;
             default:
                 break;
         }

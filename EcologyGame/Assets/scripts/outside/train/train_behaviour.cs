@@ -15,8 +15,6 @@ public class train_behaviour : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private float start_distance;
-
     void Start()
     {
 
@@ -28,8 +26,6 @@ public class train_behaviour : MonoBehaviour
 
         tr_inst = GameObject.FindGameObjectWithTag("train_inst").GetComponent<train_instantiate>();
         target = GameObject.FindGameObjectWithTag("train_destroy");
-
-        start_distance = Vector2.Distance(transform.position, player.transform.position);
     }
 
     // Update is called once per frame
@@ -50,6 +46,6 @@ public class train_behaviour : MonoBehaviour
         float cam_shake_effect_pos_y = Random.Range(-tr_inst.max_cam_shake_effect_pos_y, tr_inst.max_cam_shake_effect_pos_y);
 
         float distance = Vector2.Distance(player.transform.position, transform.position);
-        cam.transform.position = new Vector3(cam.transform.position.x + cam_shake_effect_pos_x / distance, cam.transform.position.y + cam_shake_effect_pos_y / distance, transform.position.z);
+        cam.transform.position = new Vector3(cam.transform.position.x + cam_shake_effect_pos_x / distance, cam.transform.position.y + cam_shake_effect_pos_y / distance, cam.transform.position.z);
     }
 }

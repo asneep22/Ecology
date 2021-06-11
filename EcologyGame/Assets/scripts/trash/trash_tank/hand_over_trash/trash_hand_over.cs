@@ -43,7 +43,7 @@ public class trash_hand_over : MonoBehaviour
             float target_position_y = (Mathf.Lerp(transform.position.y, target.transform.position.y, Time.deltaTime * speed));
             transform.position = new Vector3(target_position_x, target_position_y, target_position_y);
 
-            if (distance < 0.1f)
+            if (distance <= 0.2f)
             {
                 Destroy(gameObject);
             }

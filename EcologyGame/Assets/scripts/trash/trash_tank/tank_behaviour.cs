@@ -7,6 +7,7 @@ using TMPro;
 public class tank_behaviour : MonoBehaviour
 {
     private GameObject player;
+    private Player_behaviour p_beh;
 
     public TextMeshPro text;
 
@@ -34,7 +35,6 @@ public class tank_behaviour : MonoBehaviour
 
     [Header("add_money")]
     private GameObject money;
-    private List<GameObject> money_array = new List<GameObject>();
 
 
     [Header("animation")]
@@ -45,8 +45,9 @@ public class tank_behaviour : MonoBehaviour
 
     public bool penalty;
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
+
         objects = Resources.LoadAll($"trash", typeof(GameObject));
 
 
@@ -66,6 +67,7 @@ public class tank_behaviour : MonoBehaviour
         text.text = "";
 
 
+        p_beh = player.GetComponent<Player_behaviour>();
         sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
         text.rectTransform.localScale = Vector3.zero;
     }
@@ -83,7 +85,7 @@ public class tank_behaviour : MonoBehaviour
         }
 
         // Проверяем вместимость бака и если он не заполнен, проверяем соответсвует ли контейнер типу мусора, который в него кладет игрок
-        if (player_distance < activity_distance && Input.GetKeyUp(KeyCode.F) && trash_in_the_hand != null && fill_tank_max > fill_tank_status)
+        if (p_beh.can_run && player_distance < activity_distance && Input.GetKeyUp(KeyCode.F) && trash_in_the_hand != null && fill_tank_max > fill_tank_status)
         {
             fill_tank_status++;
             trash_in_the_hand.transform.localPosition = new Vector3(1000, 1000, 1000);
@@ -104,6 +106,7 @@ public class tank_behaviour : MonoBehaviour
                 text_animate = true;
             }
 
+
         } else if (fill_tank_status >= fill_tank_max)
         {
             text.color = Color.white;
@@ -115,7 +118,7 @@ public class tank_behaviour : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("inspector") != null)
         {
             float inspector_distance = Vector2.Distance(inspector.transform.position, transform.position);
-            if (player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
+            if (p_beh.can_run && player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
             {
                 StartCoroutine("hand_over_the_trash", time);
                 clearing_tank = true;
@@ -142,7 +145,7 @@ public class tank_behaviour : MonoBehaviour
         }
     }
 
-    IEnumerator hand_over_the_trash(float time)
+    public IEnumerator hand_over_the_trash(float time)
     {
         while (fill_tank_status > 0)
         {
@@ -150,8 +153,10 @@ public class tank_behaviour : MonoBehaviour
 
             if (rnd_object_in_the_tank.CompareTag(trash_type))
             {
-                Debug.Log(rnd_object_in_the_tank.gameObject.tag == "");
-                StartCoroutine("money_inst", time);
+                GameObject money_to_array = Instantiate(money);
+                money_to_array.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                money_to_array.transform.localPosition = inspector.transform.localPosition;
+                money_to_array.AddComponent<money_script>();
             }
 
             rnd_object_in_the_tank.transform.position = transform.position;
@@ -162,15 +167,5 @@ public class tank_behaviour : MonoBehaviour
         }
 
         clearing_tank = false;
-    }
-
-    IEnumerator money_inst(float time)
-    {
-                GameObject money_to_array = Instantiate(money);
-                money_to_array.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-                money_to_array.transform.localPosition = inspector.transform.localPosition;
-                money_array.Add(money_to_array);
-                money_to_array.AddComponent<money_script>();
-                yield return new WaitForSeconds(time);
     }
 }

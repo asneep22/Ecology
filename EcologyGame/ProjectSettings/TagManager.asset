@@ -24,7 +24,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - cars
+  - trash
   - Water
   - UI
   - 
@@ -56,4 +56,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: trash
+    uniqueID: 1884447235
+    locked: 0
+  - name: background
+    uniqueID: 2381056493
+    locked: 0
+  - name: UI
+    uniqueID: 2130234441
     locked: 0

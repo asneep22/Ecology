@@ -9,7 +9,6 @@ public class pick_up_trash : MonoBehaviour
 
     private GameObject player;
     private Player_behaviour p_beh;
-    public 
 
     private Transform trash_empty;
     private Rigidbody2D trash_rb;
@@ -20,12 +19,10 @@ public class pick_up_trash : MonoBehaviour
     private bool trash_is_put = false;
     public float activity_distance = 0.2f;
 
-    private stretch_trash_status sts;
-
+     
     // Start is called before the first frame update
     void Start()
     {
-        sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
 
         player = GameObject.FindGameObjectWithTag("Player");
         trash_rb = transform.GetComponent<Rigidbody2D>();
@@ -44,7 +41,7 @@ public class pick_up_trash : MonoBehaviour
 
         if (!trash_is_put) // если мусор не поднят
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y + 0.1f);
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.y + 0.1f);
 
             if (p_beh.can_run && distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
             {

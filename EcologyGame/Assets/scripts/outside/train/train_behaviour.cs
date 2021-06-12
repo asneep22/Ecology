@@ -35,7 +35,7 @@ public class train_behaviour : MonoBehaviour
         rb.AddForce(Vector2.left * tr_inst.speed * Time.fixedDeltaTime);
         
 
-        if (transform.localPosition.x < target.transform.position.x)
+        if (transform.position.x < target.transform.position.x)
         {
             tr_inst.StartCoroutine("train_inst");
             Destroy(gameObject);

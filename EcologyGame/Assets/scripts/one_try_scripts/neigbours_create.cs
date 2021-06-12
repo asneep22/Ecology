@@ -29,7 +29,8 @@ public class neigbours_create : MonoBehaviour
         if (cam_is_bigger)
         {
             CameraExtension.camera_scale_bigger(cam, 2f, 5);
-        } else
+        }
+        else
         {
             CameraExtension.camera_scale_bigger(cam, 0.8f, 5);
         }
@@ -51,7 +52,9 @@ public class neigbours_create : MonoBehaviour
         StartCoroutine("neigbor_scrip_destory");
     }
 
-    IEnumerator neigbor_scrip_destory() {
+
+    IEnumerator neigbor_scrip_destory()
+    {
         yield return new WaitForSeconds(3);
         Destroy(this);
     }

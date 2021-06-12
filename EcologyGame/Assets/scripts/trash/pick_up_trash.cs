@@ -9,6 +9,7 @@ public class pick_up_trash : MonoBehaviour
 
     private GameObject player;
     private Player_behaviour p_beh;
+    public 
 
     private Transform trash_empty;
     private Rigidbody2D trash_rb;

@@ -25,8 +25,7 @@ public class train_instantiate : MonoBehaviour
     public IEnumerator train_inst() {
         float time = Random.Range(time_min, time_max);
         yield return new WaitForSeconds(time);
-        GameObject inst_train = Instantiate(train);
+        GameObject inst_train = Instantiate(train, transform);
         inst_train.AddComponent<train_behaviour>();
-        inst_train.transform.localPosition = transform.localPosition;
     }
 }

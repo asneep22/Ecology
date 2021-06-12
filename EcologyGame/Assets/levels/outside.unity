@@ -5908,6 +5908,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 25.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6347931619688174105, guid: 38ecf6c389cd95942868ef795f7aa7c2, type: 3}
+      propertyPath: leftLimit
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347931619688174105, guid: 38ecf6c389cd95942868ef795f7aa7c2, type: 3}
+      propertyPath: rightLimit
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347931619688174105, guid: 38ecf6c389cd95942868ef795f7aa7c2, type: 3}
+      propertyPath: upperLimit
+      value: 0.85
+      objectReference: {fileID: 0}
     - target: {fileID: 6375203903790697066, guid: 38ecf6c389cd95942868ef795f7aa7c2, type: 3}
       propertyPath: m_TagString
       value: money

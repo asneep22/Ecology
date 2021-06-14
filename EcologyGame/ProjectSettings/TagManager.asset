@@ -20,14 +20,15 @@ TagManager:
   - money
   - train_destroy
   - train_inst
+  - incentives_interface
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - trash
+  - player
   - Water
   - UI
-  - 
+  - car
   - 
   - 
   - 

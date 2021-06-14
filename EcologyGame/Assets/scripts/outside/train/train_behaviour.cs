@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class train_behaviour : MonoBehaviour
 {
-
+    
     private train_instantiate tr_inst;
 
     private GameObject player;
@@ -15,8 +16,17 @@ public class train_behaviour : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    //trash
+    private List<Transform> empty = new List<Transform>();
+
     void Start()
     {
+        empty = transform.GetChild(0).GetComponentsInChildren<Transform>().ToList();
+
+        foreach (var item in empty)
+        {
+            item.gameObject.AddComponent<random_trash_inst>();
+        }
 
         player = GameObject.FindGameObjectWithTag("Player");
         cam = Camera.main;

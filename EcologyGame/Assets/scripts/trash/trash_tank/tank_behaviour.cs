@@ -43,7 +43,7 @@ public class tank_behaviour : MonoBehaviour
     public List<string> anim_bad_text_list = new List<string>();
     public float anim_speed;
 
-    public bool penalty;
+    private incentives inc_script;
     // Start is called before the first frame update
     public void Start()
     {
@@ -70,6 +70,8 @@ public class tank_behaviour : MonoBehaviour
         p_beh = player.GetComponent<Player_behaviour>();
         sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
         text.rectTransform.localScale = Vector3.zero;
+
+        inc_script = GameObject.FindGameObjectWithTag("incentives_interface").GetComponent<incentives>();
     }
 
     // Update is called once per frame
@@ -79,7 +81,7 @@ public class tank_behaviour : MonoBehaviour
 
         float player_distance = Vector2.Distance(player.transform.position, transform.position);
 
-        //Узнаем, какой предметдержит игрок
+        //Узнаем, какой предмет держит игрок
         if (trash_empty.transform.childCount > 0) {
             trash_in_the_hand = GameObject.FindGameObjectWithTag("trash_empty").transform.GetChild(0);
         }
@@ -115,10 +117,10 @@ public class tank_behaviour : MonoBehaviour
         }
 
         //Сдача мусора
-        if (GameObject.FindGameObjectWithTag("inspector") != null)
+        if (inspector != null)
         {
             float inspector_distance = Vector2.Distance(inspector.transform.position, transform.position);
-            if (p_beh.can_run && player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
+            if (p_beh.can_run && inspector.GetComponent<Inspector>().on_close && player_distance <= 0.2f && inspector_distance <= 0.2f && !clearing_tank && Input.GetKeyUp(KeyCode.E))
             {
                 StartCoroutine("hand_over_the_trash", time);
                 clearing_tank = true;
@@ -153,10 +155,9 @@ public class tank_behaviour : MonoBehaviour
 
             if (rnd_object_in_the_tank.CompareTag(trash_type))
             {
-                GameObject money_to_array = Instantiate(money);
-                money_to_array.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-                money_to_array.transform.localPosition = inspector.transform.localPosition;
-                money_to_array.AddComponent<money_script>();
+                moneyEx.inst(inspector.transform);
+
+                inc_script.hand_over_trash_count++;
             }
 
             rnd_object_in_the_tank.transform.position = transform.position;

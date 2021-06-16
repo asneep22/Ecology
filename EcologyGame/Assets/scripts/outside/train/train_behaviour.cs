@@ -16,16 +16,29 @@ public class train_behaviour : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private Transform trash_add_force_pos_min;
+
+    private int i = 0;
+
     //trash
     private List<Transform> empty = new List<Transform>();
+    private float position_add_force;
 
     void Start()
     {
-        empty = transform.GetChild(0).GetComponentsInChildren<Transform>().ToList();
+        trash_add_force_pos_min = GameObject.FindGameObjectWithTag("trash_add_force_pos_min").transform;
 
-        foreach (var item in empty)
+        empty = transform.GetChild(0).GetComponentsInChildren<Transform>().ToList();
+        empty.Remove(empty[0]);
+
+        foreach (Transform item in empty)
         {
-            item.gameObject.AddComponent<random_trash_inst>();
+            int random = Random.Range(0,2);
+
+            if (random ==  1)
+            {
+                item.gameObject.AddComponent<random_trash_inst>();
+            }
         }
 
         player = GameObject.FindGameObjectWithTag("Player");
@@ -36,11 +49,29 @@ public class train_behaviour : MonoBehaviour
 
         tr_inst = GameObject.FindGameObjectWithTag("train_inst").GetComponent<train_instantiate>();
         target = GameObject.FindGameObjectWithTag("train_destroy");
+
+        position_add_force = trash_add_force_pos_min.position.x;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (transform.position.x < position_add_force)
+        {
+            position_add_force -= Random.Range(0, tr_inst.next_trash_add_force_pos_devine_max);
+            if (i < empty.Count)
+            {
+
+                if (empty[i].childCount > 0) {
+                    empty[i].GetChild(0).gameObject.AddComponent<pick_up_trash>();
+                    tras_add_force.add_force(empty[i].GetChild(0).gameObject, GameObject.FindGameObjectWithTag("Player").transform, 900, tr_inst.force);
+                }
+                i++;
+            }
+        }
+
+        transform.GetChild(0).localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z - 0.1f);
+
         // Движение поезда
         rb.AddForce(Vector2.left * tr_inst.speed * Time.fixedDeltaTime);
         

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(add_trash_into_array))]
 public class pick_up_trash : MonoBehaviour
 {
 
@@ -23,6 +22,8 @@ public class pick_up_trash : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(destroy());
+
 
         player = GameObject.FindGameObjectWithTag("Player");
         trash_rb = transform.GetComponent<Rigidbody2D>();
@@ -73,9 +74,45 @@ public class pick_up_trash : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+       if (col.CompareTag("region"))
+        {
+            StopCoroutine(destroy());
+            if (gameObject.GetComponent<add_trash_into_array>() != null)
+            {
+            gameObject.AddComponent<add_trash_into_array>();
+            }
+            gameObject.layer = 1;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+
+        if (!trash_is_put)
+        {
+            if (col.CompareTag("region"))
+            {
+                StartCoroutine(destroy());
+                Destroy(gameObject.GetComponent<add_trash_into_array>());
+                gameObject.layer = 1;
+            }
+        }
+    }
+
+
     IEnumerator gravity()
     {
         yield return new WaitForSeconds(0.025f);
         trash_rb.gravityScale = 0;
+    }
+
+    IEnumerator destroy()
+    {
+        yield return new WaitForSeconds(3);
+        if (gameObject.GetComponent<add_trash_into_array>() == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }

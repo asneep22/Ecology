@@ -12,13 +12,13 @@ public class random_trash_inst : MonoBehaviour
     {
         trash = Resources.LoadAll("trash");
         trash_inst = (GameObject)Instantiate(trash[Random.Range(0, trash.Length)], transform);
-        trash_inst.transform.localPosition = Vector2.zero;
+        trash_inst.transform.localPosition = Vector3.zero;
         Destroy(trash_inst.GetComponent<pick_up_trash>());
         Destroy(trash_inst.GetComponent<add_trash_into_array>());
+        Destroy(this);
     }
 
     void Update()
     {
-        trash_inst.transform.localPosition = new Vector3(trash_inst.transform.localPosition.x, trash_inst.transform.localPosition.y, trash_inst.transform.localPosition.y + 0.1f);
     }
 }

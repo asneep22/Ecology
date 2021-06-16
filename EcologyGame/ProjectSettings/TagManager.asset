@@ -21,6 +21,8 @@ TagManager:
   - train_destroy
   - train_inst
   - incentives_interface
+  - trash_add_force_pos_min
+  - region
   layers:
   - Default
   - TransparentFX
@@ -29,10 +31,10 @@ TagManager:
   - Water
   - UI
   - car
+  - fence
   - 
   - 
-  - 
-  - 
+  - trash
   - 
   - 
   - 
@@ -69,4 +71,7 @@ TagManager:
     locked: 0
   - name: decoration
     uniqueID: 411882019
+    locked: 0
+  - name: player
+    uniqueID: 2675634391
     locked: 0

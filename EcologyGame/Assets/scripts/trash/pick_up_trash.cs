@@ -36,6 +36,8 @@ public class pick_up_trash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+       activity_distance = player_stats.player_hand_length;
        distance = Vector2.Distance(player.transform.position, transform.position); // дистанция между ГГ и мусором
 
 
@@ -79,9 +81,9 @@ public class pick_up_trash : MonoBehaviour
        if (col.CompareTag("region"))
         {
             StopCoroutine(destroy());
-            if (gameObject.GetComponent<add_trash_into_array>() != null)
+            if (gameObject.GetComponent<add_trash_into_array>() == null)
             {
-            gameObject.AddComponent<add_trash_into_array>();
+                gameObject.AddComponent<add_trash_into_array>();
             }
             gameObject.layer = 1;
         }
@@ -95,7 +97,6 @@ public class pick_up_trash : MonoBehaviour
             {
                 StartCoroutine(destroy());
                 Destroy(gameObject.GetComponent<add_trash_into_array>());
-                gameObject.layer = 1;
             }
         }
     }

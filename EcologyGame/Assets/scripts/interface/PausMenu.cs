@@ -5,16 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PausMenu : MonoBehaviour
 {
-    [SerializeField]
      public GameObject pause_menu;
-    [SerializeField]
-    float leftLimit;
-    [SerializeField]
-    float rightLimit;
-    [SerializeField]
-    float bottomLimit;
-    [SerializeField]
-    float upperLimit;
+    public float leftLimit;
+    public float rightLimit;
+    public float bottomLimit;
+    public float upperLimit;
 
     private SpriteRenderer menu_sr_renderer;
     
@@ -43,8 +38,13 @@ public class PausMenu : MonoBehaviour
             (
             Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
             Mathf.Clamp(transform.position.y, bottomLimit, upperLimit),
-            transform.position.z
-            );
+            transform.position.z);
+    }
+
+    public void pause_off()
+    {
+        pause_menu.SetActive(false);
+        Time.timeScale = 1;
     }
 
 

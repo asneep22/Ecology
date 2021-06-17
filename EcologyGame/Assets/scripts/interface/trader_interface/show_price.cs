@@ -35,7 +35,7 @@ public class show_price : MonoBehaviour
 
     public void reload_price()
     {
-        float new_size = start_size.x + 0.05f;
+        float new_size = start_size.x + 0.7f;
         price_text.transform.localScale = new Vector3(new_size, new_size, new_size);
     }
 }

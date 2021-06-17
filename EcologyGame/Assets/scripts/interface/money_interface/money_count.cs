@@ -9,6 +9,9 @@ public class money_count : MonoBehaviour
     [HideInInspector]
     public int money_count_to_text = 0;
 
+    public Vector3 new_scale;
+    public float devine_size = 0.5f;
+
     [HideInInspector]
     public Vector3 start_scale;
     public float anim_speed;
@@ -16,6 +19,7 @@ public class money_count : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        new_scale = new Vector3(money_count_text.transform.localScale.x + devine_size, money_count_text.transform.localScale.y + devine_size, money_count_text.transform.localScale.z);
         start_scale = money_count_text.transform.localScale;
     }
 

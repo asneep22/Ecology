@@ -71,7 +71,7 @@ public class tank_behaviour : MonoBehaviour
         sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
         text.rectTransform.localScale = Vector3.zero;
 
-        inc_script = GameObject.FindGameObjectWithTag("incentives_interface").GetComponent<incentives>();
+       // inc_script = GameObject.FindGameObjectWithTag("incentives_interface").GetComponent<incentives>();
     }
 
     // Update is called once per frame
@@ -157,7 +157,7 @@ public class tank_behaviour : MonoBehaviour
             {
                 moneyEx.inst(inspector.transform);
 
-                inc_script.hand_over_trash_count++;
+                //inc_script.hand_over_trash_count++;
             }
 
             rnd_object_in_the_tank.transform.position = transform.position;

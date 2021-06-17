@@ -27,16 +27,6 @@ public class hight_upgrade : MonoBehaviour, IPointerClickHandler
         random_upgrade.transform.position = position;
     }
 
-    public void destroy()
-    {
-        Destroy(random_upgrade);
-    }
-
-    public void OnDestroy()
-    {
-        reload_upgrade();
-    }
-
     public void OnPointerClick(PointerEventData eventData)
     {
         buy_upgrade.upgrades_cell = transform;

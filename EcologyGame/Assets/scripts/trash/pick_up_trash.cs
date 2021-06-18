@@ -37,7 +37,7 @@ public class pick_up_trash : MonoBehaviour
     void Update()
     {
 
-       activity_distance = player_stats.player_hand_length;
+       activity_distance = stats.player_hand_length;
        distance = Vector2.Distance(player.transform.position, transform.position); // дистанция между ГГ и мусором
 
 

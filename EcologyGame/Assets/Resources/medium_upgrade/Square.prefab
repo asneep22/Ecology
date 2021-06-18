@@ -95,5 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afd0d80613bf6349a523ff63265ef80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parametr: 
+  parametr: trash_tank_max
   price: 60
+  plus_price_after_buying: 20

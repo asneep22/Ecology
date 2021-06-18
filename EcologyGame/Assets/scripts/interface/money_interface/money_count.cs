@@ -6,8 +6,7 @@ using TMPro;
 public class money_count : MonoBehaviour
 {
     public TextMeshProUGUI money_count_text;
-    [HideInInspector]
-    public int money_count_to_text = 0;
+    public int money_count_to_text = 240;
 
     public Vector3 new_scale;
     public float devine_size = 0.5f;

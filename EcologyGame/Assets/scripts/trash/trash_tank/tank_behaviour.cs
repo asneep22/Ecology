@@ -87,7 +87,7 @@ public class tank_behaviour : MonoBehaviour
         }
 
         // Проверяем вместимость бака и если он не заполнен, проверяем соответсвует ли контейнер типу мусора, который в него кладет игрок
-        if (p_beh.can_run && player_distance < activity_distance && Input.GetKeyUp(KeyCode.F) && trash_in_the_hand != null && fill_tank_max > fill_tank_status)
+        if (p_beh.can_run && player_distance < activity_distance && Input.GetKeyUp(KeyCode.F) && trash_in_the_hand != null && stats.tank_fill_status_max > fill_tank_status)
         {
             fill_tank_status++;
             trash_in_the_hand.transform.localPosition = new Vector3(1000, 1000, 1000);

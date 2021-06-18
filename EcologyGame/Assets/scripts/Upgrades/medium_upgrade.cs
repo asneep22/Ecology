@@ -6,11 +6,12 @@ using UnityEngine.EventSystems;
 
 public class medium_upgrade : MonoBehaviour, IPointerClickHandler
 {
-    public List<Object> upgrades_array = new List<Object>();
+    public List<GameObject> upgrades_array = new List<GameObject>();
     private GameObject random_upgrade;
 
-    void Start()
+    void Awake()
     {
+
         reload_upgrade();
     }
 
@@ -20,8 +21,6 @@ public class medium_upgrade : MonoBehaviour, IPointerClickHandler
         {
             Destroy(random_upgrade);
         }
-
-        upgrades_array = Resources.LoadAll("medium_upgrade").ToList();
         random_upgrade = Instantiate((GameObject)upgrades_array[Random.Range(0, upgrades_array.Count)], transform);
         Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 5);
         random_upgrade.transform.position = position;

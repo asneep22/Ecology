@@ -15,6 +15,7 @@ public class buy_upgrade : MonoBehaviour
     private hight_upgrade hu;
 
     public money_count money_cnt;
+    public money_count_trader_interfaace mon_cnt_trader;
 
     public static Transform upgrades_cell;
     void Start()
@@ -32,6 +33,8 @@ public class buy_upgrade : MonoBehaviour
         {
             if (upgrades_cell != null)
             {
+                mon_cnt_trader.mon_cnt_trader_inter.transform.localScale = mon_cnt_trader.new_scale;
+
                 money_cnt.money_count_text.transform.localScale = money_cnt.new_scale;
                 upgrades_cell.GetChild(0).gameObject.AddComponent<upgrade_activated>();
                 su.reload_upgrade();
@@ -40,6 +43,13 @@ public class buy_upgrade : MonoBehaviour
                 upgrades_cell = null;
                 Debug.Log("items was reloaded");
             }
+        } else
+        {
+            mon_cnt_trader.mon_cnt_trader_inter.transform.localScale = new Vector3 (mon_cnt_trader.new_scale.x, mon_cnt_trader.new_scale.y, mon_cnt_trader.new_scale.z);
+            mon_cnt_trader.mon_cnt_trader_inter.color = Color.red;
         }
+
+
+
     }
 }

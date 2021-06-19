@@ -23,6 +23,8 @@ TagManager:
   - incentives_interface
   - trash_add_force_pos_min
   - region
+  - NPC_inst
+  - NPC_destr
   layers:
   - Default
   - TransparentFX

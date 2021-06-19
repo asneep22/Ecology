@@ -20,18 +20,23 @@ TagManager:
   - money
   - train_destroy
   - train_inst
+  - incentives_interface
+  - trash_add_force_pos_min
+  - region
+  - NPC_inst
+  - NPC_destr
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - car
+  - fence
+  - for_tank
+  - tank
+  - trash
   - 
   - 
   - 
@@ -56,4 +61,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: trash
+    uniqueID: 1884447235
+    locked: 0
+  - name: background
+    uniqueID: 2381056493
+    locked: 0
+  - name: UI
+    uniqueID: 2130234441
+    locked: 0
+  - name: decoration
+    uniqueID: 411882019
+    locked: 0
+  - name: player
+    uniqueID: 2675634391
     locked: 0

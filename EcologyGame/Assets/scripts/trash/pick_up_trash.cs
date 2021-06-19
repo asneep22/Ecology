@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(add_trash_into_array))]
 public class pick_up_trash : MonoBehaviour
 {
 
@@ -19,12 +18,12 @@ public class pick_up_trash : MonoBehaviour
     private bool trash_is_put = false;
     public float activity_distance = 0.2f;
 
-    private stretch_trash_status sts;
-
+     
     // Start is called before the first frame update
     void Start()
     {
-        sts = GameObject.FindGameObjectWithTag("stretch_status_element").GetComponent<stretch_trash_status>();
+        StartCoroutine(destroy());
+
 
         player = GameObject.FindGameObjectWithTag("Player");
         trash_rb = transform.GetComponent<Rigidbody2D>();
@@ -37,13 +36,15 @@ public class pick_up_trash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+       activity_distance = player_stats.player_hand_length;
        distance = Vector2.Distance(player.transform.position, transform.position); // дистанция между ГГ и мусором
 
 
 
         if (!trash_is_put) // если мусор не поднят
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y + 0.1f);
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.y + 0.1f);
 
             if (p_beh.can_run && distance < activity_distance && Input.GetKeyDown(KeyCode.E) && trash_empty.transform.childCount < 1)
             {
@@ -75,9 +76,44 @@ public class pick_up_trash : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+       if (col.CompareTag("region"))
+        {
+            StopCoroutine(destroy());
+            if (gameObject.GetComponent<add_trash_into_array>() == null)
+            {
+                gameObject.AddComponent<add_trash_into_array>();
+            }
+            gameObject.layer = 1;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+
+        if (!trash_is_put)
+        {
+            if (col.CompareTag("region"))
+            {
+                StartCoroutine(destroy());
+                Destroy(gameObject.GetComponent<add_trash_into_array>());
+            }
+        }
+    }
+
+
     IEnumerator gravity()
     {
         yield return new WaitForSeconds(0.025f);
         trash_rb.gravityScale = 0;
+    }
+
+    IEnumerator destroy()
+    {
+        yield return new WaitForSeconds(3);
+        if (gameObject.GetComponent<add_trash_into_array>() == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }

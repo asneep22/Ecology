@@ -7,4 +7,9 @@ public static class CameraExtension
 	{
 		cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, new_size, Time.deltaTime * speed);
 	}
+
+	public static void camera_follow(this Camera cam, Transform follow_target, float speed)
+    {
+
+    }
 }

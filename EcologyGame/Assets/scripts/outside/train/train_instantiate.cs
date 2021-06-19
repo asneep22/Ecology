@@ -16,6 +16,10 @@ public class train_instantiate : MonoBehaviour
     public float max_cam_shake_effect_pos_x;
     public float max_cam_shake_effect_pos_y;
 
+    [Header("trashh_add_force")]
+    public float next_trash_add_force_pos_devine_max = 0.35f;
+    public float force;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +29,7 @@ public class train_instantiate : MonoBehaviour
     public IEnumerator train_inst() {
         float time = Random.Range(time_min, time_max);
         yield return new WaitForSeconds(time);
-        GameObject inst_train = Instantiate(train);
+        GameObject inst_train = Instantiate(train, transform);
         inst_train.AddComponent<train_behaviour>();
-        inst_train.transform.localPosition = transform.localPosition;
     }
 }

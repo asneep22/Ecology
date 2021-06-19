@@ -1,0 +1,3984 @@
+fileFormatVersion: 2
+guid: 8e11458b49e1a0443b1954861f7a1c9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6922272647355631251
+    second: Mans-Sheet_0
+  - first:
+      213: -3509545933165890221
+    second: Mans-Sheet_1
+  - first:
+      213: -4680941275651008021
+    second: Mans-Sheet_2
+  - first:
+      213: -6570770168509823966
+    second: Mans-Sheet_3
+  - first:
+      213: 7878964765324507167
+    second: Mans-Sheet_4
+  - first:
+      213: -7843922859097515079
+    second: Mans-Sheet_5
+  - first:
+      213: 7773930456898211475
+    second: Mans-Sheet_6
+  - first:
+      213: -7544652158801146411
+    second: Mans-Sheet_7
+  - first:
+      213: -8809536199778798999
+    second: Mans-Sheet_8
+  - first:
+      213: 5068011220841925850
+    second: Mans-Sheet_9
+  - first:
+      213: -3434920570580999798
+    second: Mans-Sheet_10
+  - first:
+      213: 6697884944259870499
+    second: Mans-Sheet_11
+  - first:
+      213: 6978755507248561009
+    second: Mans-Sheet_12
+  - first:
+      213: -2531053777437039455
+    second: Mans-Sheet_13
+  - first:
+      213: -2668155219107751779
+    second: Mans-Sheet_14
+  - first:
+      213: -5206727116876350894
+    second: Mans-Sheet_15
+  - first:
+      213: 9204608091009803587
+    second: Mans-Sheet_16
+  - first:
+      213: 4199027759783489706
+    second: Mans-Sheet_17
+  - first:
+      213: -1939713004654520827
+    second: Mans-Sheet_18
+  - first:
+      213: -4916765907183013248
+    second: Mans-Sheet_19
+  - first:
+      213: -1861963184454880692
+    second: Mans-Sheet_20
+  - first:
+      213: 5078032394204117209
+    second: Mans-Sheet_21
+  - first:
+      213: -7644091561057418376
+    second: Mans-Sheet_22
+  - first:
+      213: -5161124548223291948
+    second: Mans-Sheet_23
+  - first:
+      213: -4795253790306182149
+    second: Mans-Sheet_24
+  - first:
+      213: 3316901919841061019
+    second: Mans-Sheet_25
+  - first:
+      213: -5355441032010263612
+    second: Mans-Sheet_26
+  - first:
+      213: 3469317804361123951
+    second: Mans-Sheet_27
+  - first:
+      213: -1067476596778523008
+    second: Mans-Sheet_28
+  - first:
+      213: -5070731849679144124
+    second: Mans-Sheet_29
+  - first:
+      213: -8714437237411545096
+    second: Mans-Sheet_30
+  - first:
+      213: -4914694277546685610
+    second: Mans-Sheet_31
+  - first:
+      213: 8610742790756381630
+    second: Mans-Sheet_32
+  - first:
+      213: -1391241373249705503
+    second: Mans-Sheet_33
+  - first:
+      213: -6689537592290517894
+    second: Mans-Sheet_34
+  - first:
+      213: -5544654022084525649
+    second: Mans-Sheet_35
+  - first:
+      213: -3992715604439304673
+    second: Mans-Sheet_36
+  - first:
+      213: -1059116952237571972
+    second: Mans-Sheet_37
+  - first:
+      213: 7150612010897509
+    second: Mans-Sheet_38
+  - first:
+      213: -8072145396511561408
+    second: Mans-Sheet_39
+  - first:
+      213: 7891351439196652159
+    second: Mans-Sheet_40
+  - first:
+      213: -4313393002469437078
+    second: Mans-Sheet_41
+  - first:
+      213: -298274016619804694
+    second: Mans-Sheet_42
+  - first:
+      213: 7472612582105217022
+    second: Mans-Sheet_43
+  - first:
+      213: -7492543703635313793
+    second: Mans-Sheet_44
+  - first:
+      213: 4979481815065831715
+    second: Mans-Sheet_45
+  - first:
+      213: -8861332461960225614
+    second: Mans-Sheet_46
+  - first:
+      213: -6903117650031543414
+    second: Mans-Sheet_47
+  - first:
+      213: -7484108034976839914
+    second: Mans-Sheet_48
+  - first:
+      213: -7577557943086000522
+    second: Mans-Sheet_49
+  - first:
+      213: -7281826375256399755
+    second: Mans-Sheet_50
+  - first:
+      213: -4547504331207525459
+    second: Mans-Sheet_51
+  - first:
+      213: 8743123277635076096
+    second: Mans-Sheet_52
+  - first:
+      213: -7698425059674018388
+    second: Mans-Sheet_53
+  - first:
+      213: 5642625839400910051
+    second: Mans-Sheet_54
+  - first:
+      213: -2189369257324975132
+    second: Mans-Sheet_55
+  - first:
+      213: 5871136809065281114
+    second: Mans-Sheet_56
+  - first:
+      213: 7564740134818112217
+    second: Mans-Sheet_57
+  - first:
+      213: -817142204086621559
+    second: Mans-Sheet_58
+  - first:
+      213: 4096705686323017164
+    second: Mans-Sheet_59
+  - first:
+      213: -837986510176136426
+    second: Mans-Sheet_60
+  - first:
+      213: -4491903732545926922
+    second: Mans-Sheet_61
+  - first:
+      213: -6955559895112149700
+    second: Mans-Sheet_62
+  - first:
+      213: 4132153264102124995
+    second: Mans-Sheet_63
+  - first:
+      213: 4887567837490721493
+    second: Mans-Sheet_64
+  - first:
+      213: -5575920182957461882
+    second: Mans-Sheet_65
+  - first:
+      213: -9212109201988247524
+    second: Mans-Sheet_66
+  - first:
+      213: -5034861453988083751
+    second: Mans-Sheet_67
+  - first:
+      213: 8477989052544323660
+    second: Mans-Sheet_68
+  - first:
+      213: 4410781697847886703
+    second: Mans-Sheet_69
+  - first:
+      213: -668916554437721286
+    second: Mans-Sheet_70
+  - first:
+      213: 7195876655659325832
+    second: Mans-Sheet_71
+  - first:
+      213: 8159729484918352896
+    second: Mans-Sheet_72
+  - first:
+      213: -7094493353554861900
+    second: Mans-Sheet_73
+  - first:
+      213: -4366376591927087562
+    second: Mans-Sheet_74
+  - first:
+      213: -9082416632480928591
+    second: Mans-Sheet_75
+  - first:
+      213: 5178900188035394365
+    second: Mans-Sheet_76
+  - first:
+      213: 411752343073213255
+    second: Mans-Sheet_77
+  - first:
+      213: 2022630149386371919
+    second: Mans-Sheet_78
+  - first:
+      213: -8381707832757264853
+    second: Mans-Sheet_79
+  - first:
+      213: -7042181192303270953
+    second: Mans-Sheet_80
+  - first:
+      213: 5466668177252817455
+    second: Mans-Sheet_81
+  - first:
+      213: 4143253960687652852
+    second: Mans-Sheet_82
+  - first:
+      213: -6502122799927619152
+    second: Mans-Sheet_83
+  - first:
+      213: 7520026945799382789
+    second: Mans-Sheet_84
+  - first:
+      213: -4300041180562283678
+    second: Mans-Sheet_85
+  - first:
+      213: 7749507215892701871
+    second: Mans-Sheet_86
+  - first:
+      213: 1328372414906279904
+    second: Mans-Sheet_87
+  - first:
+      213: 1837949837825063675
+    second: Mans-Sheet_88
+  - first:
+      213: -5616673040009940417
+    second: Mans-Sheet_89
+  - first:
+      213: 7676939571760788068
+    second: Mans-Sheet_90
+  - first:
+      213: -8958232392446899057
+    second: Mans-Sheet_91
+  - first:
+      213: 875537120030688306
+    second: Mans-Sheet_92
+  - first:
+      213: -212423705072434807
+    second: Mans-Sheet_93
+  - first:
+      213: 3894070556272291089
+    second: Mans-Sheet_94
+  - first:
+      213: 7544237150793718256
+    second: Mans-Sheet_95
+  - first:
+      213: 195406170923140994
+    second: Mans-Sheet_96
+  - first:
+      213: -7118052746235039308
+    second: Mans-Sheet_97
+  - first:
+      213: -39441805404770983
+    second: Mans-Sheet_98
+  - first:
+      213: 6701097836713979851
+    second: Mans-Sheet_99
+  - first:
+      213: 8293648147645480148
+    second: Mans-Sheet_100
+  - first:
+      213: 8304575272004165714
+    second: Mans-Sheet_101
+  - first:
+      213: 2169698971732219876
+    second: Mans-Sheet_102
+  - first:
+      213: -3213875934353937480
+    second: Mans-Sheet_103
+  - first:
+      213: -9096296078371632242
+    second: Mans-Sheet_104
+  - first:
+      213: 6689131741434625483
+    second: Mans-Sheet_105
+  - first:
+      213: -5585961270488778270
+    second: Mans-Sheet_106
+  - first:
+      213: -3323466116989034167
+    second: Mans-Sheet_107
+  - first:
+      213: 4010246517698006453
+    second: Mans-Sheet_108
+  - first:
+      213: -6188480379820174131
+    second: Mans-Sheet_109
+  - first:
+      213: 6102087601869579356
+    second: Mans-Sheet_110
+  - first:
+      213: 1300257154066556942
+    second: Mans-Sheet_111
+  - first:
+      213: -1857398053440258944
+    second: Mans-Sheet_112
+  - first:
+      213: 7432043530998105432
+    second: Mans-Sheet_113
+  - first:
+      213: -7060514654733593405
+    second: Mans-Sheet_114
+  - first:
+      213: 3002236942283324151
+    second: Mans-Sheet_115
+  - first:
+      213: 73451954296944328
+    second: Mans-Sheet_116
+  - first:
+      213: 5702501687171627014
+    second: Mans-Sheet_117
+  - first:
+      213: -2148099664724046686
+    second: Mans-Sheet_118
+  - first:
+      213: 6137111612736938194
+    second: Mans-Sheet_119
+  - first:
+      213: 2067928715634382455
+    second: Mans-Sheet_120
+  - first:
+      213: 4541760263310684966
+    second: Mans-Sheet_121
+  - first:
+      213: 2236000640731801158
+    second: Mans-Sheet_122
+  - first:
+      213: -6890346612247754186
+    second: Mans-Sheet_123
+  - first:
+      213: 1711207794577151048
+    second: Mans-Sheet_124
+  - first:
+      213: 918616440853889171
+    second: Mans-Sheet_125
+  - first:
+      213: -7211632037832766038
+    second: Mans-Sheet_126
+  - first:
+      213: -872281709886161476
+    second: Mans-Sheet_127
+  - first:
+      213: -6727610081739314254
+    second: Mans-Sheet_128
+  - first:
+      213: -4866882455794651961
+    second: Mans-Sheet_129
+  - first:
+      213: -7086817277874132927
+    second: Mans-Sheet_130
+  - first:
+      213: 9183711536676051240
+    second: Mans-Sheet_131
+  - first:
+      213: 159207855961714451
+    second: Mans-Sheet_132
+  - first:
+      213: 7993161649543724235
+    second: Mans-Sheet_133
+  - first:
+      213: -6845537495010063935
+    second: Mans-Sheet_134
+  - first:
+      213: 4931912223643707532
+    second: Mans-Sheet_135
+  - first:
+      213: -4277302018182315488
+    second: Mans-Sheet_136
+  - first:
+      213: 2794815520869743127
+    second: Mans-Sheet_137
+  - first:
+      213: 2042300012441845961
+    second: Mans-Sheet_138
+  - first:
+      213: -5229372664021981581
+    second: Mans-Sheet_139
+  - first:
+      213: 1534387079687495922
+    second: Mans-Sheet_140
+  - first:
+      213: -3929059831407119553
+    second: Mans-Sheet_141
+  - first:
+      213: 1144614463076386080
+    second: Mans-Sheet_142
+  - first:
+      213: 9158495689162481999
+    second: Mans-Sheet_143
+  - first:
+      213: 7236181393600223604
+    second: Mans-Sheet_144
+  - first:
+      213: 2958590501191096320
+    second: Mans-Sheet_145
+  - first:
+      213: -1331749672551258498
+    second: Mans-Sheet_146
+  - first:
+      213: 1535581638614651970
+    second: Mans-Sheet_147
+  - first:
+      213: -2030453706614718506
+    second: Mans-Sheet_148
+  - first:
+      213: -7899012590154688138
+    second: Mans-Sheet_149
+  - first:
+      213: 3891263577846243503
+    second: Mans-Sheet_150
+  - first:
+      213: 8248920382806297331
+    second: Mans-Sheet_151
+  - first:
+      213: -2300576429740227153
+    second: Mans-Sheet_152
+  - first:
+      213: 6280188964970490325
+    second: Mans-Sheet_153
+  - first:
+      213: 3076150699733550948
+    second: Mans-Sheet_154
+  - first:
+      213: -8452929242047937750
+    second: Mans-Sheet_155
+  - first:
+      213: 4557079546383804230
+    second: Mans-Sheet_156
+  - first:
+      213: -1232243528238425209
+    second: Mans-Sheet_157
+  - first:
+      213: 7326438021746712350
+    second: Mans-Sheet_158
+  - first:
+      213: 4363038235505597165
+    second: Mans-Sheet_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mans-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f6f7f3b52fef90800000000000000
+      internalID: -6922272647355631251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355fab271969b4fc0800000000000000
+      internalID: -3509545933165890221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be99b52e5b4f90fb0800000000000000
+      internalID: -4680941275651008021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 317
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240d3d585fefc4a0800000000000000
+      internalID: -6570770168509823966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f187cf2a5b4b75d60800000000000000
+      internalID: 7878964765324507167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 317
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1de1f7b9c42390800000000000000
+      internalID: -7843922859097515079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0200009c82eb60800000000000000
+      internalID: 7773930456898211475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 317
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd06c8b5d20c4790800000000000000
+      internalID: -7544652158801146411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9627d30508d3eb580800000000000000
+      internalID: -8809536199778798999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc0af79a51355640800000000000000
+      internalID: 5068011220841925850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8166d6a0f5b450d0800000000000000
+      internalID: -3434920570580999798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 317
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32feb01bedaa3fc50800000000000000
+      internalID: 6697884944259870499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf9d7a82589d060800000000000000
+      internalID: 6978755507248561009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a46470eff3efdcd0800000000000000
+      internalID: -2531053777437039455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985a77f6fec8fad0800000000000000
+      internalID: -2668155219107751779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 317
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af03c064dfdb7b0800000000000000
+      internalID: -5206727116876350894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34563596a465dbf70800000000000000
+      internalID: 9204608091009803587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa036e70081f54a30800000000000000
+      internalID: 4199027759783489706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069c5f9c41c415e0800000000000000
+      internalID: -1939713004654520827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082fa92257324cbb0800000000000000
+      internalID: -4916765907183013248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4236bd495af826e0800000000000000
+      internalID: -1861963184454880692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87676de8bc87640800000000000000
+      internalID: 5078032394204117209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738c90b93bbae590800000000000000
+      internalID: -7644091561057418376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 317
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd2a9571900068b0800000000000000
+      internalID: -5161124548223291948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb54f48516d37db0800000000000000
+      internalID: -4795253790306182149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9800fee8b0080e20800000000000000
+      internalID: 3316901919841061019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c31a7771c6ada5b0800000000000000
+      internalID: -5355441032010263612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 317
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6802ed692e752030800000000000000
+      internalID: 3469317804361123951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08629f2e0bf8f21f0800000000000000
+      internalID: -1067476596778523008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b7d94af3421a9b0800000000000000
+      internalID: -5070731849679144124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 317
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff5aee089101780800000000000000
+      internalID: -8714437237411545096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 317
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b4f2ff79f7bcbb0800000000000000
+      internalID: -4914694277546685610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb33a4f42f08f7770800000000000000
+      internalID: 8610742790756381630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9ef96975151bce0800000000000000
+      internalID: -1391241373249705503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd6e3a00df923a0800000000000000
+      internalID: -6689537592290517894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa106333b8e6d03b0800000000000000
+      internalID: -5544654022084525649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 253
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f167c34ef460798c0800000000000000
+      internalID: -3992715604439304673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70094e4eb24d41f0800000000000000
+      internalID: -1059116952237571972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56016d89177691000800000000000000
+      internalID: 7150612010897509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 253
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049af99a78af9ff80800000000000000
+      internalID: -8072145396511561408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f728513e256b38d60800000000000000
+      internalID: 7891351439196652159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a615727eaefb324c0800000000000000
+      internalID: -4313393002469437078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7c5a9bc515cdbf0800000000000000
+      internalID: -298274016619804694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fe744d8d04b760800000000000000
+      internalID: 7472612582105217022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b3ab0e233250890800000000000000
+      internalID: -7492543703635313793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292480145caa1540800000000000000
+      internalID: 4979481815065831715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc19304319360580800000000000000
+      internalID: -8861332461960225614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf32352133330a0800000000000000
+      internalID: -6903117650031543414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6170f8a056b132890800000000000000
+      internalID: -7484108034976839914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765b69c23b17d690800000000000000
+      internalID: -7577557943086000522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 253
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570a5c21e71c1fa90800000000000000
+      internalID: -7281826375256399755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab33db87e404e0c0800000000000000
+      internalID: -4547504331207525459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00043e64c40d55970800000000000000
+      internalID: 8743123277635076096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad2a2c3233b92590800000000000000
+      internalID: -7698425059674018388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec7ee51e42ae4e40800000000000000
+      internalID: 5642625839400910051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebebfe924ccd91e0800000000000000
+      internalID: -2189369257324975132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567e0c32d77a7150800000000000000
+      internalID: 5871136809065281114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 253
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d269f9a21b5bf860800000000000000
+      internalID: 7564740134818112217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aef6aae7de8a4f0800000000000000
+      internalID: -817142204086621559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc53b9ecd1c6ad830800000000000000
+      internalID: 4096705686323017164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d16675bfde54f0800000000000000
+      internalID: -837986510176136426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f84958ba5d89a1c0800000000000000
+      internalID: -4491903732545926922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 253
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3513e5a023e87f90800000000000000
+      internalID: -6955559895112149700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 253
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd2748208b585930800000000000000
+      internalID: 4132153264102124995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 198
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d232418d0124d340800000000000000
+      internalID: 4887567837490721493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ea3e6d22a5e92b0800000000000000
+      internalID: -5575920182957461882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1022671d73082080800000000000000
+      internalID: -9212109201988247524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 197
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7cbb5fe24902ab0800000000000000
+      internalID: -5034861453988083751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 198
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c401e8eff1ed7a570800000000000000
+      internalID: 8477989052544323660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63840ab59e363d30800000000000000
+      internalID: 4410781697847886703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338c5410f787b6f0800000000000000
+      internalID: -668916554437721286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 197
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889991461b3ecd360800000000000000
+      internalID: 7195876655659325832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 197
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ce6d30cbe2d3170800000000000000
+      internalID: 8159729484918352896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b02ef712eb4b8d90800000000000000
+      internalID: -7094493353554861900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eea9aaf938763c0800000000000000
+      internalID: -4366376591927087562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 197
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcefd68136c4f180800000000000000
+      internalID: -9082416632480928591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bad0338462fd740800000000000000
+      internalID: 5178900188035394365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b40501396d6b500800000000000000
+      internalID: 411752343073213255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f438b2e8763d11c10800000000000000
+      internalID: 2022630149386371919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 196
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ed46162213eab80800000000000000
+      internalID: -8381707832757264853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 197
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3a3d44485254e90800000000000000
+      internalID: -7042181192303270953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a161a5eb18ddb40800000000000000
+      internalID: 5466668177252817455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff840d768bcf7930800000000000000
+      internalID: 4143253960687652852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 197
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1985063c1d3c5a0800000000000000
+      internalID: -6502122799927619152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 197
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507ecb51aa08c5860800000000000000
+      internalID: 7520026945799382789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a801345f2354c0800000000000000
+      internalID: -4300041180562283678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa26c9311c7cb8b60800000000000000
+      internalID: 7749507215892701871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 197
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7aaef5ca35f6210800000000000000
+      internalID: 1328372414906279904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 197
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfabc8eb3a5b18910800000000000000
+      internalID: 1837949837825063675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32b1b6e0a19d02b0800000000000000
+      internalID: -5616673040009940417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f0f8cdd7f98a60800000000000000
+      internalID: 7676939571760788068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 197
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0ec01a17fda380800000000000000
+      internalID: -8958232392446899057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23409133f58862c00800000000000000
+      internalID: 875537120030688306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981094504c15d0df0800000000000000
+      internalID: -212423705072434807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 197
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11deaec0a848a0630800000000000000
+      internalID: 3894070556272291089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 197
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f95d52b7b382b860800000000000000
+      internalID: 7544237150793718256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 139
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2870bcc80e836b200800000000000000
+      internalID: 195406170923140994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 139
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1ba288db8973d90800000000000000
+      internalID: -7118052746235039308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 139
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d6c8f03efd37ff0800000000000000
+      internalID: -39441805404770983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 139
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa9728af41ffc50800000000000000
+      internalID: 6701097836713979851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3c747c05f81370800000000000000
+      internalID: 8293648147645480148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2502d4ad537cf3370800000000000000
+      internalID: 8304575272004165714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e711af18b15c1e10800000000000000
+      internalID: 2169698971732219876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb28a49dd40663d0800000000000000
+      internalID: -3213875934353937480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 139
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b41e439e673c180800000000000000
+      internalID: -9096296078371632242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 139
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd3008d0e194dc50800000000000000
+      internalID: 6689131741434625483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 139
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e93d67f1ddaa72b0800000000000000
+      internalID: -5585961270488778270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 139
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94162d1dc2da0e1d0800000000000000
+      internalID: -3323466116989034167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd032de5f147a730800000000000000
+      internalID: 4010246517698006453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4185de1e91e1aa0800000000000000
+      internalID: -6188480379820174131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5460c9f758fea450800000000000000
+      internalID: 6102087601869579356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e082cc81ef07b0210800000000000000
+      internalID: 1300257154066556942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 139
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cf032bf423936e0800000000000000
+      internalID: -1857398053440258944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 139
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855c16cf63ce32760800000000000000
+      internalID: 7432043530998105432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 139
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c41a296453040e90800000000000000
+      internalID: -7060514654733593405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 139
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa3a5ca7961aa920800000000000000
+      internalID: 3002236942283324151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 139
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c67debc924f40100800000000000000
+      internalID: 73451954296944328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6083ee2421b532f40800000000000000
+      internalID: 5702501687171627014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acccfd6cba6032e0800000000000000
+      internalID: -2148099664724046686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 139
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d02c18fe766b2550800000000000000
+      internalID: 6137111612736938194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 139
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7769734e532c2bc10800000000000000
+      internalID: 2067928715634382455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 139
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233e9d65e2970f30800000000000000
+      internalID: 4541760263310684966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 139
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6466d546cbed70f10800000000000000
+      internalID: 2236000640731801158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 139
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a08a543429060a0800000000000000
+      internalID: -6890346612247754186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84496ac3c6e6fb710800000000000000
+      internalID: 1711207794577151048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3900ee139c49fbc00800000000000000
+      internalID: 918616440853889171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 139
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadc626ded22beb90800000000000000
+      internalID: -7211632037832766038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 139
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd3a2a086805e3f0800000000000000
+      internalID: -872281709886161476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 78
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb679a664ab2a2a0800000000000000
+      internalID: -6727610081739314254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc67ca313c557cb0800000000000000
+      internalID: -4866882455794651961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 78
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148263cbb3196ad90800000000000000
+      internalID: -7086817277874132927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 78
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8299b373cf8137f70800000000000000
+      internalID: 9183711536676051240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fac0493be953200800000000000000
+      internalID: 159207855961714451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3451bb2a6dee60800000000000000
+      internalID: 7993161649543724235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ce41eae3cff0a0800000000000000
+      internalID: -6845537495010063935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 78
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88a0b9790ca17440800000000000000
+      internalID: 4931912223643707532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 77
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0228e210a78f3a4c0800000000000000
+      internalID: -4277302018182315488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 78
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a703e98ed29c620800000000000000
+      internalID: 2794815520869743127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 78
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c04f5e6a05b75c10800000000000000
+      internalID: 2042300012441845961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 78
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376e4dab4498d67b0800000000000000
+      internalID: -5229372664021981581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 77
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e8b06bec3b4510800000000000000
+      internalID: 1534387079687495922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33f8bf76ec2979c0800000000000000
+      internalID: -3929059831407119553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025417c2acc72ef00800000000000000
+      internalID: 1144614463076386080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 78
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41e9753e43891f70800000000000000
+      internalID: 9158495689162481999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 77
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47915d773a41c6460800000000000000
+      internalID: 7236181393600223604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 78
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0081753b2660f0920800000000000000
+      internalID: 2958590501191096320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 78
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e6dd8abca48de0800000000000000
+      internalID: -1331749672551258498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 78
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441d3d4d5b7f4510800000000000000
+      internalID: 1535581638614651970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 77
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfba549c1162d3e0800000000000000
+      internalID: -2030453706614718506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679dd7766e1116290800000000000000
+      internalID: -7899012590154688138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e0f47b9b800630800000000000000
+      internalID: 3891263577846243503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 78
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa06ad226d0a7270800000000000000
+      internalID: 8248920382806297331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 77
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa582b61de5b210e0800000000000000
+      internalID: -2300576429740227153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 78
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e46bf696b72750800000000000000
+      internalID: 6280188964970490325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 78
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467003563cea0ba20800000000000000
+      internalID: 3076150699733550948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 78
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a238830d3a921ba80800000000000000
+      internalID: -8452929242047937750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 78
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a767f3bffd3f30800000000000000
+      internalID: 4557079546383804230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b139e2a0136eee0800000000000000
+      internalID: -1232243528238425209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 78
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fd02b409cbca560800000000000000
+      internalID: 7326438021746712350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 78
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea12c8a820ac8c30800000000000000
+      internalID: 4363038235505597165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

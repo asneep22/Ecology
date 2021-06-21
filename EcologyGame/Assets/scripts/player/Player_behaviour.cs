@@ -11,6 +11,7 @@ public class Player_behaviour : MonoBehaviour
     public float speed;
     public bool can_run = true;
 
+
     private Animator anim;
     // Start is called before the first frame update
     void Start()

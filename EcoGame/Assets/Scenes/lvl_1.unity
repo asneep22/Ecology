@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 408933998}
   - component: {fileID: 408933997}
   - component: {fileID: 408933996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: trash (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,6 +279,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006757f1054e57941bd62d4181003397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _trash_tank: {fileID: 0}
+  _trash_tank_beh: {fileID: 0}
+  is_move_to_the_trash_tank: 0
+  _trash_type: 
+  _trash_move_to_tank_speed: 5
+  _trash_count_distance: 0.5
 --- !u!61 &408933997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -984,7 +990,7 @@ GameObject:
   - component: {fileID: 1080021272}
   - component: {fileID: 1080021273}
   - component: {fileID: 1080021274}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: trash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,6 +1133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006757f1054e57941bd62d4181003397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _trash_tank: {fileID: 0}
+  _trash_tank_beh: {fileID: 0}
+  is_move_to_the_trash_tank: 0
+  _trash_type: 
+  _trash_move_to_tank_speed: 5
+  _trash_count_distance: 0.5
 --- !u!1 &1129474163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,8 +1253,9 @@ GameObject:
   - component: {fileID: 1256949081}
   - component: {fileID: 1256949082}
   - component: {fileID: 1256949083}
-  m_Layer: 0
-  m_Name: bush
+  - component: {fileID: 1256949084}
+  m_Layer: 6
+  m_Name: trash_tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,6 +1352,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1256949084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256949080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d2fe1e9cd937249a86fc84605eabee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _put_in_the_tank_distance: 1.5
+  trash_type: 
+  _trash_array: []
+  tank_fill_max: 10
+  tank_fill: 0
 --- !u!1 &1409668918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1727902328077975980, guid: 4e710e1a89b62f9408ea8976c558af6b, type: 3}
@@ -1362,6 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controls: {fileID: 0}
+  _trash_beh: {fileID: 0}
   _SpringJoint2D: {fileID: 0}
   _speed: 5
   _get_trash_distnce: 1.5
@@ -1384,6 +1415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1860719294}
     m_Modifications:
+    - target: {fileID: -5310222394076754527, guid: 4e710e1a89b62f9408ea8976c558af6b, type: 3}
+      propertyPath: activity_with_tank
+      value: 102
+      objectReference: {fileID: 0}
     - target: {fileID: 421165830265792334, guid: 4e710e1a89b62f9408ea8976c558af6b, type: 3}
       propertyPath: m_Constraints
       value: 4

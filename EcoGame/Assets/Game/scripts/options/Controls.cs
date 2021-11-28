@@ -6,6 +6,7 @@ public class Controls : MonoBehaviour
 {
 
     public KeyCode activity;
+    public KeyCode activity_with_tank;
     // Start is called before the first frame update
     void Start()
     {

@@ -7,6 +7,7 @@ using UnityEngine;
 public class player_beh : MonoBehaviour
 {
     [HideInInspector] public Controls _controls;
+    [HideInInspector] public trash_beh _trash_beh;
     private player_movement _player_movement;
 
     [HideInInspector] public SpringJoint2D _SpringJoint2D;

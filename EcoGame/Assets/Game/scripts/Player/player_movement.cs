@@ -5,10 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class player_movement : MonoBehaviour
 {
-    private camera_follow _camera_follow;
+    [HideInInspector] public camera_follow _camera_follow;
+    private player_beh _player_beh;
 
-    [Header("m/s")]
-    [SerializeField] private float _speed = 1f;
+    private float _speed;
+    [SerializeField] private bool move_only_x;
 
     private Rigidbody2D _rb;
 
@@ -16,6 +17,10 @@ public class player_movement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _camera_follow = Camera.main.GetComponent<camera_follow>();
+        _player_beh = GetComponent<player_beh>();
+
+        _speed = _player_beh._speed;
+        //set object which camera follow
         _camera_follow._to_follow_obj = transform;
     }
 
@@ -26,9 +31,10 @@ public class player_movement : MonoBehaviour
 
     private void Movement_logic()
     {
-        float horizontal_movement = Input.GetAxis("Horizontal");
+        float _horizontal_movement = Input.GetAxis("Horizontal");
+        float _vertical_movement = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(horizontal_movement, 0, 0);
+        Vector3 movement = (move_only_x) ? new Vector3(_horizontal_movement, 0, 0) : new Vector3(_horizontal_movement, _vertical_movement, 0);
 
         _rb.AddForce(movement * _speed * _rb.drag);
 

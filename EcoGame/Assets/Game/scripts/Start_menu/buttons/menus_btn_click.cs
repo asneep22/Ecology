@@ -28,4 +28,18 @@ public class menus_btn_click : MonoBehaviour
     {
 
     }
+
+    public void Switch_language()
+    {
+        string _localization = Lean.Localization.LeanLocalization.GetFirstCurrentLanguage();
+
+        if (_localization == "English")
+        {
+            Lean.Localization.LeanLocalization.SetCurrentLanguageAll("Russian");
+
+        } else
+        {
+            Lean.Localization.LeanLocalization.SetCurrentLanguageAll("English");
+        }
+    }
 }

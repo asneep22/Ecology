@@ -28,7 +28,7 @@ public class trash_tank_beh : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(_controls.activity_with_tank))
+        if (Input.GetKeyDown(Controls.activity_with_tank))
         {
 
             Put_trash_in_the_tank();

@@ -7,7 +7,6 @@ public class go_to_level : MonoBehaviour
 {
     [SerializeField] private int _lvl_index;
     [SerializeField] private bool _is_ready;
-    private Controls _controls;
 
 
     private void Update()
@@ -19,9 +18,6 @@ public class go_to_level : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-
-            _controls = collision.gameObject.GetComponent<Controls>();
-
             _is_ready = true;
         }
     }
@@ -34,13 +30,10 @@ public class go_to_level : MonoBehaviour
 
     void To_next_lvl()
     {
-        if (_controls)
-        {
-            if (Input.GetKeyDown(_controls.activity) && _is_ready)
+            if (Input.GetKeyDown(Controls.activity) && _is_ready)
             {
                 SceneManager.LoadScene(_lvl_index);
             }
-        }
 
     }
 }

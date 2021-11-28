@@ -5,8 +5,8 @@ using UnityEngine;
 public class Controls : MonoBehaviour
 {
 
-    public KeyCode activity;
-    public KeyCode activity_with_tank;
+    public static KeyCode activity;
+    public static KeyCode activity_with_tank;
     // Start is called before the first frame update
     void Start()
     {

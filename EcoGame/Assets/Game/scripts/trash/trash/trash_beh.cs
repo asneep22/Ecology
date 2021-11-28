@@ -36,7 +36,6 @@ public class trash_beh : MonoBehaviour
 
         //get scripts
         _player_beh = _player.GetComponent<player_beh>();
-        _controls = _player.GetComponent<Controls>();
 
         //set propereties
         _get_trash_distance = _player_beh._get_trash_distnce;
@@ -47,7 +46,7 @@ public class trash_beh : MonoBehaviour
     {
         if (!is_move_to_the_trash_tank)
         {
-            if (Input.GetKeyDown(_controls.activity))
+            if (Input.GetKeyDown(Controls.activity))
             {
                 Get_trash(_player_beh._SpringJoint2D);
             }

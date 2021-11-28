@@ -8,7 +8,6 @@ public class player_beh : MonoBehaviour
 {
     [HideInInspector] public Controls _controls;
     [HideInInspector] public trash_beh _trash_beh;
-    private player_movement _player_movement;
 
     [HideInInspector] public SpringJoint2D _SpringJoint2D;
 
@@ -18,7 +17,6 @@ public class player_beh : MonoBehaviour
     void Start()
     {
         //set scripts
-        _controls = GetComponent<Controls>();
 
         _SpringJoint2D = GetComponent<SpringJoint2D>();
         _SpringJoint2D.enabled = false;
@@ -26,7 +24,7 @@ public class player_beh : MonoBehaviour
 
     public void Activity()
     {
-        if (Input.GetKeyDown(_controls.activity))
+        if (Input.GetKeyDown(Controls.activity))
         {
 
         }

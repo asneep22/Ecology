@@ -1367,8 +1367,8 @@ MonoBehaviour:
   _put_in_the_tank_distance: 1.5
   trash_type: 
   _trash_array: []
-  tank_fill_max: 10
-  tank_fill: 0
+  _tank_fill_max: 10
+  _tank_fill: 0
 --- !u!1 &1409668918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1727902328077975980, guid: 4e710e1a89b62f9408ea8976c558af6b, type: 3}
@@ -1379,23 +1379,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3123196121260915549, guid: 4e710e1a89b62f9408ea8976c558af6b, type: 3}
   m_PrefabInstance: {fileID: 1711881870}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1409668925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409668918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 333782316e3dfd347a65e5206e3329d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _controls: {fileID: 0}
-  _trash_beh: {fileID: 0}
-  _SpringJoint2D: {fileID: 0}
-  _speed: 5
-  _get_trash_distnce: 1.5
 --- !u!114 &1409668926
 MonoBehaviour:
   m_ObjectHideFlags: 0

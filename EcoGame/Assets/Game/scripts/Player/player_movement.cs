@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class player_movement : MonoBehaviour
@@ -10,6 +11,7 @@ public class player_movement : MonoBehaviour
 
     private float _speed;
     [SerializeField] private bool move_only_x;
+    private Vector2 _moveDir;
 
     private Rigidbody2D _rb;
 
@@ -20,24 +22,22 @@ public class player_movement : MonoBehaviour
         _player_beh = GetComponent<player_beh>();
 
         _speed = _player_beh._speed;
-        //set object which camera follow
         _camera_follow._to_follow_obj = transform;
     }
 
     void FixedUpdate()
     {
-        Movement_logic();
+        Movement_logic(_moveDir);
     }
 
-    private void Movement_logic()
+    public void OnMove(InputAction.CallbackContext context)
     {
-        float _horizontal_movement = Input.GetAxis("Horizontal");
-        float _vertical_movement = Input.GetAxis("Vertical");
+        _moveDir = context.ReadValue<Vector2>();
+    }
 
-        Vector3 movement = (move_only_x) ? new Vector3(_horizontal_movement, 0, 0) : new Vector3(_horizontal_movement, _vertical_movement, 0);
-
+    private void Movement_logic(Vector2 movement)
+    {
         _rb.AddForce(movement * _speed * _rb.drag);
-
-        
+      
     }
 }

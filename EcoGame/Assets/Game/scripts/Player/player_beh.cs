@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 //Player must be first object in the parent
@@ -14,6 +15,7 @@ public class player_beh : MonoBehaviour
     [Header("propereties")]
     public float _speed = 5;
     public float _get_trash_distnce = 1.5f;
+    public float show_hint_distance = 1.5f;
     void Start()
     {
         //set scripts
@@ -22,11 +24,8 @@ public class player_beh : MonoBehaviour
         _SpringJoint2D.enabled = false;
     }
 
-    public void Activity()
+    public void onActivity(InputAction.CallbackContext context)
     {
-        if (Input.GetKeyDown(Controls.activity))
-        {
-
-        }
+        Debug.Log("activity");
     }
 }

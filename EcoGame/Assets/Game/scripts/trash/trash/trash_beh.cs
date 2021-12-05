@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class trash_beh : MonoBehaviour
 {
@@ -18,6 +20,7 @@ public class trash_beh : MonoBehaviour
     [HideInInspector] public Transform _trash_tank;
     [HideInInspector] public trash_tank_beh _trash_tank_beh;
     [HideInInspector] public bool is_move_to_the_trash_tank;
+    [HideInInspector] public bool is_move_to_the_trash_car;
 
     [Header("Trash tank propereties")]
     [SerializeField] private string _trash_type;
@@ -31,8 +34,7 @@ public class trash_beh : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
 
         //get objects
-        _parent = transform.root;
-        _player = _parent.GetChild(0);
+        _player = scene_manager.player.transform;
 
         //get scripts
         _player_beh = _player.GetComponent<player_beh>();
@@ -41,18 +43,28 @@ public class trash_beh : MonoBehaviour
         _get_trash_distance = _player_beh._get_trash_distnce;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        if (!is_move_to_the_trash_tank)
+        if (is_move_to_the_trash_tank)
         {
-            if (Input.GetKeyDown(Controls.activity))
+
+            Move_trash_to_the_tank(_trash_tank, _trash_tank_beh);
+
+        }
+    }
+
+    public void OnActivity(InputAction.CallbackContext context)
+    {
+
+        float distance = Vector2.Distance(_player.position, transform.position);
+
+        if (distance <= _get_trash_distance)
+        {
+            if (!is_move_to_the_trash_tank)
             {
                 Get_trash(_player_beh._SpringJoint2D);
             }
-        } else
-        {
-            Move_trash_to_the_tank(_trash_tank, _trash_tank_beh);
         }
     }
 
@@ -60,17 +72,12 @@ public class trash_beh : MonoBehaviour
     {
         if (!_is_get)
         {
-
-            float distance = Vector2.Distance(_player.position, transform.position);
-
-            if (distance <= _get_trash_distance)
-            {
-                _SpringJoint2D.connectedBody = _rb;
-                _SpringJoint2D.enabled = true;
-                _player_beh._trash_beh = this;
-                _is_get = true;
-            }
-        } else
+            _SpringJoint2D.connectedBody = _rb;
+            _SpringJoint2D.enabled = true;
+            _player_beh._trash_beh = this;
+            _is_get = true;
+        }
+        else
         {
             Put_trash(_SpringJoint2D);
         }
@@ -93,14 +100,13 @@ public class trash_beh : MonoBehaviour
             if (distance >= _trash_count_distance)
             {
 
-                transform.position = Vector2.Lerp(transform.position, _trash_tank.position, Time.deltaTime * _trash_move_to_tank_speed);
+                transform.position = Vector3.Slerp(transform.position, _trash_tank.position, Time.deltaTime * _trash_move_to_tank_speed);
 
             }
             else
             {
                 if (_trash_type == _trash_tank_beh_script.trash_type)
                 {
-
                     //give token
 
                 }
@@ -120,5 +126,8 @@ public class trash_beh : MonoBehaviour
             _trash_tank_beh_script.Tank_is_full_message();
 
         }
+
+
     }
+
 }

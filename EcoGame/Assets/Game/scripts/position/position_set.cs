@@ -5,19 +5,12 @@ using UnityEngine;
 public class position_set : MonoBehaviour
 {
 
-    //script for all non_static objects
-
-    private Transform parent;
-    void Start()
-    {
-        //set parent
-        parent = transform.parent;
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, parent.position.z - transform.localPosition.y);
+        if (transform.parent != null) 
+        {
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.parent.root.position.z - transform.localPosition.y);
+        }
     }
 }

@@ -16,7 +16,6 @@ public class go_to_level : MonoBehaviour
         if (collision.TryGetComponent(out player_beh player_behaviour))
         {
             scene_manager.player = collision.gameObject;
-
             _player_beh = player_behaviour;
             _is_ready = true;
         }
@@ -37,6 +36,11 @@ public class go_to_level : MonoBehaviour
 
     private void Go_to_lvl(int lvl)
     {
+        Transform player = scene_manager.player.transform;
+
+        player.parent = null;
+        DontDestroyOnLoad(player);
+
         SceneManager.LoadScene(lvl);
     }
 }

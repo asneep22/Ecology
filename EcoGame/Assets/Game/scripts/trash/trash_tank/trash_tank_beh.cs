@@ -18,6 +18,7 @@ public class trash_tank_beh : MonoBehaviour
     public List<Transform> _trash_array = new List<Transform>();
     public int _tank_fill_max;
     public int _tank_fill;
+    [HideInInspector] public bool start_pass_trash;
 
     void Start()
     {
@@ -34,14 +35,8 @@ public class trash_tank_beh : MonoBehaviour
 
     void Put_trash_in_the_tank(Transform _car = null)
     {
-        float _car_distance = 10000;
         float _distance = Vector2.Distance(transform.position, _player.position);
 
-        if (_car != null)
-        {
-            _car_distance = Vector2.Distance(_car.position, transform.position);
-            Debug.Log(_car_distance);
-        }
 
         if (_distance <= _put_in_the_tank_distance)
         {
@@ -65,11 +60,6 @@ public class trash_tank_beh : MonoBehaviour
             }
 
         } 
-        
-        if (_car_distance <= 5)
-        {
-            Move_trash_to_the_car(_car);
-        }
     }
 
     public void Add_trash_In_the_tank(Transform _trash)
@@ -80,35 +70,41 @@ public class trash_tank_beh : MonoBehaviour
         _trash.gameObject.SetActive(false);
     }
 
+
+    public void Remove_trash_In_the_tank(Transform _trash)
+    {
+        _trash_array.Remove(_trash);
+        _tank_fill--;
+    }
     public void Tank_is_full_message()
     {
         Debug.Log("Tank is full");
     }
 
-    private void Move_trash_to_the_car(Transform _car = null)
+    public IEnumerator Start_pass_trash_to_the_car(Transform car = null)
     {
-        Debug.Log("Yes");
-        if (transform.childCount > 0 && _car != null)
+        car = _car;
+        if (car != null)
         {
-            Debug.Log("YesX2");
 
-                List<Transform> _trash_array = transform.GetComponentsInChildren<Transform>().ToList();
-
-            foreach (Transform item in _trash_array)
+            while (_trash_array.Count != 0)
             {
+                Transform item = _trash_array[0];
 
-                float distance = Vector2.Distance(_car.position, item.position);
+                trash_beh _trash_beh = item.GetComponent<trash_beh>();
 
-                if (distance >= 1.5f)
-                {
-                    item.gameObject.SetActive(true);
-                    item.position = Vector3.Slerp(transform.position, _car.position, Time.deltaTime * _put_in_the_tank_distance);
-                }
-                else
-                {
-                    Destroy(item.gameObject);
-                }
+                item.gameObject.SetActive(true);
+                item.parent = transform.parent.parent;
+                _trash_beh.is_move_to_the_trash_tank = false;
+                _trash_beh.is_move_to_the_trash_car = true;
+                _trash_beh.car = car;
+                _trash_beh._trash_tank_beh = this;
+
+
+                yield return new WaitForSeconds(0.1f); 
             }
+
+            start_pass_trash = false;
         }
 
     }

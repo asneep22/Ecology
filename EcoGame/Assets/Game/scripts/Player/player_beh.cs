@@ -9,6 +9,7 @@ public class player_beh : MonoBehaviour
 {
     [HideInInspector] public Controls _controls;
     [HideInInspector] public trash_beh _trash_beh;
+    [HideInInspector] public money Money;
 
     [HideInInspector] public SpringJoint2D _SpringJoint2D;
 
@@ -19,6 +20,7 @@ public class player_beh : MonoBehaviour
     void Start()
     {
         //set scripts
+        Money = GetComponent<money>();
 
         _SpringJoint2D = GetComponent<SpringJoint2D>();
         _SpringJoint2D.enabled = false;

@@ -10,7 +10,7 @@ public class position_set : MonoBehaviour
     {
         if (transform.parent != null) 
         {
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.parent.root.position.z - transform.localPosition.y);
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.y);
         }
     }
 }

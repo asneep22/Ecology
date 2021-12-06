@@ -8,10 +8,8 @@ public class trash_beh : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
-    private Controls _controls;
     private player_beh _player_beh;
 
-    private Transform _parent;
     private Transform _player;
 
     private float _get_trash_distance;
@@ -20,6 +18,8 @@ public class trash_beh : MonoBehaviour
     [HideInInspector] public Transform _trash_tank;
     [HideInInspector] public trash_tank_beh _trash_tank_beh;
     [HideInInspector] public bool is_move_to_the_trash_tank;
+
+    [HideInInspector] public Transform car;
     [HideInInspector] public bool is_move_to_the_trash_car;
 
     [Header("Trash tank propereties")]
@@ -50,6 +50,12 @@ public class trash_beh : MonoBehaviour
         {
 
             Move_trash_to_the_tank(_trash_tank, _trash_tank_beh);
+
+        }
+        else if (is_move_to_the_trash_car)
+        {
+
+            Move_trash_to_the_car(_trash_tank_beh, car);
 
         }
     }
@@ -105,22 +111,12 @@ public class trash_beh : MonoBehaviour
             }
             else
             {
-                if (_trash_type == _trash_tank_beh_script.trash_type)
-                {
-                    //give token
-
-                }
-                else
-                {
-
-                    //not give token
-
-                }
 
                 _trash_tank_beh_script.Add_trash_In_the_tank(transform);
 
             }
-        } else
+        }
+        else
         {
 
             _trash_tank_beh_script.Tank_is_full_message();
@@ -130,4 +126,46 @@ public class trash_beh : MonoBehaviour
 
     }
 
+    public void Move_trash_to_the_car(trash_tank_beh _tank_trash_beh, Transform _car = null)
+    {
+        if (car != null)
+        {
+            float distance = Vector2.Distance(car.position, transform.position);
+
+            if (_trash_tank_beh._tank_fill < _trash_tank_beh._tank_fill_max)
+            {
+
+                if (distance >= _trash_count_distance)
+                {
+
+                    transform.position = Vector3.Lerp(transform.position, _car.position, Time.deltaTime * _trash_move_to_tank_speed);
+
+                }
+                else
+                {
+                    if (_trash_type == _tank_trash_beh.trash_type)
+                    {
+
+                        _player_beh.Money.Add(1);
+
+                    }
+                    else
+                    {
+
+                        //not give token
+
+                    }
+
+                    _tank_trash_beh.Remove_trash_In_the_tank(transform);
+                    Destroy(gameObject);
+
+                }
+
+            }
+        } else
+        {
+            throw new NullReferenceException("car is null");
+        }
+
+    }
 }

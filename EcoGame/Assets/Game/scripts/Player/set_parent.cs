@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class set_parent : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private GameObject player;
+
+    //script must be applied for the root level paarent//
+
     void Start()
     {
-        scene_manager.player.transform.position = Vector3.zero;
-        Camera.main.GetComponent<camera_follow>()._to_follow_obj = scene_manager.player.transform;
-    }
+        player = scene_manager.player;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        player.transform.position = Vector3.zero;
+        player.transform.parent = transform;
+        Camera.main.GetComponent<camera_follow>()._to_follow_obj = player.transform;
     }
 }

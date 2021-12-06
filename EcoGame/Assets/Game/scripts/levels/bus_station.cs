@@ -14,6 +14,7 @@ public class bus_station : MonoBehaviour
     }
 
     [SerializeField] private Transform _bus;
+    [SerializeField] private BoxCollider2D to_lvl_trigger;
     private Vector3 start_bus_pos;
 
     private Rigidbody2D _bus_rb;
@@ -80,6 +81,7 @@ public class bus_station : MonoBehaviour
             else
             {
                 _bus_state = Bus_states.Bus_arrived;
+                to_lvl_trigger.enabled = true;
             }
 
         }
@@ -92,7 +94,7 @@ public class bus_station : MonoBehaviour
         {
 
             _bus_state = Bus_states.Bus_left;
-
+            to_lvl_trigger.enabled = false;
 
         }
         else if (_bus_state == Bus_states.Bus_left)

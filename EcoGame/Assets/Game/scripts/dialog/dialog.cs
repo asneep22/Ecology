@@ -19,7 +19,7 @@ public class dialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _distance = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
+        _distance = Vector2.Distance(transform.position, scene_manager.player.transform.position);
 
         if (_distance < start_dialog_dist && !is_started)
         {
@@ -42,7 +42,7 @@ public class dialog : MonoBehaviour
             if (_distance < start_dialog_dist)
             {
 
-                StartCoroutine(Next_dialog(transform, GameObject.FindGameObjectWithTag("Player").transform));
+                StartCoroutine(Next_dialog(transform, scene_manager.player.transform));
                 is_started = true;
 
             }

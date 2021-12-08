@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4462127719373806773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.16, y: -7.2826, z: 0}
+  m_LocalPosition: {x: 46.931168, y: -10.075215, z: 50}
   m_LocalScale: {x: 1, y: 1.9516, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -130,6 +130,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 425ecfa39ad7e244ea17ca4b330cd9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lose: {fileID: 0}
+  _trash:
+  - {fileID: 6048994829645269644, guid: 17709c2fd61e06346a8de460d2a228f3, type: 3}
+  - {fileID: 744971521388904336, guid: 1290b84598e6d884cba67d3b031eb595, type: 3}
+  - {fileID: 7081069557420603393, guid: 2b047afaebf93a645892d6178608f6e8, type: 3}
+  _drop_trash_chance: 0.15
+  _try_drop_trash_time: 2
+  _drop_trash_force: 5
+  drop_trash_parent: {fileID: 0}
   move_target: {fileID: 0}
   _min_speed_m_per_sec: 1
   _max_speed_m_per_sec: 3

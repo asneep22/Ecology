@@ -5,9 +5,11 @@ using System.Linq;
 
 public class Instantiate_human : MonoBehaviour
 {
+
     [Header("Insantiate points")]
     [SerializeField] private List<Human> _people = new List<Human>();
     [SerializeField] private Transform _human_parent;
+    [SerializeField] private Transform _drop_trash_parent;
 
     [Header("Insantiate points")]
     [SerializeField] private Transform _spawn_points_1;
@@ -48,12 +50,15 @@ public class Instantiate_human : MonoBehaviour
 
             Vector3 spawn_pos = new Vector3(_spawn_point.position.x, _spawn_point.position.y + Random.Range(y_devine_min_per_meters, y_devine_max_per_meters), _spawn_point.position.z);
             Human _human = _people[Random.Range(0, _people.Count)];
+
+            _human.transform.position = spawn_pos;
             _human.move_target = _move_target;
+            _human.drop_trash_parent = _drop_trash_parent;
+
             _delay_sec = Random.Range(_delay_sec_min, _delay_sec_max);
 
             //Instantite human
-            Transform _human_go = Instantiate(_human.transform, _human_parent);
-            _human_go.position = spawn_pos;
+            Instantiate(_human.transform, _human_parent);
 
             yield return new WaitForSeconds(_delay_sec);
         }

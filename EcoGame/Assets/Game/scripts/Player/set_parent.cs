@@ -7,6 +7,7 @@ public class set_parent : MonoBehaviour
 {
 
     private GameObject player;
+    [SerializeField] private Transform _player_spawn_pos;
 
     //script must be applied for the root level paarent//
 
@@ -14,7 +15,7 @@ public class set_parent : MonoBehaviour
     {
         player = scene_manager.player;
 
-        player.transform.position = Vector3.zero;
+        player.transform.position = _player_spawn_pos.position;
         player.transform.parent = transform;
         Camera.main.GetComponent<camera_follow>()._to_follow_obj = player.transform;
     }

@@ -36,12 +36,12 @@ public class Human : MonoBehaviour
 
     private void Move()
     {
-        Vector2 _movement_vector = (move_target.position - transform.position).normalized;
+        Vector2 _movement_vector = new Vector2((move_target.position.x - transform.position.x),0).normalized;
         _rb.AddForce(_movement_vector * _speed * _rb.drag);
 
-        float target_distance = Vector2.Distance(transform.position, move_target.position);
+        float _distance = Vector2.Distance(move_target.position, transform.position);
 
-        if (target_distance <= 0.5f)
+        if (_distance <= 5)
         {
             Destroy(gameObject);
         }
@@ -53,6 +53,7 @@ public class Human : MonoBehaviour
 
         if (_chance < _drop_trash_chance)
         {
+
             Transform choosed_droping_trash = _trash[Random.Range(0, _trash.Count)];
             Transform dropting_trash_go = Instantiate(choosed_droping_trash, drop_trash_parent);
             dropting_trash_go.transform.position = transform.position;
@@ -61,6 +62,7 @@ public class Human : MonoBehaviour
             dropting_trash_go.GetComponent<Rigidbody2D>().AddForce(_drop_trash_vector * _drop_trash_force, ForceMode2D.Impulse);
 
             trash_dropped = true;
+
         }
     }
 

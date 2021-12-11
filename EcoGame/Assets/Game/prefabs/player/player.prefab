@@ -186,8 +186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controls: {fileID: 0}
   _trash_beh: {fileID: 0}
+  Money: {fileID: 0}
   _SpringJoint2D: {fileID: 0}
-  _speed: 5
+  _speed: 8
   _get_trash_distnce: 1.5
   show_hint_distance: 1.5
 --- !u!114 &-6687565042568420886

@@ -6,9 +6,9 @@ using UnityEngine.InputSystem;
 public class trash_car : MonoBehaviour
 {
     private GameObject _player;
+    [SerializeField] private float _activity_distance = 5;
 
     public List<trash_tank_beh> trash_tanks = new List<trash_tank_beh>();
-    [SerializeField] private float _pass_distance = 3f;
 
     private void Start()
     {
@@ -25,9 +25,9 @@ public class trash_car : MonoBehaviour
 
     private void Try_pass_trash()
     {
-        float distance = Vector2.Distance(transform.position, _player.transform.position);
+        float _player_distance = Vector2.Distance(_player.transform.position, transform.position);
 
-        if (distance < _pass_distance && trash_tanks.Count > 0)
+        if (trash_tanks.Count > 0 && _player_distance <= _activity_distance)
         {
 
             Debug.Log($"there is {trash_tanks.Count} trash tanks");
@@ -37,7 +37,8 @@ public class trash_car : MonoBehaviour
             {
                 if (!item.start_pass_trash)
                 {
-                    item.StartCoroutine(item.Start_pass_trash_to_the_car());
+                    item.StartCoroutine(item.Start_pass_trash_to_the_car(transform));
+                    item.start_pass_trash = true;
                 }
 
             }

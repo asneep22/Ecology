@@ -58,7 +58,7 @@ public class Train_station : MonoBehaviour
         {
             float create_time = Random.Range(_min_time_create, _max_time_create);
 
-            if (!_is_created)
+            if (!_is_created && _start_point.gameObject.activeSelf == true)
             {
                 _train = Instantiate(_trains[Random.Range(0, _trains.Count)], transform);
                 _train_rb = _train.GetComponent<Rigidbody2D>();

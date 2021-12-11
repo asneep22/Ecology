@@ -32,7 +32,7 @@ public class bus_station : MonoBehaviour
         _bus_rb = _bus.GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         float _distance = Vector2.Distance(transform.position, _player.transform.position);
 

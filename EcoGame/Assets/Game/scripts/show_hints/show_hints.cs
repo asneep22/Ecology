@@ -16,22 +16,29 @@ public class show_hints : MonoBehaviour
 
     private void Start()
     {
-        _player = scene_manager.player;
-        _player_beh = _player.GetComponent<player_beh>();
-        show_hint_distance = _player_beh.show_hint_distance;
+        if (scene_manager.player)
+        {
+            _player = scene_manager.player;
+            _player_beh = _player.GetComponent<player_beh>();
+            show_hint_distance = _player_beh.show_hint_distance;
+        }
     }
 
     private void Update()
     {
-        float distance = Vector2.Distance(transform.position, _player.transform.position);
+        if (scene_manager.player != null)
+        {
 
-        if (distance < show_hint_distance)
-        {
-            Show(_hint);
-        }
-        else
-        {
-            Unshow();
+            float distance = Vector2.Distance(transform.position, _player.transform.position);
+
+            if (distance < show_hint_distance)
+            {
+                TryShow(_hint);
+            }
+            else
+            {
+                Unshow();
+            }
         }
     }
 
@@ -40,7 +47,7 @@ public class show_hints : MonoBehaviour
         Unshow();
     }
 
-    public void Show(GameObject hint)
+    public void TryShow(GameObject hint)
     {
         if (!hint_go)
         {

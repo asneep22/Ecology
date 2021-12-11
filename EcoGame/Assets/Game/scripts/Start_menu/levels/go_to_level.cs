@@ -8,7 +8,6 @@ public class go_to_level : MonoBehaviour
 {
     [SerializeField] private int _lvl_index;
     [SerializeField] private bool _is_ready;
-    private player_beh _player_beh;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,7 +15,6 @@ public class go_to_level : MonoBehaviour
         if (collision.TryGetComponent(out player_beh player_behaviour))
         {
             scene_manager.player = collision.gameObject;
-            _player_beh = player_behaviour;
             _is_ready = true;
         }
     }

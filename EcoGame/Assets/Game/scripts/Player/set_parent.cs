@@ -13,10 +13,14 @@ public class set_parent : MonoBehaviour
 
     void Start()
     {
-        player = scene_manager.player;
+        if (scene_manager.player)
+        {
 
-        player.transform.position = _player_spawn_pos.position;
-        player.transform.parent = transform;
-        Camera.main.GetComponent<camera_follow>()._to_follow_obj = player.transform;
+            player = scene_manager.player;
+
+            player.transform.position = _player_spawn_pos.position;
+            player.transform.parent = transform;
+            Camera.main.GetComponent<camera_follow>()._to_follow_obj = player.transform;
+        }
     }
 }

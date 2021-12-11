@@ -11,20 +11,22 @@ public class trash_tank_beh : MonoBehaviour
     private Transform _player;
 
     [Header("Tank Propereties")]
-    [SerializeField] private Transform _car;
     public float _put_in_the_tank_distance = 1.5f;
     public string trash_type;
     [Space]
     public List<Transform> _trash_array = new List<Transform>();
     public int _tank_fill_max;
     public int _tank_fill;
-    [HideInInspector] public bool start_pass_trash;
+    public bool start_pass_trash;
 
     void Start()
     {
-        _player = scene_manager.player.transform;
+        if (scene_manager.player)
+        {
+            _player = scene_manager.player.transform;
 
-        _player_beh = _player.GetComponent<player_beh>();
+            _player_beh = _player.GetComponent<player_beh>();
+        }
     }
 
 
@@ -33,7 +35,7 @@ public class trash_tank_beh : MonoBehaviour
         Put_trash_in_the_tank();
     }
 
-    void Put_trash_in_the_tank(Transform _car = null)
+    void Put_trash_in_the_tank()
     {
         float _distance = Vector2.Distance(transform.position, _player.position);
 
@@ -81,32 +83,26 @@ public class trash_tank_beh : MonoBehaviour
         Debug.Log("Tank is full");
     }
 
-    public IEnumerator Start_pass_trash_to_the_car(Transform car = null)
+    public IEnumerator Start_pass_trash_to_the_car(Transform car)
     {
-        car = _car;
-        if (car != null)
+        while (_trash_array.Count > 0)
         {
+            Transform item = _trash_array[0];
 
-            while (_trash_array.Count != 0)
-            {
-                Transform item = _trash_array[0];
+            trash_beh _trash_beh = item.GetComponent<trash_beh>();
 
-                trash_beh _trash_beh = item.GetComponent<trash_beh>();
+            item.gameObject.SetActive(true);
+            item.parent = transform.parent.parent;
+            _trash_beh.is_move_to_the_trash_tank = false;
+            _trash_beh.is_move_to_the_trash_car = true;
+            _trash_beh.car = car;
+            _trash_beh._trash_tank_beh = this;
+            _trash_array.RemoveAt(0);
 
-                item.gameObject.SetActive(true);
-                item.parent = transform.parent.parent;
-                _trash_beh.is_move_to_the_trash_tank = false;
-                _trash_beh.is_move_to_the_trash_car = true;
-                _trash_beh.car = car;
-                _trash_beh._trash_tank_beh = this;
-
-
-                yield return new WaitForSeconds(0.1f); 
-            }
-
-            start_pass_trash = false;
+            yield return new WaitForSeconds(0.05f);
         }
 
+        start_pass_trash = false;
     }
 
 

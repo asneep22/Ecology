@@ -8,19 +8,19 @@ public class Instantiate_human : MonoBehaviour
 
     [Header("Insantiate points")]
     [SerializeField] private List<Human> _people = new List<Human>();
-    [SerializeField] private Transform _human_parent;
     [SerializeField] private Transform _drop_trash_parent;
 
     [Header("Insantiate points")]
     [SerializeField] private Transform _spawn_points_1;
     [SerializeField] private Transform _spawn_points_2;
-    [SerializeField] private float y_devine_min_per_meters = 0;
-    [SerializeField] private float y_devine_max_per_meters = 1f;
+    [SerializeField] private float devine_min_per_meters = 0;
+    [SerializeField] private float devine_max_per_meters = 1f;
 
     [Header("Propereties")]
     [SerializeField] private float _start_delay_sec = 3;
     [SerializeField] private float _delay_sec_min = 3;
     [SerializeField] private float _delay_sec_max = 8;
+    [SerializeField] private bool _freeze_x_pos = true;
 
 
     private void Start()
@@ -48,17 +48,18 @@ public class Instantiate_human : MonoBehaviour
                 _move_target = _spawn_points_1;
             }
 
-            Vector3 spawn_pos = new Vector3(_spawn_point.position.x, _spawn_point.position.y + Random.Range(y_devine_min_per_meters, y_devine_max_per_meters), _spawn_point.position.z);
+            Vector3 spawn_pos = new Vector3(_spawn_point.localPosition.x + Random.Range(devine_min_per_meters, devine_max_per_meters), _spawn_point.localPosition.y + Random.Range(devine_min_per_meters, devine_max_per_meters), _spawn_point.position.z);
             Human _human = _people[Random.Range(0, _people.Count)];
 
             _human.transform.position = spawn_pos;
             _human.move_target = _move_target;
             _human.drop_trash_parent = _drop_trash_parent;
+            _human.freeze_x_pos = _freeze_x_pos;
 
             _delay_sec = Random.Range(_delay_sec_min, _delay_sec_max);
 
             //Instantite human
-            Instantiate(_human.transform, _human_parent);
+            Instantiate(_human.transform, transform);
 
             yield return new WaitForSeconds(_delay_sec);
         }

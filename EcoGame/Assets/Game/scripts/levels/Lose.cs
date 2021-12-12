@@ -17,7 +17,11 @@ public class Lose : MonoBehaviour
     public void TryLose()
     {
         if (scene_manager.player == null || transform.childCount >= _trash_count_lose) {
-            Debug.Log("YouLose");
+            Time.timeScale = 0;
+
+            // choose LoseMenu
+
+
         }
     }
 }

@@ -70,6 +70,7 @@ public class trash_tank_beh : MonoBehaviour
         _trash_array.Add(_trash);
         _tank_fill++;
         _trash.gameObject.SetActive(false);
+        _player_beh.catched_trash++;
     }
 
 

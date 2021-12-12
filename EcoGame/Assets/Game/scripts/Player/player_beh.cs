@@ -17,6 +17,7 @@ public class player_beh : MonoBehaviour
     public float _speed = 5;
     public float _get_trash_distnce = 1.5f;
     public float show_hint_distance = 1.5f;
+    public float catched_trash = 0;
     void Start()
     {
         //set scripts

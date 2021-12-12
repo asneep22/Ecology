@@ -16,6 +16,7 @@ public class Human : MonoBehaviour
     [HideInInspector]public Transform drop_trash_parent;
 
     [HideInInspector] public Transform move_target;
+    [HideInInspector] public bool freeze_x_pos;
 
     [SerializeField] private float _min_speed_m_per_sec;
     [SerializeField] private float _max_speed_m_per_sec;
@@ -23,6 +24,8 @@ public class Human : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+
+        _rb.constraints = (freeze_x_pos) ? RigidbodyConstraints2D.FreezePositionX : RigidbodyConstraints2D.FreezePositionY;
 
         _speed = Random.Range(_min_speed_m_per_sec, _max_speed_m_per_sec);
 
@@ -36,7 +39,7 @@ public class Human : MonoBehaviour
 
     private void Move()
     {
-        Vector2 _movement_vector = new Vector2((move_target.position.x - transform.position.x),0).normalized;
+        Vector2 _movement_vector = (move_target.position - transform.position).normalized;
         _rb.AddForce(_movement_vector * _speed * _rb.drag);
 
         float _distance = Vector2.Distance(move_target.position, transform.position);

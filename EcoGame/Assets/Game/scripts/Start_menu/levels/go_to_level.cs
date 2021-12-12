@@ -32,7 +32,7 @@ public class go_to_level : MonoBehaviour
         }
     }
 
-    private void Go_to_lvl(int lvl)
+    public void Go_to_lvl(int lvl)
     {
         Transform player = scene_manager.player.transform;
 

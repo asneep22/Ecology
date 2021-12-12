@@ -48,12 +48,12 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.88836, y: -0.62036765}
-  - {x: -0.8818121, y: -0.7211008}
-  - {x: -0.88652325, y: -0.5523266}
+  - {x: -0.8818121, y: -1.0980616}
+  - {x: -0.88652325, y: -0.2398037}
   - {x: -0.87825584, y: -0.65999126}
   - {x: 0.34694767, y: -0.6637578}
-  - {x: 0.351676, y: -0.5827121}
-  - {x: 0.35162735, y: -0.7155137}
+  - {x: 0.351676, y: -0.17209232}
+  - {x: 0.35599518, y: -1.1261339}
   - {x: 0.358778, y: -0.6153236}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -74,7 +74,6 @@ GameObject:
   - component: {fileID: 4251650655573600328}
   - component: {fileID: -4802885203420924952}
   - component: {fileID: 7503911964234269004}
-  - component: {fileID: 2465052238600436464}
   m_Layer: 6
   m_Name: trash_tank_organic
   m_TagString: Untagged
@@ -160,12 +159,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d2fe1e9cd937249a86fc84605eabee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _car: {fileID: 0}
   _put_in_the_tank_distance: 1.5
   trash_type: organic
   _trash_array: []
   _tank_fill_max: 10
   _tank_fill: 0
+  start_pass_trash: 0
 --- !u!114 &4251650655573600324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,29 +269,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ee4f76be354684d80001271a71df14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &2465052238600436464
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4251650655573600322}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.029907595}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.08283078}
-  m_EdgeRadius: 0

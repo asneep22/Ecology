@@ -15,6 +15,10 @@ public class RandomLevel : MonoBehaviour
 
     public void OnActivity(InputAction.CallbackContext _context)
     {
+        float distance = Vector2.Distance(scene_manager.player.transform.position, transform.position);
+        if (distance < 5f)
+        {
             _go_to_lvl.Go_to_lvl(Random.Range(7, 10));
+        }
     }
 }

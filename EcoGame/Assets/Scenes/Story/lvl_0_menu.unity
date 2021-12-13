@@ -891,6 +891,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 47df2321-119d-4205-8cc7-ea563c940549
     m_ActionName: active_with_obj/pass_trash[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 922a7a34-d553-4236-bae1-7a7edb1cc07b
+    m_ActionName: menu/New action[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: active_with_obj
@@ -2634,10 +2638,10 @@ MonoBehaviour:
   _to_follow_obj: {fileID: 0}
   _move_to: {x: 0, y: 0, z: 0}
   _speed: 5
-  _clamp_min_x: 0
-  _clamp_max_x: 0
-  _clamp_min_y: 0
-  _clamp_max_y: 0
+  _clamp_min_x: -100
+  _clamp_max_x: 100
+  _clamp_min_y: -100
+  _clamp_max_y: 100
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3707,19 +3711,7 @@ MonoBehaviour:
       m_Calls: []
   m_OnSelect:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 920833899}
-        m_TargetAssemblyTypeName: Controls_set, Assembly-CSharp
-        m_MethodName: Stop_time
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_OnDeselect:
     m_PersistentCalls:
       m_Calls: []
@@ -5215,6 +5207,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 47df2321-119d-4205-8cc7-ea563c940549
     m_ActionName: active_with_obj/pass_trash[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 922a7a34-d553-4236-bae1-7a7edb1cc07b
+    m_ActionName: menu/New action[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: active_with_obj
@@ -5232,7 +5228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8d13e520dcbb6548a1a6a1e6e4d3133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lvl_index: 7
+  _lvl_index: 0
   _is_ready: 0
 --- !u!1 &1358577756
 GameObject:

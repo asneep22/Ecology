@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 //Player must be first object in the parent
 public class player_beh : MonoBehaviour
 {
-    [HideInInspector] public Controls _controls;
     [HideInInspector] public trash_beh _trash_beh;
     [HideInInspector] public money Money;
 

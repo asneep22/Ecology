@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class menus_btn_click : MonoBehaviour
 {
@@ -25,9 +26,26 @@ public class menus_btn_click : MonoBehaviour
         Application.Quit();
     }
 
-    public void Play()
+    public void Continue()
     {
 
+        Menu _menu = transform.parent.parent.GetComponent<Menu>();
+
+        Time.timeScale = 1;
+        Destroy(_menu._menu_obj);
+        _menu.is_called = false;
+
+    }
+
+    public void ToMenu()
+    {
+        Menu _menu = transform.parent.parent.GetComponent<Menu>();
+
+        Time.timeScale = 1;
+        Destroy(_menu._menu_obj);
+        _menu.is_called = false;
+
+        SceneManager.LoadScene(0);
     }
 
     public void Switch_language()

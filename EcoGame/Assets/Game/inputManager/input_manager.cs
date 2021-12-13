@@ -212,6 +212,33 @@ public class @Input_manager : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""menu"",
+            ""id"": ""a3cd48b3-180e-448f-b9ea-93ad19417e13"",
+            ""actions"": [
+                {
+                    ""name"": ""Menu"",
+                    ""type"": ""Button"",
+                    ""id"": ""922a7a34-d553-4236-bae1-7a7edb1cc07b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""3c696803-10f8-4391-87d5-447c0ac23816"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""scheme_keyboard_and_mouse"",
+                    ""action"": ""Menu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -243,6 +270,9 @@ public class @Input_manager : IInputActionCollection, IDisposable
         m_active_with_obj = asset.FindActionMap("active_with_obj", throwIfNotFound: true);
         m_active_with_obj_activity = m_active_with_obj.FindAction("activity", throwIfNotFound: true);
         m_active_with_obj_pass_trash = m_active_with_obj.FindAction("pass_trash", throwIfNotFound: true);
+        // menu
+        m_menu = asset.FindActionMap("menu", throwIfNotFound: true);
+        m_menu_Menu = m_menu.FindAction("Menu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -395,6 +425,39 @@ public class @Input_manager : IInputActionCollection, IDisposable
         }
     }
     public Active_with_objActions @active_with_obj => new Active_with_objActions(this);
+
+    // menu
+    private readonly InputActionMap m_menu;
+    private IMenuActions m_MenuActionsCallbackInterface;
+    private readonly InputAction m_menu_Menu;
+    public struct MenuActions
+    {
+        private @Input_manager m_Wrapper;
+        public MenuActions(@Input_manager wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Menu => m_Wrapper.m_menu_Menu;
+        public InputActionMap Get() { return m_Wrapper.m_menu; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MenuActions set) { return set.Get(); }
+        public void SetCallbacks(IMenuActions instance)
+        {
+            if (m_Wrapper.m_MenuActionsCallbackInterface != null)
+            {
+                @Menu.started -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenu;
+                @Menu.performed -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenu;
+                @Menu.canceled -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenu;
+            }
+            m_Wrapper.m_MenuActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Menu.started += instance.OnMenu;
+                @Menu.performed += instance.OnMenu;
+                @Menu.canceled += instance.OnMenu;
+            }
+        }
+    }
+    public MenuActions @menu => new MenuActions(this);
     private int m_scheme_keyboard_and_mouseSchemeIndex = -1;
     public InputControlScheme scheme_keyboard_and_mouseScheme
     {
@@ -416,5 +479,9 @@ public class @Input_manager : IInputActionCollection, IDisposable
     {
         void OnActivity(InputAction.CallbackContext context);
         void OnPass_trash(InputAction.CallbackContext context);
+    }
+    public interface IMenuActions
+    {
+        void OnMenu(InputAction.CallbackContext context);
     }
 }

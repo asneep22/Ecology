@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class camera_follow : MonoBehaviour
 {
-   [HideInInspector] public Transform _to_follow_obj;
-   [HideInInspector] public Vector3 _move_to;
+   public Transform _to_follow_obj;
+   public Vector3 _move_to;
 
     [Header("m/s")]
    [SerializeField] private float _speed;
@@ -16,7 +16,7 @@ public class camera_follow : MonoBehaviour
    [SerializeField] private float _clamp_min_y;
    [SerializeField] private float _clamp_max_y;
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         Camera_follow();
     }
@@ -30,7 +30,7 @@ public class camera_follow : MonoBehaviour
 
         } else
         {
-            transform.position = Vector3.Lerp(transform.localPosition, _move_to, Time.fixedDeltaTime * _speed);
+            transform.position = Vector3.Lerp(transform.position, _move_to, Time.fixedDeltaTime * _speed);
         }
     }
 }

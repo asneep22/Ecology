@@ -113,7 +113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e977d72eaab988b4eb4e97007e55ff8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  is_called: 0
   _menu: {fileID: 2729847522396745374, guid: ef0dc4047a22aea41a968954b8d550fc, type: 3}
+  _restart_menu: {fileID: 4064459806772226548, guid: 43243f383528f43408acaae163aa8667, type: 3}
+  _menu_obj: {fileID: 0}
 --- !u!114 &1647363760412932044
 MonoBehaviour:
   m_ObjectHideFlags: 0

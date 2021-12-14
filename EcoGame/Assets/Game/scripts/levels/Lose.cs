@@ -7,7 +7,10 @@ using UnityEngine;
 
 public class Lose : MonoBehaviour
 {
+    [SerializeField] private Menu _menu;
+
     [SerializeField] private int _trash_count_lose;
+
 
     private void Update()
     {
@@ -17,9 +20,7 @@ public class Lose : MonoBehaviour
     public void TryLose()
     {
         if (scene_manager.player == null || transform.childCount >= _trash_count_lose) {
-            Time.timeScale = 0;
-
-            // choose LoseMenu
+            _menu.CallRestartMenu();
 
 
         }

@@ -12,6 +12,9 @@ public class player_beh : MonoBehaviour
 
     [HideInInspector] public SpringJoint2D _SpringJoint2D;
 
+    public AudioSource source;
+    public AudioClip[] put_trash_audio;
+
     [Header("propereties")]
     public float _speed = 5;
     public float _get_trash_distnce = 1.5f;
@@ -24,6 +27,8 @@ public class player_beh : MonoBehaviour
 
         _SpringJoint2D = GetComponent<SpringJoint2D>();
         _SpringJoint2D.enabled = false;
+
+        source = GetComponent<AudioSource>();
     }
 
     public void onActivity(InputAction.CallbackContext context)

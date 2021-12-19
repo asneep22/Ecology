@@ -185,7 +185,7 @@ public class @Input_manager : IInputActionCollection, IDisposable
                     ""id"": ""47df2321-119d-4205-8cc7-ea563c940549"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -193,7 +193,7 @@ public class @Input_manager : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""6867364b-8d8d-46a1-a2a3-a9713d3ec0db"",
                     ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""scheme_keyboard_and_mouse"",
                     ""action"": ""activity"",

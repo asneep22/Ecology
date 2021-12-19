@@ -12,6 +12,8 @@ public class trash_beh : MonoBehaviour
 
     private Transform _player;
 
+    private Input_manager _inputActions;
+
     private float _get_trash_distance;
     private bool _is_get;
 
@@ -67,7 +69,7 @@ public class trash_beh : MonoBehaviour
 
         if (distance <= _get_trash_distance)
         {
-            if (!is_move_to_the_trash_tank)
+            if (!is_move_to_the_trash_tank && _inputActions.active_with_obj.activity.triggered)
             {
                 Get_trash(_player_beh._SpringJoint2D);
             }
@@ -87,6 +89,9 @@ public class trash_beh : MonoBehaviour
         {
             Put_trash(_SpringJoint2D);
         }
+
+        _player_beh.source.PlayOneShot(_player_beh.put_trash_audio[UnityEngine.Random.Range(0, _player_beh.put_trash_audio.Length)], 1);
+
     }
 
     private void Put_trash(SpringJoint2D _SpringJoint2D)
@@ -111,7 +116,6 @@ public class trash_beh : MonoBehaviour
             }
             else
             {
-
                 _trash_tank_beh_script.Add_trash_In_the_tank(transform);
 
             }

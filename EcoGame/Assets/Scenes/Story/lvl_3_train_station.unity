@@ -2189,7 +2189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 609f8be45ee08f141aeec8e21c13bf76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _time: 10
+  _time: 150
   change_condition_objects:
   - {fileID: 1899519500}
   - {fileID: 1514428646}
@@ -2890,6 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f264c36754b0174b8580ff98e4c1e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _menu: {fileID: 0}
   _trash_count_lose: 25
 --- !u!1 &1292840572
 GameObject:

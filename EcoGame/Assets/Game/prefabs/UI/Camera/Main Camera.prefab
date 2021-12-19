@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is_called: 0
+  is_restart: 0
   _menu: {fileID: 2729847522396745374, guid: ef0dc4047a22aea41a968954b8d550fc, type: 3}
   _restart_menu: {fileID: 4064459806772226548, guid: 43243f383528f43408acaae163aa8667, type: 3}
   _menu_obj: {fileID: 0}
@@ -189,7 +190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1647363761568226296}
   - component: {fileID: 1647363761568226299}
-  - component: {fileID: 1647363761568226298}
   - component: {fileID: 1647363761568226297}
   m_Layer: 0
   m_Name: Main Camera
@@ -256,14 +256,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1647363761568226298
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647363761568226301}
-  m_Enabled: 1
 --- !u!114 &1647363761568226297
 MonoBehaviour:
   m_ObjectHideFlags: 0

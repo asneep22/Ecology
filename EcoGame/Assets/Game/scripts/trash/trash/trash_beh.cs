@@ -69,7 +69,7 @@ public class trash_beh : MonoBehaviour
 
         if (distance <= _get_trash_distance)
         {
-            if (!is_move_to_the_trash_tank && _inputActions.active_with_obj.activity.triggered)
+            if (!is_move_to_the_trash_tank)
             {
                 Get_trash(_player_beh._SpringJoint2D);
             }

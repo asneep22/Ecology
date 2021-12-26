@@ -86,6 +86,8 @@ public class trash_tank_beh : MonoBehaviour
 
     public IEnumerator Start_pass_trash_to_the_car(Transform car)
     {
+        start_pass_trash = false;
+
         while (_trash_array.Count > 0)
         {
             Transform item = _trash_array[0];

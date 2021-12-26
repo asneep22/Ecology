@@ -15,6 +15,7 @@ public class Bump_into_player : MonoBehaviour
         if (collision.collider.TryGetComponent(out player_beh _player_beh) && (_rb.velocity.x > 5f || _rb.velocity.x < -5f))
         {
             Destroy(_player_beh.gameObject);
+            scene_manager.player = null;
         }
     }
 }

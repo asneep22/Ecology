@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb63f452e7841714e8f8272f9496234d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  can_pass_trash: 0
   trash_tanks: []
-  _pass_distance: 3
 --- !u!114 &1654194040660537540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +152,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 47df2321-119d-4205-8cc7-ea563c940549
     m_ActionName: active_with_obj/pass_trash[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 922a7a34-d553-4236-bae1-7a7edb1cc07b
+    m_ActionName: menu/Menu[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: active_with_obj
@@ -183,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654194041006136860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.51508, y: 0, z: 0}
+  m_LocalPosition: {x: -0.51508, y: 0.169, z: 0}
   m_LocalScale: {x: 0.29952228, y: 0.2984632, z: 0.3805406}
   m_Children: []
   m_Father: {fileID: 1654194040660537539}
@@ -227,4 +231,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d70131fb049c94c9bcb6d192df8d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _trash_car: {fileID: 1654194040660537541}

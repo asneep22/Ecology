@@ -19,7 +19,10 @@ public class dialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _distance = Vector2.Distance(transform.position, scene_manager.player.transform.position);
+        if (scene_manager.player != null)
+        {
+            _distance = Vector2.Distance(transform.position, scene_manager.player.transform.position);
+        }
 
         if (_distance < start_dialog_dist && !is_started)
         {

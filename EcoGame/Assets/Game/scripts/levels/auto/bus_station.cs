@@ -14,7 +14,6 @@ public class bus_station : MonoBehaviour
     }
 
     [SerializeField] private Transform _bus;
-    [SerializeField] private BoxCollider2D to_lvl_trigger;
     private Vector3 start_bus_pos;
 
     private Rigidbody2D _bus_rb;
@@ -22,6 +21,7 @@ public class bus_station : MonoBehaviour
     private Vector2 _bus_movement_vector;
 
     [SerializeField] private float _bus_call_dist;
+    [SerializeField] private bool _bus_called;
     [SerializeField] private Bus_states _bus_state;
 
     private void Start()
@@ -36,13 +36,18 @@ public class bus_station : MonoBehaviour
     {
         float _distance = Vector2.Distance(transform.position, _player.transform.position);
 
-        if (_distance <= _bus_call_dist)
+        if (_distance <= _bus_call_dist && !_bus_called)
         {
-            TryCallTheBus();
+            _bus_called = true;
         }
-        else
+        else if (_distance >= _bus_call_dist && _bus_called)
         {
             TryLeftTheBus();
+        }
+
+        if (_bus_called)
+        {
+            TryCallTheBus();
         }
     }
 
@@ -81,7 +86,6 @@ public class bus_station : MonoBehaviour
             else
             {
                 _bus_state = Bus_states.Bus_arrived;
-                to_lvl_trigger.enabled = true;
             }
 
         }
@@ -94,7 +98,6 @@ public class bus_station : MonoBehaviour
         {
 
             _bus_state = Bus_states.Bus_left;
-            to_lvl_trigger.enabled = false;
 
         }
         else if (_bus_state == Bus_states.Bus_left)

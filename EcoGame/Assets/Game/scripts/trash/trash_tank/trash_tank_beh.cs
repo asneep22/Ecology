@@ -86,7 +86,7 @@ public class trash_tank_beh : MonoBehaviour
 
     public IEnumerator Start_pass_trash_to_the_car(Transform car)
     {
-        start_pass_trash = false;
+        start_pass_trash = true;
 
         while (_trash_array.Count > 0)
         {
@@ -103,9 +103,12 @@ public class trash_tank_beh : MonoBehaviour
             _trash_array.RemoveAt(0);
 
             yield return new WaitForSeconds(0.05f);
+
         }
 
         start_pass_trash = false;
+        Debug.Log("pass has over");
+
     }
 
 

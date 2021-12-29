@@ -7,6 +7,7 @@ public class Human : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
+    private bool _can_drop_trash;
     private bool trash_dropped;
     [SerializeField] private List<Transform> _trash = new List<Transform>();
                      private Vector2 _drop_trash_vector;
@@ -71,7 +72,7 @@ public class Human : MonoBehaviour
 
     private IEnumerator Try_drop_trash()
     {
-        while (!trash_dropped) {
+        while (!trash_dropped && _can_drop_trash) {
 
             yield return new WaitForSeconds(_try_drop_trash_time);
             Drop_trash();

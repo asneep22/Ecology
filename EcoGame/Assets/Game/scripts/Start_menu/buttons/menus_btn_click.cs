@@ -43,9 +43,9 @@ public class menus_btn_click : MonoBehaviour
         Menu _menu = transform.parent.parent.GetComponent<Menu>();
 
         Time.timeScale = 1;
-        Destroy(_menu._menu_obj);
         go_to_level _go_to_Level = gameObject.AddComponent<go_to_level>();
         _go_to_Level.Go_to_lvl(SceneManager.GetActiveScene().buildIndex);
+        Destroy(_menu._menu_obj);
 
     }
 

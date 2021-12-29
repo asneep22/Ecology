@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   can_pass_trash: 0
+  _pass_distancee: 3
   trash_tanks: []
 --- !u!114 &1654194040660537540
 MonoBehaviour:
@@ -206,7 +207,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.5934368, y: -0.5044911}
+  m_Offset: {x: 1.6599164, y: -0.6155293}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -217,7 +218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.205415, y: 4.4938674}
+  m_Size: {x: 10.468533, y: 4.411798}
   m_EdgeRadius: 0
 --- !u!114 &1654194041006136862
 MonoBehaviour:

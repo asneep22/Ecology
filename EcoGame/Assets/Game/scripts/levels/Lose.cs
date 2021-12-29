@@ -8,9 +8,15 @@ using UnityEngine;
 public class Lose : MonoBehaviour
 {
     [SerializeField] private Menu _menu;
+    private GameObject _player;
 
     [SerializeField] private int _trash_count_lose;
 
+
+    private void Start()
+    {
+        _player = scene_manager.player;
+    }
 
     private void Update()
     {
@@ -20,8 +26,9 @@ public class Lose : MonoBehaviour
     public void TryLose()
     {
         if (scene_manager.player == null || transform.childCount >= _trash_count_lose) {
-            _menu.CallRestartMenu();
 
+            scene_manager.player = _player;
+            _menu.CallRestartMenu();
 
         }
     }

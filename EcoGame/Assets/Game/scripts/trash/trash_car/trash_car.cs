@@ -7,6 +7,7 @@ public class trash_car : MonoBehaviour
 {
     private GameObject _player;
     [HideInInspector] public bool can_pass_trash;
+    [SerializeField] private float _pass_distancee = 1.5f;
 
     public List<trash_tank_beh> trash_tanks = new List<trash_tank_beh>();
 
@@ -25,7 +26,9 @@ public class trash_car : MonoBehaviour
     private void Try_pass_trash()
     {
 
-        if (trash_tanks.Count > 0 && can_pass_trash)
+        float distance = Vector2.Distance(_player.transform.position, transform.position);
+
+        if (trash_tanks.Count > 0 && can_pass_trash && distance < _pass_distancee)
         {
 
             Debug.Log($"there is {trash_tanks.Count} trash tanks");
@@ -36,7 +39,7 @@ public class trash_car : MonoBehaviour
                 if (!item.start_pass_trash)
                 {
                     item.StartCoroutine(item.Start_pass_trash_to_the_car(transform));
-                    item.start_pass_trash = true;
+                    Debug.Log("start pass trash");
                 }
 
             }

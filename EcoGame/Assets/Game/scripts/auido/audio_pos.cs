@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class audio_pos : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    private GameObject _player;
+
+    private void Start()
+    {
+        _player = scene_manager.player;
+    }
     void Update()
     {
-        
+        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, _player.transform.localPosition.z);
     }
 }

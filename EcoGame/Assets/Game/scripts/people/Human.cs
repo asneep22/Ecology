@@ -78,4 +78,20 @@ public class Human : MonoBehaviour
             Drop_trash();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("game_zone"))
+        {
+            _can_drop_trash = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("game_zone"))
+        {
+            _can_drop_trash = false;
+        }
+    }
 }

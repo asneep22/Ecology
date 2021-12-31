@@ -26,7 +26,7 @@ public class camera_follow : MonoBehaviour
         if (_to_follow_obj)
         {
 
-            transform.position = new Vector3(Mathf.Lerp(transform.position.x, _to_follow_obj.position.x, Time.fixedDeltaTime * _speed), Mathf.Lerp(transform.position.y, _to_follow_obj.position.y, Time.fixedDeltaTime * _speed), transform.position.z);
+            transform.position = new Vector3(Mathf.Lerp(Mathf.Clamp(transform.position.x, _clamp_min_x, _clamp_max_x), _to_follow_obj.position.x, Time.fixedDeltaTime * _speed), Mathf.Lerp(Mathf.Clamp(transform.position.y, _clamp_min_y, _clamp_max_y), _to_follow_obj.position.y, Time.fixedDeltaTime * _speed), transform.position.z);
 
         } else
         {

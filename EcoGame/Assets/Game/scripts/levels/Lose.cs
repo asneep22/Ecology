@@ -15,7 +15,6 @@ public class Lose : MonoBehaviour
 
     private void Start()
     {
-        _player = scene_manager.player;
     }
 
     private void Update()
@@ -25,11 +24,15 @@ public class Lose : MonoBehaviour
 
     public void TryLose()
     {
-        if (scene_manager.player == null || transform.childCount >= _trash_count_lose) {
+        if (transform.childCount >= _trash_count_lose) {
 
-            scene_manager.player = _player;
             _menu.CallRestartMenu();
-
         }
+    }
+
+    public void GameLose()
+    {
+        _menu = Camera.main.GetComponentInChildren<Menu>();
+        _menu.CallRestartMenu();
     }
 }

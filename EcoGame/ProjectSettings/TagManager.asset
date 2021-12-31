@@ -3,20 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - game_zone
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - trash_tank
   - trash
   - auto
-  - 
-  - 
-  - 
+  - lvl_border
+  - human
+  - game_zone
   - hint
   - 
   - 

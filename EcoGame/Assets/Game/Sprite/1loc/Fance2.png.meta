@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: dadfa87cc19fe224cbeb8be93d8852dd
+guid: 4fac7d43fd12da64298c5eadb7077970
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7391838555302057913
+    second: Fance2_0
+  - first:
+      213: -5970446893819416517
+    second: Fance2_1
+  - first:
+      213: 2257197418147666201
+    second: Fance2_2
+  - first:
+      213: 9065020341846447255
+    second: Fance2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,11 +53,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.76593924, y: 0.19913201}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fance2_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 8
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7482f226ff9ea6990800000000000000
+      internalID: -7391838555302057913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fance2_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 5
+        width: 109
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b303f8fce26b42da0800000000000000
+      internalID: -5970446893819416517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fance2_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 274
+        width: 286
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919de98b71d235f10800000000000000
+      internalID: 2257197418147666201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fance2_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 140
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794927de8fb6dcd70800000000000000
+      internalID: 9065020341846447255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

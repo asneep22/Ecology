@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 6d2457613f73a8849bcdd778fed72e77
+guid: 00ee92586b35dd44d8a20449e6a01f94
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8126706027523564625
-    second: Decor_0
+      213: -7572870046925789052
+    second: Fance3_0
   - first:
-      213: -7701600710164591835
-    second: Decor_1
+      213: 6640950399000730065
+    second: Fance3_1
   - first:
-      213: 6518737276950443075
-    second: Decor_2
+      213: -2241165851082222609
+    second: Fance3_2
   - first:
-      213: -5490112108248013230
-    second: Decor_3
+      213: 8006852475071790119
+    second: Fance3_3
+  - first:
+      213: -9205514573931256434
+    second: Fance3_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Decor_0
+      name: Fance3_0
       rect:
         serializedVersion: 2
-        x: 203
-        y: 132
-        width: 24
-        height: 35
+        x: 33
+        y: 279
+        width: 278
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab9e63dce3283f80800000000000000
-      internalID: -8126706027523564625
+      spriteID: 488eacaa0d2c7e690800000000000000
+      internalID: -7572870046925789052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor_1
+      name: Fance3_1
       rect:
         serializedVersion: 2
-        x: 251
-        y: 165
-        width: 33
-        height: 37
+        x: 4
+        y: 10
+        width: 6
+        height: 269
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52b4ebc75fa6e1590800000000000000
-      internalID: -7701600710164591835
+      spriteID: 1d95d6fd335692c50800000000000000
+      internalID: 6640950399000730065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor_2
+      name: Fance3_2
       rect:
         serializedVersion: 2
-        x: 29
-        y: 72
-        width: 51
-        height: 63
+        x: 10
+        y: 10
+        width: 109
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3447ab00405377a50800000000000000
-      internalID: 6518737276950443075
+      spriteID: fe3128b5887c5e0e0800000000000000
+      internalID: -2241165851082222609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor_3
+      name: Fance3_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 22
-        width: 50
-        height: 60
+        x: 159
+        y: 10
+        width: 152
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +195,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2566eca10243fc3b0800000000000000
-      internalID: -5490112108248013230
+      spriteID: 72c7c9967ed0e1f60800000000000000
+      internalID: 8006852475071790119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fance3_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 29
+        width: 6
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85652694417f3080800000000000000
+      internalID: -9205514573931256434
       vertices: []
       indices: 
       edges: []

@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: 98995479f7e872942b7e860e37038d29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8740642237860062209
+    second: Lok2_0
+  - first:
+      213: 7970993157588498339
+    second: Lok2_1
+  - first:
+      213: -7124548921102012569
+    second: Lok2_2
+  - first:
+      213: 1454988945571537892
+    second: Lok2_3
+  - first:
+      213: -771718034365608360
+    second: Lok2_4
+  - first:
+      213: 4457700240701115344
+    second: Lok2_5
+  - first:
+      213: -7715603718726330754
+    second: Lok2_6
+  - first:
+      213: 7251087577819579963
+    second: Lok2_7
+  - first:
+      213: 3642930891016949215
+    second: Lok2_8
+  - first:
+      213: -7822146388628711647
+    second: Lok2_9
+  - first:
+      213: 955019563040292138
+    second: Lok2_10
+  - first:
+      213: 5290811870363182991
+    second: Lok2_11
+  - first:
+      213: -7657704041875255433
+    second: Lok2_12
+  - first:
+      213: 7735118196418630573
+    second: Lok2_13
+  - first:
+      213: -2583631119290663987
+    second: Lok2_14
+  - first:
+      213: 1709319972723534348
+    second: Lok2_15
+  - first:
+      213: -6170387397123522332
+    second: Lok2_16
+  - first:
+      213: 5069650128662303628
+    second: Lok2_17
+  - first:
+      213: -2424533243340091240
+    second: Lok2_18
+  - first:
+      213: -8317447193020840188
+    second: Lok2_19
+  - first:
+      213: 6297825214669836301
+    second: Lok2_20
+  - first:
+      213: -8424916809112153452
+    second: Lok2_21
+  - first:
+      213: -4062315488160196037
+    second: Lok2_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lok2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 568
+        width: 18
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ac603ecffc4970800000000000000
+      internalID: 8740642237860062209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 533
+        width: 4
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f62d4f084802d90800000000000000
+      internalID: -7124548921102012569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_3
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 482
+        width: 10
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e369e4bcb8213410800000000000000
+      internalID: 1454988945571537892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 524
+        width: 7
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e00e6598e4a45f0800000000000000
+      internalID: -771718034365608360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 525
+        width: 52
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbc92240ceecdd30800000000000000
+      internalID: 4457700240701115344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 526
+        width: 7
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7652adfb4bace490800000000000000
+      internalID: -7715603718726330754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 527
+        width: 7
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b360f2febb901a460800000000000000
+      internalID: 7251087577819579963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 531
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddcc54285a4e8230800000000000000
+      internalID: 3642930891016949215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 523
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1275ea49d47227390800000000000000
+      internalID: -7822146388628711647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 525
+        width: 24
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2db0909b39e04d00800000000000000
+      internalID: 955019563040292138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 532
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87ea6a3d5dbc6940800000000000000
+      internalID: 5290811870363182991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 460
+        width: 820
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fc3f40fbe5ab590800000000000000
+      internalID: -7657704041875255433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 463
+        width: 82
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da351396409a85b60800000000000000
+      internalID: 7735118196418630573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 362
+        width: 816
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbf8088f29152cd0800000000000000
+      internalID: -2583631119290663987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_15
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 269
+        width: 578
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aaaa57579b8b710800000000000000
+      internalID: 1709319972723534348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 179
+        width: 820
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0c7ebba516e5aa0800000000000000
+      internalID: -6170387397123522332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_18
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 168
+        width: 590
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89096946cd35a5ed0800000000000000
+      internalID: -2424533243340091240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 132
+        width: 1394
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074ced78dd729c80800000000000000
+      internalID: -8317447193020840188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 104
+        width: 1394
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00d4e95aae566750800000000000000
+      internalID: 6297825214669836301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 577
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49217aa9ccea41b80800000000000000
+      internalID: -8424916809112153452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lok2_22
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 34
+        width: 818
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ad4aa2691cf97c0800000000000000
+      internalID: -4062315488160196037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

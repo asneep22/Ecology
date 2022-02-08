@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -797087451394120897}
   - component: {fileID: 2958084990527741807}
   - component: {fileID: -7304974002600889478}
+  - component: {fileID: 498243004125168017}
   m_Layer: 10
   m_Name: human_1
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4462127719373806773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.812603, y: -8.514843, z: 50}
-  m_LocalScale: {x: 1, y: 1.9516, z: 1}
+  m_LocalPosition: {x: -44.36133, y: -8.041749, z: 50}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -6922272647355631251, guid: d16c457a0365a2640b57a29e8ed3fa20, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -141,8 +142,8 @@ MonoBehaviour:
   drop_trash_parent: {fileID: 0}
   move_target: {fileID: 0}
   freeze_x_pos: 0
-  _min_speed_m_per_sec: 1
-  _max_speed_m_per_sec: 3
+  _min_speed_m_per_sec: 0.4
+  _max_speed_m_per_sec: 1
   _speed: 0
 --- !u!61 &-7304974002600889478
 BoxCollider2D:
@@ -157,16 +158,35 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.45556247}
+  m_Offset: {x: -0.0016803741, y: 0.011618853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.13, y: 0.22}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.088875085}
+  m_Size: {x: 0.11104107, y: 0.028713465}
   m_EdgeRadius: 0
+--- !u!95 &498243004125168017
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462127719373806773}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 55d288e026956d541be5d85419dab89f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -1,7 +1,151 @@
 fileFormatVersion: 2
 guid: d16c457a0365a2640b57a29e8ed3fa20
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6922272647355631251
+    second: Mans-Sheet_0
+  - first:
+      213: -3509545933165890221
+    second: Mans-Sheet_
+  - first:
+      213: -4680941275651008021
+    second: Mans-Sheet_
+  - first:
+      213: -6570770168509823966
+    second: Mans-Sheet_3
+  - first:
+      213: 7878964765324507167
+    second: Mans-Sheet_4
+  - first:
+      213: -7843922859097515079
+    second: Mans-Sheet_5
+  - first:
+      213: 7773930456898211475
+    second: Mans-Sheet_6
+  - first:
+      213: -7544652158801146411
+    second: Mans-Sheet_7
+  - first:
+      213: -8809536199778798999
+    second: Mans-Sheet_8
+  - first:
+      213: 5068011220841925850
+    second: Mans-Sheet_9
+  - first:
+      213: -3434920570580999798
+    second: Mans-Sheet_10
+  - first:
+      213: 6697884944259870499
+    second: Mans-Sheet_11
+  - first:
+      213: 6978755507248561009
+    second: Mans-Sheet_12
+  - first:
+      213: -2531053777437039455
+    second: Mans-Sheet_13
+  - first:
+      213: -2668155219107751779
+    second: Mans-Sheet_14
+  - first:
+      213: -5206727116876350894
+    second: Mans-Sheet_15
+  - first:
+      213: 9204608091009803587
+    second: Mans2.1
+  - first:
+      213: 4199027759783489706
+    second: Mans2.2
+  - first:
+      213: -1939713004654520827
+    second: Mans2.3
+  - first:
+      213: -4916765907183013248
+    second: Mans2.4
+  - first:
+      213: -1861963184454880692
+    second: Mans2.5
+  - first:
+      213: 5078032394204117209
+    second: Mans2.6
+  - first:
+      213: -7644091561057418376
+    second: Mans2.7
+  - first:
+      213: -5161124548223291948
+    second: Mans2.8
+  - first:
+      213: -4795253790306182149
+    second: Mans2.9
+  - first:
+      213: 3316901919841061019
+    second: Mans2.10
+  - first:
+      213: -5355441032010263612
+    second: Mans2.11
+  - first:
+      213: 3469317804361123951
+    second: Mans2.12
+  - first:
+      213: -1067476596778523008
+    second: Mans2.13
+  - first:
+      213: -5070731849679144124
+    second: Mans2.14
+  - first:
+      213: -8714437237411545096
+    second: Mans2.15
+  - first:
+      213: -4914694277546685610
+    second: Mans2.16
+  - first:
+      213: 8610742790756381630
+    second: Mans3.1
+  - first:
+      213: -1391241373249705503
+    second: Mans3.2
+  - first:
+      213: -6689537592290517894
+    second: Mans3.3
+  - first:
+      213: -5544654022084525649
+    second: Mans3.4
+  - first:
+      213: -3992715604439304673
+    second: Mans3.5
+  - first:
+      213: -1059116952237571972
+    second: Mans3.6
+  - first:
+      213: 7150612010897509
+    second: Mans3.7
+  - first:
+      213: -8072145396511561408
+    second: Mans3.8
+  - first:
+      213: 7891351439196652159
+    second: Mans3.9
+  - first:
+      213: -4313393002469437078
+    second: Mans3.10
+  - first:
+      213: -298274016619804694
+    second: Mans3.11
+  - first:
+      213: 7472612582105217022
+    second: Mans3.12
+  - first:
+      213: -7492543703635313793
+    second: Mans3.13
+  - first:
+      213: 4979481815065831715
+    second: Mans3.14
+  - first:
+      213: -8861332461960225614
+    second: Mans3.15
+  - first:
+      213: -6903117650031543414
+    second: Mans3.16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -68,7 +212,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,7 +224,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +236,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +245,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mans-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f6f7f3b52fef90800000000000000
+      internalID: -6922272647355631251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355fab271969b4fc0800000000000000
+      internalID: -3509545933165890221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be99b52e5b4f90fb0800000000000000
+      internalID: -4680941275651008021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240d3d585fefc4a0800000000000000
+      internalID: -6570770168509823966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f187cf2a5b4b75d60800000000000000
+      internalID: 7878964765324507167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1de1f7b9c42390800000000000000
+      internalID: -7843922859097515079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0200009c82eb60800000000000000
+      internalID: 7773930456898211475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd06c8b5d20c4790800000000000000
+      internalID: -7544652158801146411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9627d30508d3eb580800000000000000
+      internalID: -8809536199778798999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc0af79a51355640800000000000000
+      internalID: 5068011220841925850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8166d6a0f5b450d0800000000000000
+      internalID: -3434920570580999798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32feb01bedaa3fc50800000000000000
+      internalID: 6697884944259870499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf9d7a82589d060800000000000000
+      internalID: 6978755507248561009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a46470eff3efdcd0800000000000000
+      internalID: -2531053777437039455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985a77f6fec8fad0800000000000000
+      internalID: -2668155219107751779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 320
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af03c064dfdb7b0800000000000000
+      internalID: -5206727116876350894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34563596a465dbf70800000000000000
+      internalID: 9204608091009803587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa036e70081f54a30800000000000000
+      internalID: 4199027759783489706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069c5f9c41c415e0800000000000000
+      internalID: -1939713004654520827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082fa92257324cbb0800000000000000
+      internalID: -4916765907183013248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4236bd495af826e0800000000000000
+      internalID: -1861963184454880692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87676de8bc87640800000000000000
+      internalID: 5078032394204117209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738c90b93bbae590800000000000000
+      internalID: -7644091561057418376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd2a9571900068b0800000000000000
+      internalID: -5161124548223291948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb54f48516d37db0800000000000000
+      internalID: -4795253790306182149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9800fee8b0080e20800000000000000
+      internalID: 3316901919841061019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c31a7771c6ada5b0800000000000000
+      internalID: -5355441032010263612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.12
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6802ed692e752030800000000000000
+      internalID: 3469317804361123951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08629f2e0bf8f21f0800000000000000
+      internalID: -1067476596778523008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b7d94af3421a9b0800000000000000
+      internalID: -5070731849679144124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff5aee089101780800000000000000
+      internalID: -8714437237411545096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans2.16
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 256
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b4f2ff79f7bcbb0800000000000000
+      internalID: -4914694277546685610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb33a4f42f08f7770800000000000000
+      internalID: 8610742790756381630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9ef96975151bce0800000000000000
+      internalID: -1391241373249705503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd6e3a00df923a0800000000000000
+      internalID: -6689537592290517894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa106333b8e6d03b0800000000000000
+      internalID: -5544654022084525649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f167c34ef460798c0800000000000000
+      internalID: -3992715604439304673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70094e4eb24d41f0800000000000000
+      internalID: -1059116952237571972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56016d89177691000800000000000000
+      internalID: 7150612010897509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049af99a78af9ff80800000000000000
+      internalID: -8072145396511561408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f728513e256b38d60800000000000000
+      internalID: 7891351439196652159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a615727eaefb324c0800000000000000
+      internalID: -4313393002469437078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7c5a9bc515cdbf0800000000000000
+      internalID: -298274016619804694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.12
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 191
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fe744d8d04b760800000000000000
+      internalID: 7472612582105217022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b3ab0e233250890800000000000000
+      internalID: -7492543703635313793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292480145caa1540800000000000000
+      internalID: 4979481815065831715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc19304319360580800000000000000
+      internalID: -8861332461960225614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mans3.16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 192
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf32352133330a0800000000000000
+      internalID: -6903117650031543414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 10a3496284da66e45bfc5bdb5450ffb3
+guid: 1cadb823fbbf9f642b7536f5045e2f4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1784101257946349248
-    second: But(E,F)_0
+      213: -8256699993425761676
+    second: OblSosed_0
   - first:
-      213: -3789403896558290905
-    second: But(E,F)_1
+      213: 2725329921806689105
+    second: OblSosed_1
+  - first:
+      213: 968726884064751022
+    second: OblSosed_2
+  - first:
+      213: -832683683064983650
+    second: OblSosed_3
+  - first:
+      213: -2636450703835963980
+    second: OblSosed_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,43 +118,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: But(E,F)_0
+      name: OblSosed_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 9
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4
+        y: 0
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041c7c4cb599d37e0800000000000000
-      internalID: -1784101257946349248
+      spriteID: 47a23e21a1f4a6d80800000000000000
+      internalID: -8256699993425761676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: But(E,F)_1
+      name: OblSosed_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 6
-        width: 9
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 43
+        y: 0
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7287923bb35596bc0800000000000000
-      internalID: -3789403896558290905
+      spriteID: 153e70ddf1152d520800000000000000
+      internalID: 2725329921806689105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OblSosed_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadec01f7fb917d00800000000000000
+      internalID: 968726884064751022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OblSosed_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fc5ac1a96b174f0800000000000000
+      internalID: -832683683064983650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OblSosed_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd570aad02796bd0800000000000000
+      internalID: -2636450703835963980
       vertices: []
       indices: 
       edges: []

@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera_follow: {fileID: 0}
-  move_only_x: 0
+  can_move: 1
 --- !u!114 &8455652283104898519
 MonoBehaviour:
   m_ObjectHideFlags: 0

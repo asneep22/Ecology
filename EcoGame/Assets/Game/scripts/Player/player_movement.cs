@@ -10,7 +10,7 @@ public class player_movement : MonoBehaviour
     private player_beh _player_beh;
 
     private float _speed;
-    [SerializeField] private bool move_only_x;
+    public bool can_move = true;
     private Vector2 _moveDir;
 
     private Rigidbody2D _rb;
@@ -27,6 +27,7 @@ public class player_movement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (can_move)
         Movement_logic(_moveDir);
     }
 

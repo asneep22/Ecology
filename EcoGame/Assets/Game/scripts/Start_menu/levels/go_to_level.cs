@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
 
 public class go_to_level : MonoBehaviour
 {
@@ -24,9 +23,10 @@ public class go_to_level : MonoBehaviour
         _is_ready = false;
     }
 
-    public void onActivity(InputAction.CallbackContext context)
+
+    private void Update()
     {
-        if (_is_ready)
+        if (_is_ready && Input.GetKeyDown(KeyCode.E))
         {
             Go_to_lvl(_lvl_index);
         }

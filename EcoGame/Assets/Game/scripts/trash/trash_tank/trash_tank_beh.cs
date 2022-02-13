@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using System.Linq;
 
+[RequireComponent(typeof(AudioSource))]
 public class trash_tank_beh : MonoBehaviour
 {
     private player_beh _player_beh;
 
     private Transform _player;
+    [HideInInspector] public AudioSource _audio_sourse;
 
     [Header("Tank Propereties")]
     public float _put_in_the_tank_distance = 1.5f;
@@ -21,6 +22,8 @@ public class trash_tank_beh : MonoBehaviour
 
     void Start()
     {
+        _audio_sourse = GetComponent<AudioSource>();
+
         if (scene_manager.player)
         {
             _player = scene_manager.player.transform;
@@ -29,8 +32,16 @@ public class trash_tank_beh : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            OnPut();
+        }
+    }
 
-    public void OnPut(InputAction.CallbackContext context)
+
+    public void OnPut()
     {
         Put_trash_in_the_tank();
     }
@@ -64,12 +75,13 @@ public class trash_tank_beh : MonoBehaviour
         } 
     }
 
-    public void Add_trash_In_the_tank(Transform _trash)
+    public void Add_trash_In_the_tank(trash_beh _trash_beh)
     {
-        _trash.parent = transform;
-        _trash_array.Add(_trash);
+        _audio_sourse.PlayOneShot(_trash_beh.sound);
+        _trash_beh.transform.parent = transform;
+        _trash_array.Add(_trash_beh.transform);
         _tank_fill++;
-        _trash.gameObject.SetActive(false);
+        _trash_beh.gameObject.SetActive(false);
         _player_beh.catched_trash++;
     }
 
@@ -84,7 +96,7 @@ public class trash_tank_beh : MonoBehaviour
         Debug.Log("Tank is full");
     }
 
-    public IEnumerator Start_pass_trash_to_the_car(Transform car)
+    public IEnumerator Start_pass_trash_to_the_car(trash_car car)
     {
         start_pass_trash = true;
 

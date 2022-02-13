@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Menu : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class Menu : MonoBehaviour
     [SerializeField] private GameObject _restart_menu;
     [HideInInspector] public GameObject _menu_obj;
 
-    public void TryCallMenu(InputAction.CallbackContext _context)
+    public void TryCallMenu()
     {
 
         if (!is_called && !is_restart)

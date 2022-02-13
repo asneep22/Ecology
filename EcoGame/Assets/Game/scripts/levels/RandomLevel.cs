@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
 
 public class RandomLevel : MonoBehaviour
 {
@@ -13,7 +12,7 @@ public class RandomLevel : MonoBehaviour
         _go_to_lvl = GetComponent<go_to_level>();
     }
 
-    public void OnActivity(InputAction.CallbackContext _context)
+    public void OnActivity()
     {
         float distance = Vector2.Distance(scene_manager.player.transform.position, transform.position);
         if (distance < 5f)

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class player_movement : MonoBehaviour
@@ -28,12 +27,13 @@ public class player_movement : MonoBehaviour
     void FixedUpdate()
     {
         if (can_move)
+        {
+            _moveDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        } else
+        {
+            _moveDir = Vector2.zero;
+        }
         Movement_logic(_moveDir);
-    }
-
-    public void OnMove(InputAction.CallbackContext context)
-    {
-        _moveDir = context.ReadValue<Vector2>();
     }
 
     private void Movement_logic(Vector2 movement)

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class trash_car : MonoBehaviour
 {
@@ -16,11 +15,12 @@ public class trash_car : MonoBehaviour
         _player = scene_manager.player;   
     }
 
-
-    public void onActivity(InputAction.CallbackContext context)
+    private void Update()
     {
-
-        Try_pass_trash();
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Try_pass_trash();
+        }
     }
 
     private void Try_pass_trash()
@@ -38,7 +38,7 @@ public class trash_car : MonoBehaviour
             {
                 if (!item.start_pass_trash)
                 {
-                    item.StartCoroutine(item.Start_pass_trash_to_the_car(transform));
+                    item.StartCoroutine(item.Start_pass_trash_to_the_car(this));
                     Debug.Log("start pass trash");
                 }
 

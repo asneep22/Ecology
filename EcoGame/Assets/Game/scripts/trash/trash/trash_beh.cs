@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class trash_beh : MonoBehaviour
 {
@@ -12,17 +11,20 @@ public class trash_beh : MonoBehaviour
 
     private Transform _player;
 
-    private Input_manager _inputActions;
 
     private float _get_trash_distance;
     private bool _is_get;
+
+    [HideInInspector] public AudioSource audioSource;
 
     [HideInInspector] public Transform _trash_tank;
     [HideInInspector] public trash_tank_beh _trash_tank_beh;
     [HideInInspector] public bool is_move_to_the_trash_tank;
 
-    [HideInInspector] public Transform car;
+    [HideInInspector] public trash_car car;
     [HideInInspector] public bool is_move_to_the_trash_car;
+
+     public AudioClip sound;
 
     [Header("Trash tank propereties")]
     [SerializeField] private string _trash_type;
@@ -43,6 +45,8 @@ public class trash_beh : MonoBehaviour
 
         //set propereties
         _get_trash_distance = _player_beh._get_trash_distnce;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -60,9 +64,14 @@ public class trash_beh : MonoBehaviour
             Move_trash_to_the_car(_trash_tank_beh, car);
 
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            OnActivity();
+        }
     }
 
-    public void OnActivity(InputAction.CallbackContext context)
+    public void OnActivity()
     {
 
         float distance = Vector2.Distance(_player.position, transform.position);
@@ -71,6 +80,7 @@ public class trash_beh : MonoBehaviour
         {
             if (!is_move_to_the_trash_tank)
             {
+                Debug.Log("trash");
                 Get_trash(_player_beh._SpringJoint2D);
             }
         }
@@ -80,6 +90,7 @@ public class trash_beh : MonoBehaviour
     {
         if (!_is_get)
         {
+            audioSource.PlayOneShot(sound);
             _SpringJoint2D.connectedBody = _rb;
             _SpringJoint2D.enabled = true;
             _player_beh._trash_beh = this;
@@ -90,8 +101,6 @@ public class trash_beh : MonoBehaviour
             Put_trash(_SpringJoint2D);
         }
 
-        _player_beh.source.PlayOneShot(_player_beh.put_trash_audio[UnityEngine.Random.Range(0, _player_beh.put_trash_audio.Length)], 1);
-
     }
 
     private void Put_trash(SpringJoint2D _SpringJoint2D)
@@ -99,6 +108,7 @@ public class trash_beh : MonoBehaviour
         _SpringJoint2D.enabled = false;
         _player_beh._trash_beh = null;
         _is_get = false;
+        audioSource.PlayOneShot(sound);
     }
 
     public void Move_trash_to_the_tank(Transform _trash_tank_object, trash_tank_beh _trash_tank_beh_script)
@@ -116,7 +126,7 @@ public class trash_beh : MonoBehaviour
             }
             else
             {
-                _trash_tank_beh_script.Add_trash_In_the_tank(transform);
+                _trash_tank_beh_script.Add_trash_In_the_tank(this);
 
             }
         }
@@ -130,11 +140,11 @@ public class trash_beh : MonoBehaviour
 
     }
 
-    public void Move_trash_to_the_car(trash_tank_beh _tank_trash_beh, Transform _car = null)
+    public void Move_trash_to_the_car(trash_tank_beh _tank_trash_beh, trash_car _car = null)
     {
         if (car != null)
         {
-            float distance = Vector2.Distance(car.position, transform.position);
+            float distance = Vector2.Distance(car.transform.position, transform.position);
 
             if (_trash_tank_beh._tank_fill < _trash_tank_beh._tank_fill_max)
             {
@@ -142,7 +152,7 @@ public class trash_beh : MonoBehaviour
                 if (distance >= _trash_count_distance)
                 {
 
-                    transform.position = Vector3.Lerp(transform.position, _car.position, Time.deltaTime * _trash_move_to_tank_speed);
+                    transform.position = Vector3.Lerp(transform.position, _car.transform.position, Time.deltaTime * _trash_move_to_tank_speed);
 
                 }
                 else
@@ -161,6 +171,8 @@ public class trash_beh : MonoBehaviour
                     }
 
                     _tank_trash_beh.Remove_trash_In_the_tank(transform);
+                    AudioSource _as = Instantiate(_tank_trash_beh._audio_sourse);
+                    _as.PlayOneShot(sound);
                     Destroy(gameObject);
 
                 }

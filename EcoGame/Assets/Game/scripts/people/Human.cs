@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Human : MonoBehaviour
 {
+    
     private Rigidbody2D _rb;
 
     private bool _can_drop_trash;
@@ -22,8 +23,14 @@ public class Human : MonoBehaviour
     [SerializeField] private float _min_speed_m_per_sec;
     [SerializeField] private float _max_speed_m_per_sec;
     [SerializeField] private float _speed;
+
+    [SerializeField] private AudioSource _as;
+    [SerializeField] private List<AudioClip> _sounds = new List<AudioClip>();
+    [SerializeField] private float max_time_befeore_sound = 5;
     void Start()
     {
+        
+
         _rb = GetComponent<Rigidbody2D>();
 
         _rb.constraints = (freeze_x_pos) ? RigidbodyConstraints2D.FreezePositionX : RigidbodyConstraints2D.FreezePositionY;
@@ -32,6 +39,7 @@ public class Human : MonoBehaviour
 
         transform.localScale = (move_target.position.x - transform.position.x > 0) ? transform.localScale : new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         StartCoroutine(Try_drop_trash());
+        StartCoroutine(PlayRandomSound());
     }
 
     void Update()
@@ -77,6 +85,18 @@ public class Human : MonoBehaviour
 
             yield return new WaitForSeconds(_try_drop_trash_time);
             Drop_trash();
+        }
+    }
+
+    private IEnumerator PlayRandomSound()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(0, max_time_befeore_sound));
+            _as.PlayOneShot(_sounds[Random.Range(0, _sounds.Count)]);
+
+
+            
         }
     }
 

@@ -36,16 +36,7 @@ namespace Lean.Common.Examples
 
 		private void TryUpgradeEventSystem()
 		{
-#if UNITY_EDITOR && ENABLE_INPUT_SYSTEM
-			var module = FindObjectOfType<UnityEngine.EventSystems.StandaloneInputModule>();
 
-			if (module != null)
-			{
-				module.gameObject.AddComponent<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
-
-				DestroyImmediate(module);
-			}
-#endif
 		}
 	}
 }

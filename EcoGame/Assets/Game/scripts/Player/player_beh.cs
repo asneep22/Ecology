@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 
 //Player must be first object in the parent
@@ -29,10 +28,5 @@ public class player_beh : MonoBehaviour
         _SpringJoint2D.enabled = false;
 
         source = GetComponent<AudioSource>();
-    }
-
-    public void onActivity(InputAction.CallbackContext context)
-    {
-        Debug.Log("activity");
     }
 }

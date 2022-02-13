@@ -6316,7 +6316,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1543025149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1543025149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6367,7 +6379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29b7dc3e71dc1f4c8f157c43a721bfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _move_to: {x: 0, y: 0, z: 0}
+  _move_to: {x: 0, y: -16, z: 0}
 --- !u!1 &1563002069
 GameObject:
   m_ObjectHideFlags: 0

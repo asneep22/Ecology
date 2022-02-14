@@ -2960,7 +2960,7 @@ MonoBehaviour:
   start_dialog_dist: 5
   _dialog_backround_sr: {fileID: 1854334549}
   _dialog_backround: {fileID: 1854334548}
-  _dialog_backround_height: 0
+  _dialog_backround_height: 2
   _text: {fileID: 966437239}
 --- !u!212 &532412125
 SpriteRenderer:

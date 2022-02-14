@@ -2804,7 +2804,7 @@ MonoBehaviour:
   _to_follow_obj: {fileID: 0}
   _move_to: {x: 0, y: 0, z: 0}
   _speed: 5
-  _clamp_min_x: -36.9
+  _clamp_min_x: -60
   _clamp_max_x: 68.3
   _clamp_min_y: -100
   _clamp_max_y: 11

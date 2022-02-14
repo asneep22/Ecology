@@ -10,6 +10,14 @@ public class Menu : MonoBehaviour
     [SerializeField] private GameObject _restart_menu;
     [HideInInspector] public GameObject _menu_obj;
 
+     void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TryCallMenu();
+        }
+    }
+
     public void TryCallMenu()
     {
 

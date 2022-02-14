@@ -772,6 +772,7 @@ GameObject:
   - component: {fileID: 72503400}
   - component: {fileID: 72503399}
   - component: {fileID: 72503398}
+  - component: {fileID: 72503401}
   m_Layer: 0
   m_Name: house
   m_TagString: Untagged
@@ -886,6 +887,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &72503401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72503396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d39456ccb1254489007fc4b16506c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newOpacity: 0.5
+  _distance: 8
+  _speed: 5
 --- !u!1001 &77729198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4365,6 +4381,10 @@ PrefabInstance:
     - target: {fileID: 4232808856275314215, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616326827862750386, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.199951
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1647363761568226297, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
@@ -9455,11 +9475,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1654194040660537539, guid: 67461b17aa97e704192f469f483b8878, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.42
+      value: -8.58
       objectReference: {fileID: 0}
     - target: {fileID: 1654194040660537539, guid: 67461b17aa97e704192f469f483b8878, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.8
+      value: -8.58
       objectReference: {fileID: 0}
     - target: {fileID: 1654194040660537539, guid: 67461b17aa97e704192f469f483b8878, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9509,6 +9529,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.63250285
       objectReference: {fileID: 0}
+    - target: {fileID: 1654194041006136863, guid: 67461b17aa97e704192f469f483b8878, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.302
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67461b17aa97e704192f469f483b8878, type: 3}
 --- !u!1 &1654194040436887290 stripped
@@ -9529,10 +9553,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.007827178, y: -0.09881818}
+  m_Offset: {x: -0.007827178, y: 0.024996005}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5066359, y: 0.03383112}
     oldSize: {x: 0.37, y: 0.31}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -9540,7 +9564,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.30738255, y: 0.09279561}
+  m_Size: {x: 0.30738255, y: 0.042787626}
   m_EdgeRadius: 0
 --- !u!1001 &2892711106942476640
 PrefabInstance:

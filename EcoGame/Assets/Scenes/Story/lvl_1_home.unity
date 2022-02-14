@@ -4011,7 +4011,19 @@ PrefabInstance:
     - target: {fileID: 43122649575046605, guid: aa516124115a54a49894b52a6d2e72a2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4324278199124995664, guid: 6ddf346d1c003c841ab2d7212d46f016, type: 3}
+      objectReference: {fileID: -7798914524518306193, guid: 909edf527ede8494695b71644b29eec1, type: 3}
+    - target: {fileID: 43122649575046605, guid: aa516124115a54a49894b52a6d2e72a2, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 43122649575046605, guid: aa516124115a54a49894b52a6d2e72a2, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 43122649575046605, guid: aa516124115a54a49894b52a6d2e72a2, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 43122649575046640, guid: aa516124115a54a49894b52a6d2e72a2, type: 3}
       propertyPath: m_Name
       value: container_for_the_plastick
@@ -4248,7 +4260,19 @@ PrefabInstance:
     - target: {fileID: 170077546996888615, guid: e9b5fb26f9997284fbf3831c1317220e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8180069527453827239, guid: 6ddf346d1c003c841ab2d7212d46f016, type: 3}
+      objectReference: {fileID: 5343225418578755262, guid: 909edf527ede8494695b71644b29eec1, type: 3}
+    - target: {fileID: 170077546996888615, guid: e9b5fb26f9997284fbf3831c1317220e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 170077546996888615, guid: e9b5fb26f9997284fbf3831c1317220e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 170077546996888615, guid: e9b5fb26f9997284fbf3831c1317220e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1331063239874788166, guid: e9b5fb26f9997284fbf3831c1317220e, type: 3}
       propertyPath: m_Points.Array.size
       value: 9
@@ -4529,6 +4553,18 @@ PrefabInstance:
     - target: {fileID: 4251650655573600329, guid: 0ead571e8c0405042835ddcc7f9157d5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 424896996798521756, guid: 6ddf346d1c003c841ab2d7212d46f016, type: 3}
+      objectReference: {fileID: -2816800108545899649, guid: 909edf527ede8494695b71644b29eec1, type: 3}
+    - target: {fileID: 4251650655573600329, guid: 0ead571e8c0405042835ddcc7f9157d5, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251650655573600329, guid: 0ead571e8c0405042835ddcc7f9157d5, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251650655573600329, guid: 0ead571e8c0405042835ddcc7f9157d5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ead571e8c0405042835ddcc7f9157d5, type: 3}

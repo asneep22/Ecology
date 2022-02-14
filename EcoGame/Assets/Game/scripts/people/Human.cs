@@ -27,9 +27,10 @@ public class Human : MonoBehaviour
     [SerializeField] private AudioSource _as;
     [SerializeField] private List<AudioClip> _sounds = new List<AudioClip>();
     [SerializeField] private float max_time_befeore_sound = 5;
+
+    [SerializeField] private dialog_cloud _dialog_cloud;
     void Start()
     {
-        
 
         _rb = GetComponent<Rigidbody2D>();
 
@@ -94,9 +95,9 @@ public class Human : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(0, max_time_befeore_sound));
             _as.PlayOneShot(_sounds[Random.Range(0, _sounds.Count)]);
+            _dialog_cloud.is_show = true;
+            _dialog_cloud.tmpro.text = "ΐουθ..  ";
 
-
-            
         }
     }
 

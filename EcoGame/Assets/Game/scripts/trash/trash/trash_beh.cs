@@ -171,7 +171,7 @@ public class trash_beh : MonoBehaviour
                     }
 
                     _tank_trash_beh.Remove_trash_In_the_tank(transform);
-                    AudioSource _as = Instantiate(_tank_trash_beh._audio_sourse);
+                    AudioSource _as = _tank_trash_beh._audio_sourse;
                     _as.PlayOneShot(sound);
                     Destroy(gameObject);
 

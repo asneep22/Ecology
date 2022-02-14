@@ -5812,6 +5812,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cars:
   - {fileID: 7138795521933668019, guid: 9ad1264d15f25764c867079423389704, type: 3}
+  - {fileID: 2754530899470660325, guid: a47e1c8ab414d2343b25a70889ac60b4, type: 3}
+  - {fileID: 6075763178888306974, guid: eb98f38fc20b4c041bcaf7c45a5e5f4f, type: 3}
+  - {fileID: 8091002862002034945, guid: 7fae535ac12e5ec40a879487ad7fe399, type: 3}
+  - {fileID: 6701736556682579458, guid: 85d66e7eabb316b48b2f19b206b167a2, type: 3}
   _spawn_point: {fileID: 1504282834}
   _target: {fileID: 1466587251}
   devine_min_per_meters: 0
@@ -6332,6 +6336,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _people:
   - {fileID: 2958084990527741807, guid: 1122f5a025c1e0a45a7b55ffb468ab4e, type: 3}
+  - {fileID: 2425932354172676155, guid: ec5f734486e9ec44c823ca200eff120b, type: 3}
+  - {fileID: 4566400038443682028, guid: 64486c8e089c62b49908fe715289c808, type: 3}
+  - {fileID: 2361001085916756167, guid: b177ffe662a9c524c9c53087179d9b92, type: 3}
+  - {fileID: 7177621750120009541, guid: f39b82e18c0c1954d8c8df01f4de94b8, type: 3}
   _drop_trash_parent: {fileID: 483016585}
   _spawn_points_1: {fileID: 134759434}
   _spawn_points_2: {fileID: 1753524301}

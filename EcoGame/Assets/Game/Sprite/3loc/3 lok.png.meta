@@ -107,6 +107,12 @@ TextureImporter:
   - first:
       213: 1717912138438021009
     second: 3 lok_17
+  - first:
+      213: 2929966806558852855
+    second: 3 lok_19
+  - first:
+      213: 1367615089861166390
+    second: 3 lok_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -464,9 +470,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 558
-        y: 14
-        width: 153
-        height: 59
+        y: 49
+        width: 19
+        height: 21
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,9 +596,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 558
-        y: 77
-        width: 153
-        height: 54
+        y: 107
+        width: 19
+        height: 21
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,6 +671,153 @@ TextureImporter:
       bones: []
       spriteID: 19f0eeeecff37d710800000000000000
       internalID: 1717912138438021009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_18
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 77
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603f6f8e37441660800000000000000
+      internalID: 7355582425422835819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 49
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f640a4794559a820800000000000000
+      internalID: 2929966806558852855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_22
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 107
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7425c410c59360800000000000000
+      internalID: 7175852776724135057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_23
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 77
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e092ed76211f7eac0800000000000000
+      internalID: -3825824297073628914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_24
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 15
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4e45247e578e8c0800000000000000
+      internalID: -3969793435416337183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 15
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13699dc8b5aac7b90800000000000000
+      internalID: -7242726790536784335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 lok_27
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 49
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63583a4adaebaf210800000000000000
+      internalID: 1367615089861166390
       vertices: []
       indices: 
       edges: []

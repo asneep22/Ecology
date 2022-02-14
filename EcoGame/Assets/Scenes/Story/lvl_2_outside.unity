@@ -2922,7 +2922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532412122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.87, y: -8.47, z: -7.77}
+  m_LocalPosition: {x: -14.87, y: -8.47, z: -8.47}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children:
   - {fileID: 1854334548}
@@ -2960,7 +2960,7 @@ MonoBehaviour:
   start_dialog_dist: 5
   _dialog_backround_sr: {fileID: 1854334549}
   _dialog_backround: {fileID: 1854334548}
-  _dialog_backround_height: 3
+  _dialog_backround_height: 0
   _text: {fileID: 966437239}
 --- !u!212 &532412125
 SpriteRenderer:
@@ -5176,7 +5176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00068, y: 0.02136}
+  m_AnchoredPosition: {x: -0.00068, y: 0.113}
   m_SizeDelta: {x: 19.73915, y: 7.86932}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &966437239
@@ -8162,7 +8162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854334547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.003, y: 0.34749252, z: -5.27875}
+  m_LocalPosition: {x: -0.003, y: 0.213, z: -5.27875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 966437238}

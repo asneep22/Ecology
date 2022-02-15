@@ -9,7 +9,6 @@ public class Change_condition_after_time : MonoBehaviour
 {
     [SerializeField] private float _time;
     [SerializeField] private List<GameObject> change_condition_objects = new List<GameObject>();
-    private bool change_ready;
 
     private void Start()
     {

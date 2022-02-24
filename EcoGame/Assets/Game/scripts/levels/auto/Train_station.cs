@@ -37,9 +37,9 @@ public class Train_station : MonoBehaviour
             _train_rb.AddForce(_movement_vector * _train_speed * _train_rb.drag * _train_rb.mass);
 
 
-            float distance = Mathf.Abs(_target_point.transform.position.x) - Mathf.Abs(_train.transform.position.x);
+            float distance = Vector2.Distance(_train.localPosition, _target_point.localPosition);
 
-            if (distance <= 0)
+            if (distance <= 1)
             {
                 Remove_train();
             }
@@ -62,7 +62,7 @@ public class Train_station : MonoBehaviour
             {
                 _train = Instantiate(_trains[Random.Range(0, _trains.Count)], transform);
                 _train_rb = _train.GetComponent<Rigidbody2D>();
-                _train.transform.position = _start_point.transform.position;
+                _train.transform.localPosition = _start_point.transform.localPosition;
                 _is_created = true;
 
             }

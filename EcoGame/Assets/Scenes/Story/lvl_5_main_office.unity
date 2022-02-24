@@ -742,7 +742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1647363761568226299, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
       propertyPath: orthographic size
-      value: 5.7633753
+      value: 8.008503
       objectReference: {fileID: 0}
     - target: {fileID: 1647363761568226299, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
       propertyPath: m_projectionMatrixMode
@@ -791,7 +791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6193122734823594196, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -54.3
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7093417955678759658, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}
+      propertyPath: _to_vector.y
+      value: -56
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1647363761568226297, guid: f0f300ba7fd9f3743b908750a38f0cbd, type: 3}

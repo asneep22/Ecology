@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
+    [HideInInspector] public static bool is_pause;
     [HideInInspector] public bool is_called;
     [HideInInspector] public bool is_restart;
     [SerializeField] private GameObject _menu;
@@ -26,6 +27,7 @@ public class Menu : MonoBehaviour
 
             _menu_obj = Instantiate(_menu, transform);
             is_called = true;
+            is_pause = true;
             Time.timeScale = 0;
 
         } else if (!is_restart)
@@ -34,6 +36,7 @@ public class Menu : MonoBehaviour
 
                 Time.timeScale = 1;
                 Destroy(_menu_obj);
+                is_pause = false;
                 is_called = false;
 
         }
@@ -44,12 +47,14 @@ public class Menu : MonoBehaviour
         if (_menu_obj == _menu)
         {
             Destroy(_menu_obj);
+            is_pause = false;
             is_called = true;
         }
 
         if (!is_restart) {
             _menu_obj = Instantiate(_restart_menu, transform);
             is_restart = true;
+            is_pause = true;
             Time.timeScale = 0;
         }
     }

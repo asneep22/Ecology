@@ -5,7 +5,6 @@ using TMPro;
 
 public class dialog_cloud : MonoBehaviour
 {
-    [HideInInspector] private float y_devine = 0.2f;
     [HideInInspector] private float _speed = 5;
     [HideInInspector] public TextMeshPro tmpro;
     [HideInInspector] private SpriteRenderer _spriteRenderer;

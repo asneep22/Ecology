@@ -39,6 +39,7 @@ public class Human : MonoBehaviour
         _speed = Random.Range(_min_speed_m_per_sec, _max_speed_m_per_sec);
 
         transform.localScale = (move_target.position.x - transform.position.x > 0) ? transform.localScale : new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        _dialog_cloud.transform.localScale = (transform.localScale.x > 0) ? _dialog_cloud.transform.localScale : new Vector3(-_dialog_cloud.transform.localScale.x, _dialog_cloud.transform.localScale.y, _dialog_cloud.transform.localScale.z);
         StartCoroutine(Try_drop_trash());
         StartCoroutine(PlayRandomSound());
     }
